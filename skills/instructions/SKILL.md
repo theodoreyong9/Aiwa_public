@@ -69,6 +69,25 @@ Never say « not verified » about what you can verify: run it (the build, the t
 console and its failed requests) and report what you saw. After a push, read the logs of the GitHub Actions. Name as unverified only what
 your session truly cannot reach, and say why.
 
+## Deployment
+
+By what the project is. If it is none of these, deploy nothing.
+
+- **A site (Pages)**: it is published by GitHub Pages through GitHub Actions. If there is no Pages workflow yet
+  (`actions/configure-pages`, `upload-pages-artifact`, `deploy-pages`, on every push to the default branch), add it; no `gh-pages` branch.
+  GitHub only allows a Pages deployment from the DEFAULT branch, and the first branch pushed into an empty repository becomes it: if the
+  repository is empty, push a first commit on `main` before any work branch; if the default branch is not `main`, put THAT branch in the
+  triggers. A failure « not allowed to deploy to github-pages due to environment protection rules » comes from there. If enabling Pages
+  with the source « GitHub Actions » is out of your reach, write the exact setting to make in a `blocked` line. After a change, check that
+  the deployment succeeded.
+- **An Android application**: see the app skill (one release `android-latest`, a fixed debug key). After a change, check that the build
+  succeeded and read its logs.
+
+## The film of a repository
+
+When you make a video that presents the repository (its film), also copy it to `docs/film.mp4`: it is the one a profile shows, and it is
+always the latest.
+
 ## Long work
 
 A session lives in a container that stops when nothing happens in it. When you start something long (a render of several minutes),

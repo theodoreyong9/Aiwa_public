@@ -9,3 +9,10 @@ A poster, an illustration, a visual, a logo.
 - Free 3D assets and their licences: https://github.com/theodoreyong9/Aiwa_public/tree/main/skills/kit/asset-research
 - Look at the result at its real size before publishing.
 - Publish with the tag `image-…`.
+
+## Creative direction
+
+An image is not a template to fill. When the request is vague, do not conclude that it must stay sober: make a bold proposal and say the
+assumption you took in the notes of the release. Make the visual yourself, in code (SVG, canvas, gradients, shapes), rather than a text on
+a plain background. Before you deliver, ask yourself: would this image be interchangeable with a stock visual? If so, start again from a
+stronger idea. For an interface or a visual identity, the measured references of the page skill apply too.
