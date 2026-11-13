@@ -47,11 +47,22 @@ jobs:
         if: steps.source.outputs.new == 'true'
         with:
           gradle-version: 8.13
+      - uses: actions/setup-node@v4
+        if: steps.source.outputs.new == 'true'
+        with:
+          node-version: 22
+      - uses: docker/setup-qemu-action@v3
+        if: steps.source.outputs.new == 'true'
+        with:
+          platforms: arm64
       - name: Build the application
         if: steps.source.outputs.new == 'true'
         env:
           GITHUB_SHA: ${{ steps.source.outputs.sha }}
-        run: gradle -p android -q :domain:test :app:assembleDebug
+        run: |
+          npm ci && npm run build:wallet
+          android/engine/prepare.sh
+          gradle -p android -q :domain:test :app:assembleDebug
       - name: Publish
         if: steps.source.outputs.new == 'true'
         env:
