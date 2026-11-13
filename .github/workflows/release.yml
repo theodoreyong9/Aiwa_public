@@ -1,0 +1,62 @@
+name: Release
+# The application is built here from the private source and published as a release of this repository, which is where a phone downloads it.
+# The source is read with the secret AIWA_SOURCE_TOKEN (a token that can only read the contents of theodoreyong9/Aiwa); nothing of it is
+# published but the APK.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SOURCE_TOKEN: ${{ secrets.AIWA_SOURCE_TOKEN }}
+    steps:
+      - name: Is there something new?
+        id: source
+        run: |
+          # Without the secret nothing can be read: the run says so and ends quietly (it would otherwise fail every hour).
+          if [ -z "$SOURCE_TOKEN" ]; then echo "::warning::The secret AIWA_SOURCE_TOKEN is missing (Settings, Secrets and variables, Actions): nothing was built."; echo "new=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          SHA=$(git ls-remote "https://x-access-token:${SOURCE_TOKEN}@github.com/theodoreyong9/Aiwa.git" refs/heads/main | cut -f1)
+          if [ -z "$SHA" ]; then echo "::error::The source could not be read with AIWA_SOURCE_TOKEN."; exit 1; fi
+          PUBLISHED=$(gh release view android-latest --repo "$GITHUB_REPOSITORY" --json body -q .body 2>/dev/null | grep -o 'Source: [0-9a-f]*' | cut -d' ' -f2 || true)
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+          if [ "$SHA" = "$PUBLISHED" ]; then echo "new=false" >> "$GITHUB_OUTPUT"; echo "Already published: $SHA"; else echo "new=true" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/checkout@v4
+        if: steps.source.outputs.new == 'true'
+        with:
+          repository: theodoreyong9/Aiwa
+          ref: ${{ steps.source.outputs.sha }}
+          token: ${{ secrets.AIWA_SOURCE_TOKEN }}
+          persist-credentials: false
+      - uses: actions/setup-java@v4
+        if: steps.source.outputs.new == 'true'
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+        if: steps.source.outputs.new == 'true'
+        with:
+          gradle-version: 8.13
+      - name: Build the application
+        if: steps.source.outputs.new == 'true'
+        env:
+          GITHUB_SHA: ${{ steps.source.outputs.sha }}
+        run: gradle -p android -q :domain:test :app:assembleDebug
+      - name: Publish
+        if: steps.source.outputs.new == 'true'
+        env:
+          SHA: ${{ steps.source.outputs.sha }}
+        run: |
+          cp android/app/build/outputs/apk/debug/app-debug.apk Aiwa.apk
+          gh release delete android-latest --repo "$GITHUB_REPOSITORY" --cleanup-tag --yes 2>/dev/null || true
+          gh release create android-latest Aiwa.apk --repo "$GITHUB_REPOSITORY" --title "Aiwa for Android" --notes "The latest build. It installs over the previous one. Source: ${SHA}"

@@ -1,0 +1,23 @@
+name: Promote
+# Nobody pushes to main by hand: a work branch is brought into main as soon as it is pushed.
+on:
+  push:
+    branches: ['claude/**']
+
+permissions:
+  contents: write
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+      - run: |
+          git config user.name "aiwa-promote"
+          git config user.email "aiwa-promote@users.noreply.github.com"
+          if git merge-base --is-ancestor "$GITHUB_SHA" HEAD; then echo "main already holds $GITHUB_SHA"; exit 0; fi
+          git merge --no-edit "$GITHUB_SHA" -m "Promote $GITHUB_SHA to main" || { echo "Conflict between main and the branch: nothing promoted."; exit 1; }
+          git push origin HEAD:main
