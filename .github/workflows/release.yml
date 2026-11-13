@@ -58,7 +58,7 @@ jobs:
       - name: Build the application
         if: steps.source.outputs.new == 'true'
         env:
-          GITHUB_SHA: ${{ steps.source.outputs.sha }}
+          AIWA_SOURCE_SHA: ${{ steps.source.outputs.sha }}
         run: |
           npm ci && npm run build:wallet
           android/engine/prepare.sh
