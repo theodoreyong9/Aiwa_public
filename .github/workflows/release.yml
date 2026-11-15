@@ -71,3 +71,27 @@ jobs:
           cp android/app/build/outputs/apk/debug/app-debug.apk Aiwa.apk
           gh release delete android-latest --repo "$GITHUB_REPOSITORY" --cleanup-tag --yes 2>/dev/null || true
           gh release create android-latest Aiwa.apk --repo "$GITHUB_REPOSITORY" --title "Aiwa for Android" --notes "The latest build. It installs over the previous one. Source: ${SHA}"
+      # What the application links to: the yellow paper, as a page of this repository (it is rendered there), and the film, as a release (it
+      # is a video, so it also shows in the « Videos » of her files). Both come from the source and follow it.
+      - uses: actions/checkout@v4
+        if: steps.source.outputs.new == 'true'
+        with:
+          path: public
+      - name: Papers and film
+        if: steps.source.outputs.new == 'true'
+        env:
+          SHA: ${{ steps.source.outputs.sha }}
+        run: |
+          mkdir -p public/docs
+          cp docs/yellow-paper.md public/docs/yellow-paper.md
+          (
+            cd public
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs/yellow-paper.md
+            if ! git diff --cached --quiet; then git commit -q -m "Yellow paper, as of the source ${SHA}" && git push origin HEAD:main || echo "::warning::The yellow paper could not be pushed."; fi
+          )
+          if [ -f film/aiwa-teaser.mp4 ]; then
+            gh release view video-aiwa-teaser --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1 || gh release create video-aiwa-teaser --repo "$GITHUB_REPOSITORY" --title "The film of Aiwa" --notes "The teaser of Aiwa. Made from the source: film/ of the private repository."
+            gh release upload video-aiwa-teaser film/aiwa-teaser.mp4 --clobber --repo "$GITHUB_REPOSITORY"
+          fi
