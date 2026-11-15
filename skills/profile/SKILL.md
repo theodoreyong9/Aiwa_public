@@ -4,6 +4,8 @@ The folder `Profile/` of her profile repository is her page: what the others see
 
 - `Profile/index.html` is the page: one self-contained HTML file (the page skill applies), its media next to it in `Profile/media/`,
   referenced by RELATIVE addresses. The repository is public; the application reads the file from GitHub as it is. Nothing else is published.
+- `Profile/avatar.jpg` is her portrait, a square picture she chose on her phone; the application shows it next to her name in the lists
+  of the others. It is hers: use it in the page when a face belongs there (a relative address, `avatar.jpg`), never replace or retouch it.
 - `Profile/aiwa.json` belongs to the application (her address, whether her page adapts): change only the key `zones`, and only for the
   adaptation skill.
 - At someone else's, her page runs NONE of its scripts: everything that matters must be there without JavaScript (content, layout, media).
