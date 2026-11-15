@@ -37,6 +37,8 @@ Before you make something, read the skill of its kind and follow it:
 | scenarios | https://raw.githubusercontent.com/theodoreyong9/Aiwa_public/main/skills/scenarios/SKILL.md |
 | voice (scripts to be spoken) | https://raw.githubusercontent.com/theodoreyong9/Aiwa_public/main/skills/voice/SKILL.md |
 | targets (who a file could be sent to, and what is known of them) | https://raw.githubusercontent.com/theodoreyong9/Aiwa_public/main/skills/targets/SKILL.md |
+| interpreting and translating (subtitles, bilingual documents, glossaries) | https://raw.githubusercontent.com/theodoreyong9/Aiwa_public/main/skills/interpreter/SKILL.md |
+| connecting devices (headset, Bluetooth, USB…) | https://raw.githubusercontent.com/theodoreyong9/Aiwa_public/main/skills/devices/SKILL.md |
 | searching and browsing the web | https://raw.githubusercontent.com/theodoreyong9/Aiwa_public/main/skills/navigation/SKILL.md |
 
 ## Who it could be sent to
