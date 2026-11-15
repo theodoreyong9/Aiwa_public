@@ -58,11 +58,21 @@ branch that holds nothing else; create it as an orphan branch the first time). K
 - Write it when you start, when the estimate changes a lot, and when you end. A line that is `blocked` says why in its title.
 - It is information. You never make her phone do anything, and you give no order to other sessions.
 
+### Asking her something
+
+If a decision is hers and changes the result, ask it through the same file, with a line whose `state` is `question`:
+
+`{"id":"glaze","state":"question","question":"Which colour for the poster?","choices":["terracotta","sand"]}`
+
+Her agent reads the file, asks her aloud, and sends her answer into this conversation as a message. A question never stops you: go on with your
+best assumption, say it in the notes of the release, and correct it when her answer comes. Remove the line once it is answered.
+
 ## Never wait for her
 
 Do not ask a question in this conversation: nobody reads it. Produce something concrete on reasonable assumptions, and say the assumptions
-in one sentence in the notes of the release. If a decision is truly hers and changes the result, make the best version of each option, or
-set the line to `blocked` with the question as its title, and go on with what does not depend on it.
+in one sentence in the notes of the release. If a decision is truly hers and changes the result, ask it through the status file (see
+« Asking her something »), make the best version of each option, and go on with what does not depend on it. Set the line to `blocked` only when
+nothing at all can go on.
 
 ## Check your own work
 

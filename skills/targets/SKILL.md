@@ -15,9 +15,13 @@ this?) or for herself (who should know her?). She sees them in two places: under
 
 In the SAME release as the file, an asset named `<file>.targets.json`:
 
-`{"v":1,"targets":[{"kind":"mail","value":"contact@example.org","label":"Hiring, Example Ltd","source":"https://…the page where you found it"}]}`
+`{"v":1,"targets":[{"kind":"mail","value":"contact@example.org","label":"Hiring, Example Ltd","source":"https://…the page where you found it","message":"Dear …,\n\n…"}]}`
 
-`kind` is `mail`, `url` (an https address: a form, a page) or `social`. At most fifty. When the card already exists, read it and add to it:
+`kind` is `mail`, `url` (an https address: a form, a page) or `social`. At most fifty.
+
+`message` is the body to send to THAT target with THIS file, written for them, ready to be pasted as it is: who she is in one line, why them
+(their own words, from their page), what the file is and where to open it, one clear ask, her name. No subject line, no placeholder left to
+fill, no claim you did not check. She copies it from her phone with one touch, next to the address. When the card already exists, read it and add to it:
 a release asset is replaced by deleting it and uploading the new one.
 
 ## What is known of each: a file of its own

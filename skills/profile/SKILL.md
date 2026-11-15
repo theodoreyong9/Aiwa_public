@@ -6,6 +6,8 @@ The folder `Profile/` of her profile repository is her page: what the others see
   referenced by RELATIVE addresses. The repository is public; the application reads the file from GitHub as it is. Nothing else is published.
 - `Profile/avatar.jpg` is her portrait, a square picture she chose on her phone; the application shows it next to her name in the lists
   of the others. It is hers: use it in the page when a face belongs there (a relative address, `avatar.jpg`), never replace or retouch it.
+- `Profile/aiwa-offers.json` holds her offers: what she offers and what she looks for, several, in her own words. They are public, and
+  the others' agents read them to tell how well she fits. They are hers to change; read them to know what she wants, and let the page say it.
 - `Profile/aiwa.json` belongs to the application (her address, whether her page adapts): change only the key `zones`, and only for the
   adaptation skill.
 - At someone else's, her page runs NONE of its scripts: everything that matters must be there without JavaScript (content, layout, media).
