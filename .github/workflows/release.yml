@@ -95,3 +95,6 @@ jobs:
             gh release view video-aiwa-teaser --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1 || gh release create video-aiwa-teaser --repo "$GITHUB_REPOSITORY" --title "The film of Aiwa" --notes "The teaser of Aiwa. Made from the source: film/ of the private repository."
             gh release upload video-aiwa-teaser film/aiwa-teaser.mp4 --clobber --repo "$GITHUB_REPOSITORY"
           fi
+          if [ -f film/aiwa-typed.mp4 ]; then
+            gh release upload video-aiwa-teaser film/aiwa-typed.mp4 --clobber --repo "$GITHUB_REPOSITORY"
+          fi
