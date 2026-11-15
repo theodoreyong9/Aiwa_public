@@ -17,6 +17,9 @@ concurrency:
 jobs:
   release:
     runs-on: ubuntu-latest
+    outputs:
+      new: ${{ steps.source.outputs.new }}
+      sha: ${{ steps.source.outputs.sha }}
     env:
       GH_TOKEN: ${{ github.token }}
       SOURCE_TOKEN: ${{ secrets.AIWA_SOURCE_TOKEN }}
@@ -70,7 +73,7 @@ jobs:
         run: |
           cp android/app/build/outputs/apk/debug/app-debug.apk Aiwa.apk
           gh release delete android-latest --repo "$GITHUB_REPOSITORY" --cleanup-tag --yes 2>/dev/null || true
-          gh release create android-latest Aiwa.apk --repo "$GITHUB_REPOSITORY" --title "Aiwa for Android" --notes "The latest build. It installs over the previous one. Source: ${SHA}"
+          gh release create android-latest Aiwa.apk --repo "$GITHUB_REPOSITORY" --title "Aiwa" --notes "The latest build, for Android (Aiwa.apk), Windows (.msi), macOS (.dmg) and Linux (.deb). Each installs over the previous one. Source: ${SHA}"
       # What the application links to: the yellow paper, as a page of this repository (it is rendered there), and the film, as a release (it
       # is a video, so it also shows in the « Videos » of her files). Both come from the source and follow it.
       - uses: actions/checkout@v4
@@ -98,3 +101,61 @@ jobs:
           if [ -f film/aiwa-typed.mp4 ]; then
             gh release upload video-aiwa-teaser film/aiwa-typed.mp4 --clobber --repo "$GITHUB_REPOSITORY"
           fi
+
+  # The computer's version: the same source, packaged on each system. The installers are not signed (a signature costs a certificate): Windows
+  # and macOS say so the first time, and one confirms once.
+  desktop:
+    needs: release
+    if: needs.release.outputs.new == 'true'
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { os: windows-latest, task: packageMsi, glob: 'android/desktop/build/compose/binaries/main/msi/*.msi', name: Aiwa.msi }
+          - { os: macos-latest, task: packageDmg, glob: 'android/desktop/build/compose/binaries/main/dmg/*.dmg', name: Aiwa.dmg }
+          - { os: ubuntu-latest, task: packageDeb, glob: 'android/desktop/build/compose/binaries/main/deb/*.deb', name: Aiwa.deb }
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: theodoreyong9/Aiwa
+          ref: ${{ needs.release.outputs.sha }}
+          token: ${{ secrets.AIWA_SOURCE_TOKEN }}
+          persist-credentials: false
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: 8.13
+      - name: Package
+        shell: bash
+        env:
+          AIWA_SOURCE_SHA: ${{ needs.release.outputs.sha }}
+          AIWA_BUILD: ${{ github.run_number }}
+        run: |
+          gradle -p android :desktop:${{ matrix.task }}
+          cp ${{ matrix.glob }} "${{ matrix.name }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.name }}
+          path: ${{ matrix.name }}
+          if-no-files-found: error
+
+  publish-desktop:
+    needs: [release, desktop]
+    if: always() && needs.release.outputs.new == 'true'
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: installers
+      - name: Add the installers to the release
+        run: |
+          # An installer that failed to build is left out: the release stays, with what was built.
+          for file in installers/*/*; do
+            gh release upload android-latest "$file" --clobber --repo "$GITHUB_REPOSITORY"
+          done
