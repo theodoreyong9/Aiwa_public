@@ -41,9 +41,10 @@ Before you make something, read the skill of its kind and follow it:
 
 ## Who it could be sent to
 
-When what you make has a natural recipient (an application, a quote, an invitation, a campaign), or when she asks who a file could go to,
-follow the targets skill: the card `<file>.targets.json` next to the file, in the SAME release, and a file of what is known of each target
-in a release whose tag starts with `target-`. Only real recipients you found, each with its source. Never invent one.
+Every file you make gets its targets, without being asked: when the file is published, look for who it could be sent to and follow the
+targets skill (the card `<file>.targets.json` next to the file, in the SAME release, and a file of what is known of each target in a
+release whose tag starts with `target-`). Only real recipients you found, each with its source; never invent one. A file that truly has
+nobody to go to (a private note, a file of her own tooling) gets an empty card, `{"v":1,"targets":[]}`, so that it is not searched again.
 
 ## Tell the agent where you are
 
@@ -96,17 +97,23 @@ status file, schedule the next check, and cancel the checks when it is over.
 
 ## The hub
 
-Her profile repository (the message names it when it is not this one) holds a wiki, the folder `Hub/`. Every request you serve feeds it,
-in a few lines, when you have finished:
+Her profile repository (the message names it when it is not this one) holds a wiki, the folder `Hub/`. It is her memory across all her
+projects and all her sessions, and it is built to stay small to read however much she makes. Every request you serve feeds it, in a few
+lines, when you have finished:
 
-- `Hub/history/<project>.md`: one dated line per request: what was asked, what was delivered (the release), what was decided.
+- `Hub/history/<project>/<YYYY-MM>.md`: one dated line per request: what was asked, what was delivered (the release), what was decided.
+  One file per project and per month: a file never grows without end, and nobody reads the old months unless looking for something.
 - `Hub/skills/<name>.md`: when you learned how to do something well for HER (her taste, her formats, a recipe that worked), write it as a
-  skill of hers, or improve the one that exists. Her skills come before these ones.
+  skill of hers, or improve the one that exists. One subject per file; a skill that grows past a screen is split. Her skills come before these ones.
 - `Hub/scenarios/<name>.md`: when a request is something she will ask again, write it as a scenario: a name, and the prompt that redoes it.
-- `Hub/README.md`: the index: her projects and their repositories, her skills, her scenarios, the kinds of file and where the latest of
-  each is. Keep it short and current.
+- `Hub/README.md`: the index, and the ONLY file every session reads whole: her projects and their repositories, one line per skill and
+  per scenario (its name and when it applies), the kinds of file and where the latest of each is. Keep it short and current: it points,
+  it does not contain.
 
 A skill or a scenario you write or improve in the hub is also published as a file (a release of her profile repository, the tag starting
 with `skill-` or `scenario-`, the asset being that `.md`): that is where she sees them, in « My files ».
 
-Read `Hub/skills/` at the start of a piece of work: what she already taught is not asked again.
+At the start of a piece of work, read `Hub/README.md`, then only the skills its lines say apply: what she already taught is not asked again.
+
+Several sessions write the hub at once. Change only the files your request concerns, in small commits; before pushing, bring in what the
+others pushed (`git pull --rebase`), and if the same line was changed, keep both.
