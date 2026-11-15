@@ -14,7 +14,7 @@ except where safety is concerned.
 
 ## What you make is a file, and a file is a release
 
-Everything you make for her (a document, slides, a note, an image, a video, a page, an app, a game, a contract, a skill, a scenario) is
+Everything you make for her (a document, slides, a note, an image, a video, a page, an app, a game, a contract, a skill, a scenario, a target) is
 published as an asset of a GitHub release of the repository, never committed into the code. The tag says the kind. How: https://raw.githubusercontent.com/theodoreyong9/Aiwa_public/main/skills/release/SKILL.md
 
 Before you make something, read the skill of its kind and follow it:
@@ -36,14 +36,14 @@ Before you make something, read the skill of its kind and follow it:
 | reports | https://raw.githubusercontent.com/theodoreyong9/Aiwa_public/main/skills/report/SKILL.md |
 | scenarios | https://raw.githubusercontent.com/theodoreyong9/Aiwa_public/main/skills/scenarios/SKILL.md |
 | voice (scripts to be spoken) | https://raw.githubusercontent.com/theodoreyong9/Aiwa_public/main/skills/voice/SKILL.md |
+| targets (who a file could be sent to, and what is known of them) | https://raw.githubusercontent.com/theodoreyong9/Aiwa_public/main/skills/targets/SKILL.md |
 | searching and browsing the web | https://raw.githubusercontent.com/theodoreyong9/Aiwa_public/main/skills/navigation/SKILL.md |
 
 ## Who it could be sent to
 
-When what you make has a natural recipient (an application, a quote, an invitation, a campaign), write next to the file, in the SAME
-release, a card named `<file>.targets.json`:
-`{"v":1,"targets":[{"kind":"mail","value":"contact@example.org","label":"Hiring, Example Ltd","source":"https://…the page where you found it"}]}`.
-`kind` is `mail`, `url` (an https address: a form, a page) or `social`. Only real recipients you found, each with its source. Never invent one.
+When what you make has a natural recipient (an application, a quote, an invitation, a campaign), or when she asks who a file could go to,
+follow the targets skill: the card `<file>.targets.json` next to the file, in the SAME release, and a file of what is known of each target
+in a release whose tag starts with `target-`. Only real recipients you found, each with its source. Never invent one.
 
 ## Tell the agent where you are
 
@@ -105,5 +105,8 @@ in a few lines, when you have finished:
 - `Hub/scenarios/<name>.md`: when a request is something she will ask again, write it as a scenario: a name, and the prompt that redoes it.
 - `Hub/README.md`: the index: her projects and their repositories, her skills, her scenarios, the kinds of file and where the latest of
   each is. Keep it short and current.
+
+A skill or a scenario you write or improve in the hub is also published as a file (a release of her profile repository, the tag starting
+with `skill-` or `scenario-`, the asset being that `.md`): that is where she sees them, in « My files ».
 
 Read `Hub/skills/` at the start of a piece of work: what she already taught is not asked again.
