@@ -17,6 +17,7 @@ const bodyGeo = shape => new THREE.LatheGeometry(new THREE.SplineCurve(PROFILES[
 export function makeMascot(config, { small = false } = {}) {
   const c = normalize(config);
   if (c.shape === 'figure') return makeFigure(c, small);
+  if (c.shape === 'orb') return makeOrb(c);
   const top = TOP[c.shape];
   const root = new THREE.Group(), inner = new THREE.Group(); root.add(inner);
   const white = new THREE.MeshPhysicalMaterial({ color: col(c.color), roughness: .28, clearcoat: 1, clearcoatRoughness: .12, sheen: 1, sheenColor: col(c.accent), sheenRoughness: .5 });
@@ -92,9 +93,41 @@ function animateFigure(m, t, mood, talk) {
   if (halo) { halo.position.y = 4.75 + Math.sin(t * 2 + 1) * .06; }
   if (armR) armR.rotation.z = -1.9 + Math.sin(t * 2.2) * .12 * (1 + talk);
 }
+
+// The simplest mascot: the ember of the app (a glowing sphere) with two eyes, a small mouth, and the ring of the mark as a halo. No body, no limbs.
+function makeOrb(c) {
+  const root = new THREE.Group(), inner = new THREE.Group(); root.add(inner);
+  const body = new THREE.Mesh(new THREE.SphereGeometry(1, 96, 64), new THREE.MeshPhysicalMaterial({ color: col(c.color), emissive: col(c.glow), emissiveIntensity: .55, roughness: .22, clearcoat: 1, clearcoatRoughness: .1, sheen: 1, sheenColor: col(c.accent), sheenRoughness: .4 }));
+  body.position.y = 1.6; inner.add(body);
+  const hi = new THREE.Mesh(new THREE.SphereGeometry(1, 48, 32), new THREE.MeshBasicMaterial({ color: col('#fff0dc'), transparent: true, opacity: .22, toneMapped: false })); hi.scale.set(.3, .18, .05); hi.position.set(-.45, 2.15, .84); inner.add(hi);
+  const glowTexture = glowTex(c.glow), glow = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTexture, blending: THREE.AdditiveBlending, depthWrite: false, opacity: .8 })); glow.scale.set(5.6, 5.6, 1); glow.position.set(0, 1.6, -.4); inner.add(glow);
+  const eyeMat = new THREE.MeshBasicMaterial({ color: col(c.face.eye.color), toneMapped: false });
+  const eyes = [-.34, .34].map(x => { const e = new THREE.Mesh(new THREE.SphereGeometry(1, 32, 24), eyeMat); e.scale.set(.13, .18, .04); e.position.set(x, 1.78, .93); inner.add(e); e.userData.base = [.13, .18]; return e; });
+  const dark = new THREE.MeshBasicMaterial({ color: col('#3a1608'), toneMapped: false });
+  const pupils = [-.34, .34].map(x => { const e = new THREE.Mesh(new THREE.SphereGeometry(1, 24, 16), dark); e.scale.set(.06, .09, .02); e.position.set(x, 1.76, .975); inner.add(e); return e; });
+  const mouth = new THREE.Mesh(new THREE.TorusGeometry(.12, .026, 10, 24, Math.PI), eyeMat); mouth.rotation.z = Math.PI; mouth.position.set(0, 1.42, .95); mouth.scale.setScalar(1.45); inner.add(mouth);
+  const open = new THREE.Mesh(new THREE.SphereGeometry(1, 32, 20), new THREE.MeshBasicMaterial({ color: col('#7a2a10'), toneMapped: false })); open.position.set(0, 1.4, .94); open.scale.set(.12, .01, .03); inner.add(open);
+  const ring = new THREE.Mesh(new THREE.TorusGeometry(1.52, .035, 16, 96), new THREE.MeshBasicMaterial({ color: col(c.accent), toneMapped: false })); ring.position.y = 1.6; ring.rotation.x = Math.PI / 2 - .8; inner.add(ring);
+  const shadow = new THREE.Sprite(new THREE.SpriteMaterial({ map: shadowTex, depthWrite: false, opacity: .4 })); shadow.scale.set(2.4, .5, 1); root.add(shadow);
+  root.userData = { orb: true, inner, body, eyes, pupils, mouth, open, ring, glow, shadow, config: c };
+  return root;
+}
+function animateOrb(m, t, mood, talk) {
+  const { inner, body, eyes, pupils, mouth, open, ring, glow, shadow } = m.userData, bob = Math.sin(t * 2) * .09;
+  inner.position.y = .15 + bob; inner.rotation.z = Math.sin(t * 1.2) * .03; body.scale.setScalar(1 + .012 * Math.sin(t * 3.1));
+  ring.rotation.z = t * .5; ring.rotation.x = Math.PI / 2 - .8 + Math.sin(t * .9) * .08;
+  shadow.position.y = 0; shadow.scale.set(2.4 - bob * 3, .5, 1); shadow.material.opacity = .38 - bob;
+  glow.material.opacity = .7 + .15 * Math.sin(t * 2.6) + .15 * Math.max(mood, 0);
+  const ph = ((t * .7) % 4) / 4, blink = ph > .95 ? Math.max(.1, Math.abs((ph - .975) / .025)) : 1, j = Math.max(mood, 0), sd = Math.max(-mood, 0);
+  eyes.forEach((e, i) => { const [bx, by] = e.userData.base; e.scale.set(bx * (1 + .2 * j), by * blink * (1 + .25 * j - .2 * sd), .04); e.rotation.z = (i ? 1 : -1) * -.35 * sd; });
+  pupils.forEach((p, i) => { p.scale.y = .07 * blink; p.position.x = (i ? .34 : -.34) + Math.sin(t * .8) * .02; });
+  const o = Math.min(1, Math.max(0, talk)); mouth.visible = o < .12; open.visible = o >= .12; open.scale.set(.1 + .05 * o, .01 + .1 * o, .03); open.position.y = 1.42 - .05 * o;
+  mouth.rotation.z = mood < 0 ? 0 : Math.PI; mouth.position.y = mood < 0 ? 1.36 : 1.42;
+}
 // A pure function of the time t, of the mood (-1 sad .. 1 happy) and of how open the mouth is (0 .. 1).
 export function animateMascot(m, t, mood = 0, talk = 0) {
   if (m.userData.figure) return animateFigure(m, t, mood, talk);
+  if (m.userData.orb) return animateOrb(m, t, mood, talk);
   const { inner, eyes, flames, mouth, open, shadow, fglow } = m.userData;
   const bob = Math.sin(t * 2) * .08; inner.position.y = 1.35 + bob; inner.rotation.z = Math.sin(t * 1.3) * .04; inner.rotation.x = Math.sin(t * 1.7) * .03;
   shadow.position.y = 0; shadow.material.opacity = .35 - bob * .8; shadow.scale.set(2.6 - bob * 3, .5, 1);
@@ -105,10 +138,10 @@ export function animateMascot(m, t, mood = 0, talk = 0) {
   flames.forEach((f, i) => { const w = Math.sin(t * 7 + i * 2) * .5 + Math.sin(t * 11 + i) * .3; f.scale.y = f.userData.h * f.userData.s * 1.3 * (1 + .12 * w) * (1 + .3 * mood); f.rotation.z = Math.sin(t * 5 + i) * .1 - f.userData.x * .4; f.rotation.x = Math.sin(t * 4 + i) * .06; });
   if (fglow) fglow.material.opacity = .6 + Math.sin(t * 9) * .1;
 }
-export function makeStage(canvas, w, h, background = '#14110f', glowHex = '#ff8a3d', shape = 'drop') {
-  const r = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true }); r.setSize(w, h, false); r.setPixelRatio(1);
+export function makeStage(canvas, w, h, background = '#14110f', glowHex = '#ff8a3d', shape = 'drop', transparent = false) {
+  const r = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true, alpha: transparent }); if (transparent) r.setClearColor(0x000000, 0); r.setSize(w, h, false); r.setPixelRatio(1);
   r.toneMapping = THREE.ACESFilmicToneMapping; r.toneMappingExposure = 1.05;
-  const s = new THREE.Scene(); s.background = col(background);
+  const s = new THREE.Scene(); if (!transparent) s.background = col(background);
   const cam = new THREE.PerspectiveCamera(32, w / h, .1, 100); if (shape === 'figure') { cam.position.set(0, 3.0, 9.6); cam.lookAt(0, 2.45, 0); } else { cam.position.set(0, 2.2, 10.5); cam.lookAt(-.1, 1.7, 0); }
   s.add(new THREE.HemisphereLight(0xfff0e0, 0x4a2a18, .9));
   const k = new THREE.DirectionalLight(0xffffff, 2.6); k.position.set(3, 6, 6); s.add(k);

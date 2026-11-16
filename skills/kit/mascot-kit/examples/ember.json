@@ -1,0 +1,9 @@
+{
+  "name": "Ember: the simplest mascot, the app's own ember with a face and its ring as a halo (an example)",
+  "shape": "orb",
+  "color": "#ff7a2b",
+  "accent": "#ffd1a0",
+  "glow": "#ff8a3d",
+  "face": { "eye": { "color": "#fff3e2" }, "mouth": { "color": "#fff3e2" } },
+  "background": "#14110f"
+}

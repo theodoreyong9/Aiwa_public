@@ -6,7 +6,7 @@
 #   --with-english  adds the English Piper voice "ryan high" (about 130 MB), a lighter English voice than Kokoro.
 # Without any of this, voice.py falls back on espeak-ng (robotic).
 set -e
-python3 -m pip install -q sherpa-onnx soundfile
+python3 -m pip install -q "sherpa-onnx<2" soundfile   # 2.x makes the Piper voices return no sound (no phonemizer frontend): pinned below 2
 DIR="${HOME}/.cache/aiwa-video"
 mkdir -p "$DIR"
 V=vits-piper-fr_FR-siwis-medium

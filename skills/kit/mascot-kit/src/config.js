@@ -1,6 +1,6 @@
 // The description of a mascot, and what is assumed when a field is missing. Pure data: the browser (mascot.js) and Node (render.js, the tests) read it the same way.
 // Nothing here belongs to one project: a mascot is whatever its description says.
-export const SHAPES = ['drop', 'egg', 'ball', 'capsule', 'figure'];   // figure: a head, a body, arms, legs, and optionally wings and a halo
+export const SHAPES = ['drop', 'egg', 'ball', 'capsule', 'figure', 'orb'];   // orb: a glowing sphere with a face and a ring (no body); figure: a head, a body, arms, legs, and optionally wings and a halo
 export const DEFAULTS = {
   name: 'mascot',
   shape: 'drop',            // the body: drop (a pointed top), egg, ball, capsule
@@ -27,7 +27,7 @@ export function normalize(input = {}) {
   const c = merge(DEFAULTS, input);
   if (!SHAPES.includes(c.shape)) throw new Error(`shape must be one of ${SHAPES.join(', ')}, not ${c.shape}`);
   for (const k of ['color', 'accent', 'glow', 'background']) if (!/^#[0-9a-fA-F]{6}$/.test(c[k])) throw new Error(`${k} must be a #rrggbb colour`);
-  if (c.yaw === null) c.yaw = c.shape === 'figure' ? 1.4 : 0.62;
+  if (c.yaw === null) c.yaw = c.shape === 'figure' ? 1.4 : c.shape === 'orb' ? Math.PI / 2 : 0.62;
   if (c.tilt === null) c.tilt = c.shape === 'drop' ? -0.75 : 0;
   if (c.crest) { c.crest = merge({ kind: 'flame', count: 3, colors: ['#ff5a1f', '#ffd27a'] }, c.crest); c.crest.count = Math.max(1, Math.min(5, Math.round(c.crest.count))); }
   if (c.beak) c.beak = merge({ color: '#ff8a3d' }, c.beak);
