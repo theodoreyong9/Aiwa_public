@@ -13,7 +13,7 @@ adb shell input keyevent 82 >/dev/null 2>&1
 adb install -r -g "$APK" || { echo "INSTALL FAILED"; adb shell getprop ro.product.cpu.abilist; exit 1; }
 adb shell pm grant "$PKG" android.permission.RECORD_AUDIO 2>/dev/null
 shot() { adb exec-out screencap -p > "$OUT/$1.png"; }
-dismiss() { for w in "Wait" "Attendre"; do python3 "$HERE/tap.py" "$w" >/dev/null 2>&1 && echo "closed a system dialog"; done; }      # an ANR dialog of the emulator itself
+dismiss() { for w in "Close app" "Fermer"; do python3 "$HERE/tap.py" "$w" >/dev/null 2>&1 && echo "closed a system dialog"; done; adb shell am force-stop com.google.android.apps.nexuslauncher >/dev/null 2>&1; }      # an ANR dialog of the emulator's own launcher: close it and stop the launcher (the application stays in front)
 tap() { dismiss; python3 "$HERE/tap.py" "$1" && sleep "${2:-2}"; }
 # 1. the first opening as a new user sees it
 adb shell monkey -p "$PKG" -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 8; shot first-opening
