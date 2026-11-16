@@ -1,0 +1,9 @@
+{
+  "name": "Aiwa's mascot (an example, not the default)",
+  "shape": "drop",
+  "beak": { "color": "#ff8a3d" },
+  "crest": { "kind": "flame", "count": 3, "colors": ["#ff5a1f", "#ffd27a"] },
+  "emblem": { "kind": "orb-ring", "color": "#ff6b35" },
+  "glow": "#ff8a3d",
+  "young": { "count": 3, "scale": [0.42, 0.34, 0.28] }
+}
