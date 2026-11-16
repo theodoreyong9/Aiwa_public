@@ -1,0 +1,8 @@
+# phone-views
+
+Real views of a real Android application, for a film: the APK run in an emulator on a GitHub runner, a screenshot of the first screen, a recorded tour (a video of the screen) touching the buttons you name, and a screenshot after each. Nothing is staged: what is shown is what the application shows. Typed with « the state of a finished first opening » where the application would otherwise stop at its login screens, the state is written the way the application itself writes it (a SharedPreferences file, through `run-as`: a **debug** APK only), and the report says so.
+
+- `capture.sh APK PACKAGE OUT [PREFS_NAME SEED_XML] [BUTTON TEXTS…]`, `tap.py TEXT` (finds a button by its text with uiautomator).
+- `examples/aiwa-session.xml`: the state of Aiwa after its first opening (language, the five steps done).
+- The workflow `.github/workflows/phone-views.yml` (manual) downloads the APK of the release `android-latest`, runs the emulator (API 34, x86_64: the arm64 code of the APK runs through the image's translation), and uploads `first-opening.png`, `home-screen.png`, `after-*.png`, `tour.mp4` to the release `phone-views`; the session downloads them from there.
+- Limits: the emulator has no microphone and no account: the screens are the real ones in the states reachable without a login (empty profile, no project, no wallet). The film must not suggest more (no result of an agent's work is on these screens). Not a device: the display is the emulator's.

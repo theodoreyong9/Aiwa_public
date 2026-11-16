@@ -1,0 +1,48 @@
+name: Phone views
+
+# Runs the real APK of the release `android-latest` in an Android emulator and records real views of it (see skills/kit/phone-views/README.md): screenshots and a video of a tour of the places.
+# The result goes to the release `phone-views` of this repository, where a session can download it.
+on:
+  workflow_dispatch:
+    inputs:
+      tour:
+        description: 'Texts of the buttons to touch, comma separated, in order'
+        required: false
+        default: 'Search,Wallet,Agent,Pages,Home'
+
+permissions:
+  contents: write
+
+jobs:
+  views:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: The APK of the release android-latest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download android-latest --pattern Aiwa.apk --dir . --repo ${{ github.repository }}
+      - name: KVM for the emulator
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Emulator and tour
+        uses: reactivecircus/android-emulator-runner@v2
+        env:
+          TOUR: ${{ github.event.inputs.tour }}
+        with:
+          api-level: 34
+          arch: x86_64
+          target: google_apis
+          profile: pixel_6
+          disable-animations: true
+          script: bash skills/kit/phone-views/run.sh
+      - name: Upload to the release phone-views
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view phone-views >/dev/null 2>&1 || gh release create phone-views --title "Phone views" --notes "Real views of the Aiwa application run in an emulator (skills/kit/phone-views)."
+          gh release upload phone-views out/* --clobber
