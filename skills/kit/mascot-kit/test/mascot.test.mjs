@@ -57,3 +57,11 @@ w=wave.open(${JSON.stringify(wav)},'wb'); w.setnchannels(1); w.setsampwidth(2); 
   assert.ok(env[0] === 0 && env[18] === 0, 'shut while silent');
   assert.ok(env[8] > 0.5, 'open while loud');
 });
+
+const bpy = spawnSync('python3.13', ['-c', 'import bpy'], { encoding: 'utf8' });
+test('blender: the figure is rigged with Rigify and a still is rendered', { skip: bpy.status === 0 ? false : 'python3.13 with bpy is not installed here' }, () => {
+  const d = mkdtempSync(join(tmpdir(), 'mk-bl-'));
+  const r = spawnSync('python3.13', [join(here, '..', 'blender', 'figure.py'), join(here, '..', 'examples', 'angel.json'), d, '--still=10', '--width=96', '--height=96', '--samples=1'], { encoding: 'utf8' });
+  assert.equal(r.status, 0, r.stderr.slice(-400));
+  assert.ok(readFileSync(join(d, 'still.png')).length > 500);
+});
