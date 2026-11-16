@@ -5,6 +5,10 @@ name: Phone views
 on:
   workflow_dispatch:
     inputs:
+      language:
+        description: 'Language of the application (en or fr)'
+        required: false
+        default: 'en'
       tour:
         description: 'Texts of the buttons to touch, comma separated, in order'
         required: false
@@ -32,6 +36,7 @@ jobs:
         uses: reactivecircus/android-emulator-runner@v2
         env:
           TOUR: ${{ github.event.inputs.tour }}
+          LANG_CODE: ${{ github.event.inputs.language }}
         with:
           api-level: 34
           arch: x86_64
