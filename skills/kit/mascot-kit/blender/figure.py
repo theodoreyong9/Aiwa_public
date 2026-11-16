@@ -62,6 +62,8 @@ for n in [b.name for b in eb if b.name.endswith('.R')]: pass
 for n, (h, t) in P.items():
     for side, sx in ((n, 1), (n[:-2] + '.R', -1)) if n.endswith('.L') else ((n, 1),):
         b = eb[side]; b.head = (h[0] * sx, h[1], h[2]); b.tail = (t[0] * sx, t[1], t[2])
+for n in ('breast.L', 'breast.R'):
+    if n in eb: eb.remove(eb[n])
 bpy.ops.object.mode_set(mode='OBJECT')
 bpy.ops.pose.rigify_generate()
 rig = bpy.data.objects['rig']; bpy.context.view_layer.update()
@@ -82,9 +84,10 @@ def mat(name, color, rough=.35, emit=None, strength=0.0, coat=0.0, rim=None):
         mix = nt.nodes.new('ShaderNodeMix'); mix.data_type = 'RGBA'; mix.inputs['B'].default_value = lin(rim); mix.inputs['A'].default_value = [0, 0, 0, 1]; nt.links.new(mul.outputs[0], mix.inputs['Factor'])
         b.inputs['Emission Strength'].default_value = 1.0; nt.links.new(mix.outputs['Result'], b.inputs['Emission Color'])
     return m
-M_BODY = mat('body', COL, .38, coat=.6, rim=ACC); M_VIS = mat('visor', VIS, .3, coat=.4)
-M_EYE = mat('eye', EYE, .5, emit=EYE, strength=7); M_MOUTH = mat('mouth', MOUTH, .5, emit=MOUTH, strength=6)
+M_BODY = mat('body', COL, .3, coat=.8, rim=ACC); M_VIS = mat('visor', VIS, .12, coat=.2)
+M_EYE = mat('eye', EYE, .5, emit=EYE, strength=14); M_MOUTH = mat('mouth', MOUTH, .5, emit=MOUTH, strength=12)
 M_GLOW = mat('glow', GLOW, .5, emit=GLOW, strength=6); M_WING = mat('wing', COL, .45, coat=.3, rim=GLOW)
+M_WING.node_tree.nodes['Principled BSDF'].inputs['Emission Strength'].default_value = 4.0
 
 # ---- parts, fixed rigidly to a deform bone
 def to_bone(obj, bone):
@@ -102,47 +105,98 @@ def arc(name, c, r, lo, hi, material, bone, width=.02):
     for i in range(n + 1):
         a = lo + (hi - lo) * i / n; sp.points[i].co = (r * math.cos(a), 0, r * math.sin(a), 1)
     o = bpy.data.objects.new(name, cu); bpy.context.collection.objects.link(o); o.location = c; o.data.materials.append(material); to_bone(o, bone); return o
+
+NOLINES = bpy.data.collections.new('nolines'); bpy.context.scene.collection.children.link(NOLINES)      # what the outline must not draw (the glow cards)
+def glow_card(name, loc, size, color, strength, bone):
+    """A soft light that seems to spill from a bright part: a plane whose material is emission, transparent where a radial gradient fades. Cheap, and works without a GPU."""
+    bpy.ops.mesh.primitive_plane_add(size=1, location=loc, rotation=(math.pi / 2, 0, 0)); o = bpy.context.object; o.name = name; o.scale = (size[0], size[1], 1)
+    m = bpy.data.materials.new(name); m.use_nodes = True; nt = m.node_tree
+    for n in list(nt.nodes): nt.nodes.remove(n)
+    tc = nt.nodes.new('ShaderNodeTexCoord'); gr = nt.nodes.new('ShaderNodeTexGradient'); gr.gradient_type = 'SPHERICAL'; mp = nt.nodes.new('ShaderNodeMapping')
+    mp.inputs['Location'].default_value = (-1, -1, 0); mp.inputs['Scale'].default_value = (2, 2, 2)
+    sq = nt.nodes.new('ShaderNodeMath'); sq.operation = 'POWER'; sq.inputs[1].default_value = 2.2
+    em = nt.nodes.new('ShaderNodeEmission'); em.inputs['Color'].default_value = lin(color); em.inputs['Strength'].default_value = strength
+    tr = nt.nodes.new('ShaderNodeBsdfTransparent'); mx = nt.nodes.new('ShaderNodeMixShader'); out = nt.nodes.new('ShaderNodeOutputMaterial')
+    nt.links.new(tc.outputs['UV'], mp.inputs['Vector']); nt.links.new(mp.outputs['Vector'], gr.inputs['Vector']); nt.links.new(gr.outputs['Fac'], sq.inputs[0]); nt.links.new(sq.outputs[0], mx.inputs['Fac']); nt.links.new(tr.outputs[0], mx.inputs[1]); nt.links.new(em.outputs[0], mx.inputs[2]); nt.links.new(mx.outputs[0], out.inputs['Surface'])
+    o.data.materials.append(m); o.visible_shadow = False; o.visible_glossy = False; NOLINES.objects.link(o); bpy.context.collection.objects.unlink(o); to_bone(o, bone); return o
 H6, SP2, SP3 = 'DEF-spine.006', 'DEF-spine.002', 'DEF-spine.003'
-head = ell('head', (0, 0, 1.40), (.46, .44, .44), M_BODY, H6, seg=56)
-ell('visor', (0, -.30, 1.40), (.37, .18, .30), M_VIS, H6)
-eyes = [arc(f'eye{s}', (s * .16, -.487, 1.46), .075, .15, math.pi - .15, M_EYE, H6, .022) for s in (-1, 1)]
-smile = arc('smile', (0, -.487, 1.31), .06, math.pi + .35, 2 * math.pi - .35, M_MOUTH, H6, .018)
-mouth = ell('mouth', (0, -.488, 1.27), (.05, .012, .012), M_MOUTH, H6)
-ell('body', (0, 0, .82), (.30, .24, .27), M_BODY, SP2, seg=48)
-if EMB:
-    ell('emblem', (0, -.235, .86), (.045, .02, .045), M_GLOW, SP2); arc('emblem_ring', (0, -.232, .86), .085, 0, 2 * math.pi, M_GLOW, SP2, .008)
-if FIG['legs']:
-    for s, sx in (('L', 1), ('R', -1)):
-        ell('thigh' + s, (sx * .10, 0, .47), (.105, .105, .17), M_BODY, f'DEF-thigh.{s}'); ell('shin' + s, (sx * .10, 0, .20), (.09, .09, .13), M_BODY, f'DEF-shin.{s}')
-        ell('foot' + s, (sx * .10, -.05, .05), (.115, .19, .07), M_BODY, f'DEF-foot.{s}')
-if FIG['arms']:
-    for s, sx in (('L', 1), ('R', -1)):
-        along('arm' + s, (sx * .12, .03, .99), (sx * .30, .07, .84), .075, M_BODY, f'DEF-upper_arm.{s}')
-        along('fore' + s, (sx * .30, .07, .84), (sx * .46, .05, .70), .07, M_BODY, f'DEF-forearm.{s}')
-        ell('hand' + s, (sx * .50, .04, .64), (.085, .085, .1), M_BODY, f'DEF-hand.{s}')
+head = ell('head', (0, 0, 1.42), (.58, .53, .52), M_BODY, H6, seg=64)
+ell('visor', (0, -.36, 1.42), (.47, .22, .37), M_VIS, H6)
+eyes = [arc(f'eye{s}', (s * .20, -.58, 1.48), .10, .15, math.pi - .15, M_EYE, H6, .03) for s in (-1, 1)]
+smile = arc('smile', (0, -.585, 1.31), .075, math.pi + .35, 2 * math.pi - .35, M_MOUTH, H6, .024)
+for sx in (-1, 1): glow_card(f'eyeglow{sx}', (sx * .20, -.62, 1.50), (.5, .36), EYE, .6, H6)
+mouth = ell('mouth', (0, -.586, 1.26), (.06, .014, .014), M_MOUTH, H6)
+def organic():
+    """The body, the legs and the arms as ONE smooth mesh: a graph of joints with radii, thickened by the Skin modifier and rounded by Subsurf, then weighted to the Rigify deform bones (bone heat)."""
+    V, E, R = [], [], []
+    def v(p, rx, ry=None, parent=None):
+        V.append(p); R.append((rx, ry or rx))
+        if parent is not None: E.append((parent, len(V) - 1))
+        return len(V) - 1
+    pel = v((0, 0, .58), .30, .24); bel = v((0, 0, .78), .36, .28, pel); chest = v((0, .0, .97), .31, .25, bel); v((0, 0, 1.08), .14, .14, chest)
+    for sx in (1, -1):
+        if FIG['legs']:
+            hip = v((sx * .17, 0, .56), .15, .15, pel); knee = v((sx * .17, -.03, .33), .13, .13, hip); ank = v((sx * .17, .02, .10), .12, .12, knee)
+            heel = v((sx * .17, .02, .06), .12, .11, ank); v((sx * .17, -.19, .07), .13, .09, heel)
+        if FIG['arms']:
+            sh = v((sx * .17, .02, .99), .13, .13, chest); el = v((sx * .30, .07, .84), .10, .10, sh); wr = v((sx * .46, .05, .70), .085, .085, el)
+            hd = v((sx * .50, .04, .65), .12, .09, wr); v((sx * .58, -.04, .63), .06, .055, hd)       # the mitten, and its thumb
+    me = bpy.data.meshes.new('organic'); me.from_pydata(V, E, []); o = bpy.data.objects.new('organic', me); bpy.context.collection.objects.link(o)
+    bpy.context.view_layer.objects.active = o; o.select_set(True)
+    sk = o.modifiers.new('skin', 'SKIN'); sk.use_smooth_shade = True; sk.branch_smoothing = .8
+    o.modifiers.new('sub', 'SUBSURF').levels = 2
+    for i, (rx, ry) in enumerate(R): me.skin_vertices[0].data[i].radius = (rx, ry)
+    me.skin_vertices[0].data[0].use_root = True
+    bpy.ops.object.modifier_apply(modifier='skin'); bpy.ops.object.modifier_apply(modifier='sub'); bpy.ops.object.shade_smooth()
+    o.data.materials.append(M_BODY)
+    for ob in bpy.data.objects: ob.select_set(False)
+    o.select_set(True); rig.select_set(True); bpy.context.view_layer.objects.active = rig
+    # only the deform bones take weights: the control and mechanism bones are not part of the surface
+    for bone in rig.data.bones: bone.use_deform = bone.name.startswith('DEF-')
+    bpy.ops.object.parent_set(type='ARMATURE_AUTO'); rig.select_set(False); o.select_set(False)
+    return o
+organic()
+def feather(name, root, L, Wd, ang, side, tilt=0.0):
+    """A feather: a rounded blade, thickened and rounded, lying along +X from its root; side -1 mirrors it."""
+    import bmesh
+    n = 14; top = [(L * i / n, Wd * math.sin(math.pi * min(1, (i / n) ** .8 * .92 + .08)) ** .85) for i in range(n + 1)]
+    pts = [(x, 0, w) for x, w in top] + [(x, 0, -w) for x, w in reversed(top[1:-1])]
+    me = bpy.data.meshes.new(name); bm = bmesh.new(); vs = [bm.verts.new(p) for p in pts]; bm.faces.new(vs); bm.to_mesh(me); bm.free()
+    o = bpy.data.objects.new(name, me); bpy.context.collection.objects.link(o); o.location = root
+    a = math.radians(ang); o.rotation_euler = (math.radians(tilt), -a, math.pi if side < 0 else 0)
+    sol = o.modifiers.new('sol', 'SOLIDIFY'); sol.thickness = .035; sol.offset = 0; o.modifiers.new('sub', 'SUBSURF').levels = 2
+    bpy.context.view_layer.objects.active = o; o.select_set(True)
+    bpy.ops.object.modifier_apply(modifier='sol'); bpy.ops.object.modifier_apply(modifier='sub'); bpy.ops.object.shade_smooth(); o.select_set(False)
+    o.data.materials.append(M_WING); to_bone(o, SP3); return o
 wings = []
 if FIG['wings']:
-    for s, sx in (('L', 1), ('R', -1)):
-        for i, (ang, ln, dz) in enumerate(((55, .46, .16), (14, .54, 0.0), (-28, .44, -.17))):
-            a = math.radians(ang); c = (sx * (.22 + ln * .5 * math.cos(a)), .2, 1.0 + dz + ln * .5 * math.sin(a) * .45)
-            w = ell(f'wing{s}{i}', c, (ln / 2, .04, .12), M_WING, SP3, rot=(0, -sx * math.radians(ang * .5), 0)); wings.append((w, sx))
+    for side in (1, -1):
+        for i, (ang, ln, wd) in enumerate(((82, .5, .13), (62, .62, .15), (42, .74, .17), (22, .8, .17), (2, .74, .16), (-18, .6, .14))):
+            wings.append((feather(f'wing{side}{i}', (side * .22, .28, 1.0), ln, wd, ang, side, tilt=-8), side))
 halo = None
 if FIG['halo']:
-    bpy.ops.mesh.primitive_torus_add(major_radius=.30, minor_radius=.028, location=(0, -.02, 2.0), rotation=(math.radians(14), 0, 0)); halo = bpy.context.object; halo.name = 'halo'
+    bpy.ops.mesh.primitive_torus_add(major_radius=.30, minor_radius=.028, location=(0, -.02, 2.0), rotation=(math.radians(14), 0, 0)); halo = bpy.context.object; halo.name = 'halo'; glow_card('haloglow', (0, -.05, 2.0), (1.3, .6), GLOW, .9, H6)
     halo.data.materials.append(M_GLOW); bpy.ops.object.shade_smooth(); to_bone(halo, H6)
 
 # ---- light, camera, outline
-w = bpy.data.worlds.new('w'); bpy.context.scene.world = w; w.use_nodes = True; bg = w.node_tree.nodes['Background']; bg.inputs['Color'].default_value = lin(BG); bg.inputs['Strength'].default_value = 1.0
+w = bpy.data.worlds.new('w'); bpy.context.scene.world = w; w.use_nodes = True; bg = w.node_tree.nodes['Background']; bg.inputs['Color'].default_value = lin(BG); bg.inputs['Strength'].default_value = 2.2 if sum(lin(BG)[:3]) > 1.2 else 1.0
 def area(n, loc, e, color, size):
     d = bpy.data.lights.new(n, 'AREA'); d.energy = e; d.color = color[:3]; d.size = size; o = bpy.data.objects.new(n, d); bpy.context.collection.objects.link(o); o.location = loc
     t = o.constraints.new('TRACK_TO'); t.target = head; t.track_axis = 'TRACK_NEGATIVE_Z'; t.up_axis = 'UP_Y'
 area('key', (1.6, -3.0, 3.4), 520, (1, .97, .94), 2.5); area('fill', (-2.6, -2.2, 1.2), 140, lin('#ffe6d0'), 3); area('rim', (-1.2, 2.4, 2.4), 420, lin(GLOW), 1.5)
-cam = bpy.data.objects.new('cam', bpy.data.cameras.new('cam')); bpy.context.collection.objects.link(cam); cam.data.lens = 78; cam.location = (0, -6.2, 1.18); cam.rotation_euler = (math.radians(90), 0, 0); bpy.context.scene.camera = cam
+cam = bpy.data.objects.new('cam', bpy.data.cameras.new('cam')); bpy.context.collection.objects.link(cam); cam.data.lens = 82; cam.location = (0, -6.2, 1.12); cam.rotation_euler = (math.radians(90), 0, 0); bpy.context.scene.camera = cam
 sc = bpy.context.scene; sc.render.engine = 'CYCLES'; sc.cycles.device = 'CPU'; sc.cycles.samples = SAMPLES; sc.cycles.use_denoising = True
 sc.render.resolution_x, sc.render.resolution_y, sc.render.fps = W, H, FPS; sc.render.film_transparent = False
 sc.render.use_freestyle = True; sc.view_layers[0].use_freestyle = True
 ls = sc.view_layers[0].freestyle_settings.linesets.new('outline'); ls.select_silhouette = True; ls.select_border = True; ls.select_crease = False; ls.select_by_visibility = True; ls.select_by_edge_types = True; ls.visibility = 'VISIBLE'; ls.select_by_image_border = False
+LINED = bpy.data.collections.new('lined'); bpy.context.scene.collection.children.link(LINED)      # the outline is drawn on this collection only: everything but the glow cards
+for ob in list(bpy.data.objects):
+    if ob.type in ('MESH', 'CURVE') and not ob.hide_render and NOLINES not in ob.users_collection and ob.name != 'cam':
+        for c_ in list(ob.users_collection): c_.objects.unlink(ob)
+        LINED.objects.link(ob)
+ls.select_by_collection = True; ls.collection = LINED
 ls.linestyle.thickness = 2.2 * W / 720; ls.linestyle.color = (.07, .05, .05)
+# (no compositor glow: in Blender 5 the compositor wants a GPU and the render dies without one; the glow is made of glow cards, below)
 sc.frame_start, sc.frame_end = 0, int(SEC * FPS) - 1
 
 # ---- the pose of the rig
@@ -170,9 +224,9 @@ for cur in frames:
     # the eyes: smiling arcs, drooping when sad; blinking
     ph = ((t * .7) % 4) / 4; blink = max(.12, abs((ph - .975) / .025)) if ph > .95 else 1.0
     for e in eyes: okey(e, scale=(1, 1, blink * (.7 + .3 * min(1, .4 + j) - .15 * sd)), rotation_euler=(0, 0, 0) if sd < .2 else (0, math.pi, 0))
-    o = min(1, max(0, talk)); okey(mouth, scale=(.05 * (1 + .4 * o), .012, .012 * (1 + 9 * o)) if o >= .12 else LO)      # the radii of the ellipsoid are its scale
+    o = min(1, max(0, talk)); okey(mouth, scale=(.06 * (1 + .4 * o), .014, .014 * (1 + 9 * o)) if o >= .12 else LO)      # the radii of the ellipsoid are its scale
     okey(smile, scale=HI if (o < .12 and mood >= 0) else LO)
-    for w_, sx in wings: okey(w_, rotation_euler=(0, 0, math.radians(sx * 5 * math.sin(t * 2.4))))
+    for w_, sx in wings: okey(w_, rotation_euler=(w_.rotation_euler[0], w_.rotation_euler[1], (math.pi if sx < 0 else 0) + math.radians(sx * 5 * math.sin(t * 2.4))))
     if halo: okey(halo, location=(0, -.02, 2.0 + math.sin(t * 2 + 1) * .02))
 bpy.context.scene.frame_set(frames[0] if 'still' in O else 0)
 os.makedirs(OUT, exist_ok=True)
