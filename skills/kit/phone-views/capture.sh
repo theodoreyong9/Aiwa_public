@@ -6,11 +6,15 @@
 set -u
 APK=$1; PKG=$2; OUT=$3; PREFS=${4:-}; SEED=${5:-}; shift 5 2>/dev/null || shift 3; TOUR=("$@")
 mkdir -p "$OUT"; HERE=$(cd "$(dirname "$0")" && pwd)
-adb wait-for-device; adb shell input keyevent 82 >/dev/null 2>&1
+adb wait-for-device
+until [ "$(adb shell getprop sys.boot_completed | tr -d '\r')" = "1" ]; do sleep 2; done
+sleep 25      # the launcher of a fresh emulator is slow: let it settle (otherwise « Pixel Launcher isn't responding » covers the screen)
+adb shell input keyevent 82 >/dev/null 2>&1
 adb install -r -g "$APK" || { echo "INSTALL FAILED"; adb shell getprop ro.product.cpu.abilist; exit 1; }
 adb shell pm grant "$PKG" android.permission.RECORD_AUDIO 2>/dev/null
 shot() { adb exec-out screencap -p > "$OUT/$1.png"; }
-tap() { python3 "$HERE/tap.py" "$1" && sleep "${2:-2}"; }
+dismiss() { for w in "Wait" "Attendre"; do python3 "$HERE/tap.py" "$w" >/dev/null 2>&1 && echo "closed a system dialog"; done; }      # an ANR dialog of the emulator itself
+tap() { dismiss; python3 "$HERE/tap.py" "$1" && sleep "${2:-2}"; }
 # 1. the first opening as a new user sees it
 adb shell monkey -p "$PKG" -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 8; shot first-opening
 adb shell am force-stop "$PKG"
@@ -19,7 +23,7 @@ if [ -n "$PREFS" ] && [ -n "$SEED" ]; then
   adb push "$SEED" /data/local/tmp/seed.xml >/dev/null
   adb shell "run-as $PKG sh -c 'mkdir -p shared_prefs && cp /data/local/tmp/seed.xml shared_prefs/$PREFS.xml'" || echo "SEED FAILED (not a debug build?)"
 fi
-adb shell monkey -p "$PKG" -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 8; shot home-screen
+dismiss; adb shell monkey -p "$PKG" -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 8; dismiss; shot home-screen
 adb shell screenrecord --size 720x1560 --bit-rate 10000000 --time-limit 120 /sdcard/tour.mp4 &
 REC=$!; sleep 2
 for t in "${TOUR[@]}"; do tap "$t" 3 || echo "NOT FOUND: $t"; n=$(echo "$t" | tr -c 'A-Za-z0-9' '_'); shot "after-$n"; done
