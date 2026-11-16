@@ -1,0 +1,10 @@
+{
+  "name": "aiwa-mascot-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A mascot described in a small JSON file, drawn in real 3D in the browser (no GPU needed), animated (float, blink, moods, lips that follow a voice) and rendered to a film with ffmpeg.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": { "test": "node --test" },
+  "dependencies": { "playwright": "1.56.1", "three": "0.170.0" }
+}

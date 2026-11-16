@@ -1,0 +1,11 @@
+{
+  "name": "Robin, a blue ball with a small antenna-less cap of leaves (a second example, to show nothing is tied to one look)",
+  "shape": "ball",
+  "color": "#dfeeff",
+  "accent": "#7fb2ff",
+  "face": { "visorColor": "#0d1626", "eye": { "color": "#bfe3ff", "shape": "round", "size": 1.15 }, "mouth": { "color": "#7fb2ff" } },
+  "crest": { "kind": "flame", "count": 2, "colors": ["#2f7bff", "#bfe3ff"] },
+  "glow": "#5aa0ff",
+  "background": "#0b1220",
+  "young": { "count": 0 }
+}
