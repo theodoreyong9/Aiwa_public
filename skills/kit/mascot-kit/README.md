@@ -25,3 +25,11 @@ Every field is optional; `src/config.js` says what is assumed. `shape`: `drop` (
 A rendered character: glossy, lit, simple. Not a photograph, not a modelled and rigged character from a studio, with simple limbs: soft capsules and balls, no fingers, no clothes, no face other than the visor, the eyes and the mouth. Rendering is software GL: about 30 s for 8 s of 960x540 video. To use it inside a film made with `video-kit`, render it as a clip (a still or a film at the film's size) and lay it with `video-kit assemble --clips`.
 
 `node --test` checks the description, the mood, the speaking windows and the lip-sync envelope (numpy; set `PYTHON` to the interpreter that has it).
+
+## Blender: the same figure, rigged with Rigify
+
+`blender/figure.py` builds a `figure` in Blender (bpy, CPU only): it shapes Rigify's *basic human* meta-rig to a chibi's proportions, generates the Rigify rig, fixes each part rigidly to one deform bone (a robot has no skin to bend), and keys the FK controls: a float, a nod, a wave, the mood; the eyes blink and the mouth opens as the voice says. Rendered in Cycles with Freestyle outlines. `node src/cli.js film angel.json out.mp4 --engine=blender --seconds=8 --timeline=… --voice=…`.
+
+- **Setup:** `python3.13 -m pip install bpy` (400 MB, once; bpy needs Python 3.13). Rigify is inside it. In a script, enable it with `addon_utils.enable('rigify', default_set=True, persistent=True)`: with `default_set=False` its parameters do not register and the generation fails with « RigifyParameters has no attribute ».
+- **Cost, measured:** a 480x480 still takes 3 to 8 s; 8 s of film (192 frames) at 480x480 with 10 samples took 4.5 minutes on 8 cores. 1080p costs many times that.
+- **Honest limits:** only the `figure` shape; the parts are simple ellipsoids glued to the bones, not a modelled body, so the quality gain over the three.js engine is in the light and the outline, not in the shapes. The wave is one pose with an oscillation; other gestures are more `key(...)` calls (measured on this rig: a rotation about Z raises the right FK arm when negative). The three.js engine stays the one that runs live in an app.
