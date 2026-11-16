@@ -8,10 +8,11 @@ import { normalize, moodAt, speaking } from '/src/config.js';
 const q = new URLSearchParams(location.search), W = +q.get('w') || 1280, H = +q.get('h') || 720;
 const get = async p => p ? (await fetch(p)).json() : null;
 const config = normalize(await get(q.get('config')) || {}), timeline = await get(q.get('timeline')) || { mood: [], speak: [] }, env = await get(q.get('env'));
-const { r, s, cam } = makeStage(document.getElementById('c'), W, H, config.background, config.glow);
+const { r, s, cam } = makeStage(document.getElementById('c'), W, H, config.background, config.glow, config.shape);
 const yaw = Math.PI / 2 - config.yaw, mom = makeMascot(config); mom.userData.inner.parent.rotation.y = yaw; s.add(mom);
 const young = Array.from({ length: config.young.count }, (_, i) => { const k = makeMascot(config, { small: true }); k.scale.setScalar(config.young.scale[i] ?? .25); k.rotation.y = yaw; s.add(k); return k; });
 const xs = [-1.0, -2.6, -3.8, -4.7, -5.4], mx = young.length ? 2.0 : 0;
+const isFig = config.shape === 'figure';
 // With no voice file the mouth moves to a steady rhythm while it speaks: it says so in the film report, never in the picture.
 const mouthAt = (t, f) => !speaking(timeline, t) ? 0 : env ? (env[f] || 0) : .5 + .5 * Math.sin(t * 17) * Math.sin(t * 4.3 + 1);
 window.render = (t, f = 0) => {

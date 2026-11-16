@@ -3,7 +3,8 @@
 A character that stands for a creation, a brand, an agent or a product: a face, a body, a way of moving, a voice.
 
 - Ask (or decide, and write down) what it is: the creature, its look, its colours, its character, what it stands for. Keep it **simple**: a body, a face with eyes and a mouth,
-  one or two signs that make it recognisable (a crest, a beak, an emblem on the head). No arms, no clothes, no detail that has to be rigged.
+  one or two signs that make it recognisable (a crest, a beak, an emblem, wings, a halo). Two families: an animal-like body (`drop`, `egg`, `ball`, `capsule`) or a `figure` (head,
+  body, arms, legs). No clothes, no fingers, no detail that has to be rigged; if the user shows a picture, take its idea (the colours, the signs, the pose), not its finish.
 - Write it as `mascot.json` (shape, colours, face, crest, emblem, little ones that follow it). The fields and their limits are in `skills/kit/mascot-kit/README.md`; whatever is not
   written is assumed. Change it by editing that file, never by starting again: « rounder », « blue eyes », « two little ones » are one-line changes.
 - Look first: `node skills/kit/mascot-kit/src/cli.js still mascot.json still.png`, then read the picture (the face readable, nothing cut, the sign visible). Fix once or twice, not ten times.

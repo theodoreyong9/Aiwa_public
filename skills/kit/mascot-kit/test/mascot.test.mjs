@@ -29,6 +29,10 @@ test('the examples are valid, and nothing in them is the default', () => {
   const a = normalize(example('aiwa.json')), r = normalize(example('robin.json'));
   assert.notEqual(a.shape, r.shape); assert.equal(a.young.count, 3); assert.equal(r.young.count, 0);
 });
+test('a figure turns its face to the camera more than an animal, and has its own parts', () => {
+  const f = normalize(example('angel.json'));
+  assert.equal(f.shape, 'figure'); assert.ok(f.yaw > normalize({}).yaw); assert.equal(f.figure.wings, true); assert.equal(f.emblem.kind, 'chevron');
+});
 test('the mood is eased between keys and clamped outside them', () => {
   const tl = example('timeline.json');
   assert.equal(moodAt(tl, -1), 0); assert.equal(moodAt(tl, 2), 1); assert.equal(moodAt(tl, 9), -1);
