@@ -67,7 +67,7 @@ function makeFigure(c, small) {
   const mouth = new THREE.Mesh(new THREE.TorusGeometry(.13, .032, 10, 24, Math.PI), eyeMat); mouth.rotation.z = Math.PI; mouth.position.set(0, 3.02, 1.02); fig.add(mouth);
   const open = new THREE.Mesh(new THREE.SphereGeometry(1, 32, 20), new THREE.MeshBasicMaterial({ color: col(c.face.mouth.color), toneMapped: false })); open.position.set(0, 2.98, 1.0); open.scale.set(.15, .01, .03); fig.add(open);
   if (c.emblem && !small) { const g = new THREE.Group(), mat = new THREE.MeshBasicMaterial({ color: col(c.emblem.color), toneMapped: false });
-    if (c.emblem.kind === 'chevron') for (const s of [-1, 1]) { const b = new THREE.Mesh(new THREE.CapsuleGeometry(.045, .34, 6, 12), mat); b.rotation.z = s * .62; b.position.x = s * .13; g.add(b); } else { g.add(new THREE.Mesh(new THREE.SphereGeometry(.12, 24, 18), mat)); }
+    if (c.emblem.kind === 'chevron') for (const s of [-1, 1]) { const b = new THREE.Mesh(new THREE.CapsuleGeometry(.045, .34, 6, 12), mat); b.rotation.z = s * .62; b.position.x = s * .13; g.add(b); } else { g.add(new THREE.Mesh(new THREE.SphereGeometry(.12, 24, 18), mat), new THREE.Mesh(new THREE.TorusGeometry(.24, .018, 10, 48), new THREE.MeshBasicMaterial({ color: col(c.accent), toneMapped: false }))); }
     g.position.set(0, 2.1, .6); g.rotation.x = -.1; g.add(additive(.5, 1.2, 1.2)); fig.add(g); }
   const wings = [];
   if (F.wings && !small) for (const side of [-1, 1]) {
@@ -114,7 +114,7 @@ export function makeStage(canvas, w, h, background = '#14110f', glowHex = '#ff8a
   const k = new THREE.DirectionalLight(0xffffff, 2.6); k.position.set(3, 6, 6); s.add(k);
   const f = new THREE.PointLight(col(glowHex), 18, 12); f.position.set(0, 0, 3); s.add(f);
   const rim = new THREE.DirectionalLight(col(glowHex).lerp(new THREE.Color(0xffffff), .4), 1.6); rim.position.set(-5, 3, -4); s.add(rim);
-  const pm = new THREE.PMREMGenerator(r), env = new THREE.Scene(); env.background = shape === 'figure' ? col(background).multiplyScalar(.9) : new THREE.Color(0x221810);
+  const pm = new THREE.PMREMGenerator(r), env = new THREE.Scene(); env.background = shape === 'figure' && col(background).getHSL({}).l > .4 ? col(background).multiplyScalar(.9) : new THREE.Color(0x221810);
   const sb = (c, i, x, y, z, sx, sy) => { const m = new THREE.Mesh(new THREE.PlaneGeometry(sx, sy), new THREE.MeshBasicMaterial({ color: new THREE.Color(c).multiplyScalar(i), side: 2 })); m.position.set(x, y, z); m.lookAt(0, 0, 0); env.add(m); };
   sb(0xffffff, 6, 0, 6, 4, 8, 4); sb(0xffd2a0, 4, -6, 2, 2, 3, 6); sb(0xffffff, 3, 6, 2, -2, 3, 6);
   s.environment = pm.fromScene(env, .04).texture;

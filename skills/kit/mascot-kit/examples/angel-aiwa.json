@@ -1,0 +1,11 @@
+{
+  "name": "The same angel robot in Aiwa's colours (the ember) and with Aiwa's mark on its chest (an example)",
+  "shape": "figure",
+  "color": "#fbf1e6",
+  "accent": "#ffb37a",
+  "face": { "visorColor": "#120d0a", "eye": { "color": "#ffe3c2" }, "mouth": { "color": "#ffb37a" } },
+  "emblem": { "kind": "orb-ring", "color": "#ff6b35" },
+  "figure": { "arms": true, "legs": true, "wings": true, "halo": true, "wave": true },
+  "glow": "#ff8a3d",
+  "background": "#14110f"
+}
