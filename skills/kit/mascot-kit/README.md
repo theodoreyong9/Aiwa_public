@@ -10,7 +10,7 @@ node src/cli.js film examples/aiwa.json film.mp4 --seconds=8 --timeline=examples
 
 ## The description (`mascot.json`)
 
-Every field is optional; `src/config.js` says what is assumed. `shape`: `drop` (pointed top, tilted so its tip trails), `egg`, `ball`, `capsule`. `color`, `accent` (the light on its edge), `glow`, `background`: `#rrggbb`. `face`: `visor`, `visorColor`, `eye` (`color`, `shape` oval or round, `size`), `mouth.color`. `beak`: `{color}` or nothing. `crest`: `{kind:"flame", count:1-5, colors:[low, high]}`. `emblem`: `{kind:"orb-ring", color}`, a sign on the head. `young`: `{count:0-5, scale:[…]}`, little copies that follow it (a single flame, no emblem). `yaw`: how far the face turns toward the camera. A wrong shape or colour is refused with a message, not drawn.
+Every field is optional; `src/config.js` says what is assumed. `shape`: `drop` (pointed top, tilted so its tip trails), `egg`, `ball`, `capsule`, or `figure` (an egg head with a dark visor, a small body, arms and legs; `figure`: `{arms, legs, wings, halo, wave}` choose what it has; its eyes are smiling arcs that droop when sad; `examples/angel.json`). `color`, `accent` (the light on its edge), `glow`, `background`: `#rrggbb`. `face`: `visor`, `visorColor`, `eye` (`color`, `shape` oval or round, `size`), `mouth.color`. `beak`: `{color}` or nothing. `crest`: `{kind:"flame", count:1-5, colors:[low, high]}`. `emblem`: `{kind:"orb-ring"|"chevron", color}`, a sign on the head (or, on a figure, on the chest). `young`: `{count:0-5, scale:[…]}`, little copies that follow it (a single flame, no emblem). `yaw`: how far the face turns toward the camera. A wrong shape or colour is refused with a message, not drawn.
 
 ## The timeline
 
@@ -22,6 +22,6 @@ Every field is optional; `src/config.js` says what is assumed. `shape`: `drop` (
 
 ## What it is, and is not
 
-A rendered character: glossy, lit, simple. Not a photograph, not a modelled and rigged character from a studio, and no arms or legs (a body, a face, a crest, an emblem, a beak, little ones). Rendering is software GL: about 30 s for 8 s of 960x540 video. To use it inside a film made with `video-kit`, render it as a clip (a still or a film at the film's size) and lay it with `video-kit assemble --clips`.
+A rendered character: glossy, lit, simple. Not a photograph, not a modelled and rigged character from a studio, with simple limbs: soft capsules and balls, no fingers, no clothes, no face other than the visor, the eyes and the mouth. Rendering is software GL: about 30 s for 8 s of 960x540 video. To use it inside a film made with `video-kit`, render it as a clip (a still or a film at the film's size) and lay it with `video-kit assemble --clips`.
 
 `node --test` checks the description, the mood, the speaking windows and the lip-sync envelope (numpy; set `PYTHON` to the interpreter that has it).

@@ -1,0 +1,11 @@
+{
+  "name": "An angel robot: egg head with a dark visor and smiling arcs for eyes, a small body, a welcoming arm, glowing wings and a halo (an example)",
+  "shape": "figure",
+  "color": "#f4f6ff",
+  "accent": "#9cc4ff",
+  "face": { "visorColor": "#0b0d1c", "eye": { "color": "#8fe3ff" }, "mouth": { "color": "#8fe3ff" } },
+  "emblem": { "kind": "chevron", "color": "#7fd4ff" },
+  "figure": { "arms": true, "legs": true, "wings": true, "halo": true, "wave": true },
+  "glow": "#5aa8ff",
+  "background": "#cdd4f2"
+}
