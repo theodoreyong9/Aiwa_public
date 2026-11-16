@@ -129,6 +129,12 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: 8.13
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Wallet page (carried in the application)
+        shell: bash
+        run: npm ci && npm run build:wallet
       - name: Package
         shell: bash
         env:
