@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.13
 """A mascot figure rigged with Rigify, animated and rendered in Blender (bpy, CPU, no GPU). The same description (mascot.json, shape "figure") as the three.js engine.
 
-  python3.13 figure.py mascot.json out_dir [--timeline=t.json] [--env=env.json] [--seconds=8] [--fps=24] [--width=720] [--height=720] [--samples=24] [--still=FRAME] [--blend=out.blend]
+  python3.13 figure.py mascot.json out_dir [--timeline=t.json] [--env=env.json] [--seconds=8] [--fps=24] [--width=720] [--height=720] [--samples=24] [--still=FRAME] [--transparent=1] [--shift=-1.4] [--blend=out.blend]
 
 What it does: shapes the Rigify "basic human" meta-rig to a chibi's proportions (big head, short body and legs), generates the Rigify rig, builds the parts of the figure (head with a dark visor,
 body, arms, legs, optional wings, halo and chest emblem) and fixes each part rigidly to one deform bone of the generated rig (a robot has no skin to bend), then keys the FK controls of the rig:
@@ -184,9 +184,10 @@ def area(n, loc, e, color, size):
     d = bpy.data.lights.new(n, 'AREA'); d.energy = e; d.color = color[:3]; d.size = size; o = bpy.data.objects.new(n, d); bpy.context.collection.objects.link(o); o.location = loc
     t = o.constraints.new('TRACK_TO'); t.target = head; t.track_axis = 'TRACK_NEGATIVE_Z'; t.up_axis = 'UP_Y'
 area('key', (1.6, -3.0, 3.4), 520, (1, .97, .94), 2.5); area('fill', (-2.6, -2.2, 1.2), 140, lin('#ffe6d0'), 3); area('rim', (-1.2, 2.4, 2.4), 420, lin(GLOW), 1.5)
-cam = bpy.data.objects.new('cam', bpy.data.cameras.new('cam')); bpy.context.collection.objects.link(cam); cam.data.lens = 82; cam.location = (0, -6.2, 1.12); cam.rotation_euler = (math.radians(90), 0, 0); bpy.context.scene.camera = cam
+cam = bpy.data.objects.new('cam', bpy.data.cameras.new('cam')); bpy.context.collection.objects.link(cam); cam.data.lens = 82; cam.data.sensor_fit = 'VERTICAL'; cam.data.sensor_height = 36; cam.location = (float(O.get('shift', 0)), -6.2, 1.12); cam.rotation_euler = (math.radians(90), 0, 0); bpy.context.scene.camera = cam      # the height of the picture frames the figure, whatever the width (16:9 or square); --shift=-1.4 moves the camera to the left: the figure stands on the right of the frame
 sc = bpy.context.scene; sc.render.engine = 'CYCLES'; sc.cycles.device = 'CPU'; sc.cycles.samples = SAMPLES; sc.cycles.use_denoising = True
-sc.render.resolution_x, sc.render.resolution_y, sc.render.fps = W, H, FPS; sc.render.film_transparent = False
+sc.render.resolution_x, sc.render.resolution_y, sc.render.fps = W, H, FPS; sc.render.film_transparent = 'transparent' in O      # --transparent=1: a picture with an alpha channel, to lay over a film (video-kit assemble --clips)
+sc.render.image_settings.color_mode = 'RGBA' if 'transparent' in O else 'RGB'
 sc.render.use_freestyle = True; sc.view_layers[0].use_freestyle = True
 ls = sc.view_layers[0].freestyle_settings.linesets.new('outline'); ls.select_silhouette = True; ls.select_border = True; ls.select_crease = False; ls.select_by_visibility = True; ls.select_by_edge_types = True; ls.visibility = 'VISIBLE'; ls.select_by_image_border = False
 LINED = bpy.data.collections.new('lined'); bpy.context.scene.collection.children.link(LINED)      # the outline is drawn on this collection only: everything but the glow cards
