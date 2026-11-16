@@ -142,7 +142,7 @@ export function makeStage(canvas, w, h, background = '#14110f', glowHex = '#ff8a
   const r = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true, alpha: transparent }); if (transparent) r.setClearColor(0x000000, 0); r.setSize(w, h, false); r.setPixelRatio(1);
   r.toneMapping = THREE.ACESFilmicToneMapping; r.toneMappingExposure = 1.05;
   const s = new THREE.Scene(); if (!transparent) s.background = col(background);
-  const cam = new THREE.PerspectiveCamera(32, w / h, .1, 100); if (shape === 'figure') { cam.position.set(0, 3.0, 9.6); cam.lookAt(0, 2.45, 0); } else { cam.position.set(0, 2.2, 10.5); cam.lookAt(-.1, 1.7, 0); }
+  const cam = new THREE.PerspectiveCamera(32, w / h, .1, 100); if (shape === 'figure') { cam.position.set(0, 3.0, 9.6); cam.lookAt(0, 2.45, 0); } else if (shape === 'orb') { cam.position.set(0, 1.8, 7.0); cam.lookAt(0, 1.75, 0); } else { cam.position.set(0, 2.2, 10.5); cam.lookAt(-.1, 1.7, 0); }
   s.add(new THREE.HemisphereLight(0xfff0e0, 0x4a2a18, .9));
   const k = new THREE.DirectionalLight(0xffffff, 2.6); k.position.set(3, 6, 6); s.add(k);
   const f = new THREE.PointLight(col(glowHex), 18, 12); f.position.set(0, 0, 3); s.add(f);
