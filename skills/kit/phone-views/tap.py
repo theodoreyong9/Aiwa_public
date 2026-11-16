@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""tap.py TEXT: touch the first visible element whose text or content description contains TEXT (case-insensitive), found with uiautomator: no coordinates to maintain."""
+"""tap.py TEXT | @X|Y: touch the first visible element whose text or content description contains TEXT (case-insensitive), found with uiautomator: no coordinates to maintain."""
 import re, subprocess, sys, xml.etree.ElementTree as ET
 want = sys.argv[1].lower()
+if want.startswith('@'):      # a raw tap, for an icon with no text: @X|Y in pixels of the screen
+    x, y = want[1:].split('|'); subprocess.run(['adb', 'shell', 'input', 'tap', x, y]); print('tapped', x, y); sys.exit(0)
 for _ in range(4):
     raw = subprocess.run(['adb', 'exec-out', 'uiautomator', 'dump', '/dev/tty'], capture_output=True, text=True).stdout
     raw = raw[raw.find('<?xml'):raw.rfind('</hierarchy>') + 12]

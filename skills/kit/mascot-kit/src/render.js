@@ -25,12 +25,12 @@ function serve(extra) {
     }).listen(0, '127.0.0.1', () => ok(srv));
   });
 }
-async function open({ config, timeline, env, width, height, executablePath }) {
+async function open({ config, timeline, env, width, height, executablePath, transparent = false }) {
   const files = resolve(dirname(config)), srv = await serve(files), port = srv.address().port;
   const rel = f => f && `/files/${resolve(f).slice(files.length + 1)}`;
   const browser = await chromium.launch({ executablePath, args: GL_ARGS }), page = await browser.newPage({ viewport: { width, height } });
   const errors = []; page.on('pageerror', e => errors.push(e.message));
-  const qs = new URLSearchParams({ config: rel(config), w: width, h: height }); if (timeline) qs.set('timeline', rel(timeline)); if (env) qs.set('env', rel(env));
+  const qs = new URLSearchParams({ config: rel(config), w: width, h: height }); if (transparent) qs.set('transparent', '1'); if (timeline) qs.set('timeline', rel(timeline)); if (env) qs.set('env', rel(env));
   await page.goto(`http://127.0.0.1:${port}/template/stage.html?${qs}`);
   await page.waitForFunction('window.ready', null, { timeout: 90000 }).catch(() => { throw new Error(`the stage did not start: ${errors.join('; ') || 'no error reported'}`); });
   return { page, close: async () => { await browser.close(); srv.close(); } };
@@ -41,6 +41,12 @@ export async function renderStill({ config, out, t = 1.3, width = 1280, height =
   return out;
 }
 // `audio` is the voice (wav or anything ffmpeg reads); the mouth follows it when `env` is given (lipsync.py makes it), else it moves to a rhythm, and the result says so.
+export async function renderFrames({ config, outDir, seconds, fps = 24, width = 1280, height = 720, timeline, env, transparent = true, executablePath = process.env.CHROMIUM_PATH || undefined }) {
+  // PNG frames with an alpha channel (a transparent ground), to lay over a film: outDir/00000.png …
+  await mkdir(outDir, { recursive: true }); const s = await open({ config, timeline, env, width, height, executablePath, transparent }), n = Math.round(seconds * fps);
+  try { for (let f = 0; f < n; f++) { await s.page.evaluate(`window.render(${f / fps}, ${f})`); await s.page.screenshot({ path: join(outDir, `${String(f).padStart(5, '0')}.png`), omitBackground: transparent }); } } finally { await s.close(); }
+  return { outDir, frames: n };
+}
 export async function renderFilm({ config, out, seconds, fps = 24, width = 1280, height = 720, timeline, env, audio, keepFrames = false, executablePath = process.env.CHROMIUM_PATH || undefined }) {
   if (!(seconds > 0)) throw new Error('seconds must be positive');
   const dir = join(dirname(resolve(out)), `.${Date.now()}-frames`); await mkdir(dir, { recursive: true });
