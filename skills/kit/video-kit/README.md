@@ -8,7 +8,7 @@ The tools of `docs/PROMO-VIDEO.md`: render a timeline page frame by frame in Chr
 
 ## Real shots (3D, real footage, generated)
 
-`shots/README.md` says which tool makes which shot: Blender for a product in real 3D (`shots/blender/glasses.py`), a real footage with elements that follow someone (`src/track.py`, `render --transparent`), clips from the user's own video generator (`video-kit shotlist` writes the prompts), laid over the frames with `assemble --clips`. `sh src/shots-setup.sh` installs bpy and OpenCV once. The mirror of a free footage is the workflow `footage-mirror.yml`.
+`shots/README.md` says which tool makes which shot: Blender for a product in real 3D (functions in `shots/blender/kit.py`, a script written for each film), a real footage with elements that follow someone (`src/track.py`, `render --transparent`), clips from the user's own video generator (`video-kit shotlist` writes the prompts), laid over the frames with `assemble --clips`. `sh src/shots-setup.sh` installs bpy and OpenCV once. The mirror of a free footage is the workflow `footage-mirror.yml`.
 
 ## Two traps met while making a film (and what the tools now do)
 - `assemble --bloom` used to turn a dark picture purple: the « screen » blend was done on the YUV planes, and it « screens » the chroma too. It is now done in RGB (`transform.js`). If a film has a colour cast, test each look flag alone on a few frames and read one pixel (`ffmpeg -i f.png -vf crop=1:1:20:340,format=rgb24 -f rawvideo - | od -An -tu1`).
