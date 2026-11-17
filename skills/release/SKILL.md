@@ -13,3 +13,7 @@ Everything made for the person is an asset of a GitHub release of the repository
 7. Never commit the produced file into the code. Deleting a file on her phone deletes its release and its tag: nothing else may depend on them.
 
 Quality follows the request: a simple letter stays simple, a careful dossier takes care. Add nothing that was not asked.
+8. A cloud session may not be allowed to create releases (GitHub answers 403, « not permitted for this session type »). Then do not give up and do not
+   commit the file into the code: put it on YOUR OWN working branch, in the folder `.aiwa-outbox/<tag>/` (one folder per release, the tag as the name of the
+   folder, every file of that release inside it, its card of recipients too), and push. Her phone reads that folder, makes the release with her key, uploads
+   the files and removes them from the branch. Say in your last message that the files are waiting there, never that they are published.

@@ -13,6 +13,8 @@ this?) or for herself (who should know her?). She sees them in two places: under
 
 ## The card, next to the file
 
+(If you may not create releases, leave the card and the `target-` files in `.aiwa-outbox/<tag>/` of your branch, as the release skill says: her phone publishes them.)
+
 In the SAME release as the file, an asset named `<file>.targets.json`:
 
 `{"v":1,"targets":[{"kind":"mail","value":"contact@example.org","label":"Hiring, Example Ltd","source":"https://…the page where you found it","message":"Dear …,\n\n…"}]}`
