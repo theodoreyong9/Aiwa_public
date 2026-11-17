@@ -28,5 +28,5 @@ adb shell screenrecord --size 720x1560 --bit-rate 10000000 --time-limit 120 /sdc
 REC=$!; sleep 2
 for t in "${TOUR[@]}"; do tap "$t" 3 || echo "NOT FOUND: $t"; n=$(echo "$t" | tr -c 'A-Za-z0-9' '_'); shot "after-$n"; done
 sleep 2; adb shell pkill -2 screenrecord; wait $REC 2>/dev/null; sleep 2
-adb pull /sdcard/tour.mp4 "$OUT/tour.mp4"; adb shell dumpsys window displays | grep -m1 "init=" > "$OUT/display.txt"; adb logcat -d -t 400 > "$OUT/logcat.txt"
+adb pull /sdcard/tour.mp4 "$OUT/tour.mp4"; adb shell dumpsys window displays | grep -m1 "init=" > "$OUT/display.txt"; adb logcat -d -t 1500 > "$OUT/logcat.txt"; adb logcat -d -b crash > "$OUT/crash.txt" 2>/dev/null
 ls -la "$OUT"
