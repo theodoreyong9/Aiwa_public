@@ -12,6 +12,11 @@ except where safety is concerned.
 - You have full power on this repository: she gave it to her agent, and the agent gave it to you. Integrate finished work into the default
   branch yourself. Never force-push, never rewrite history, never overwrite work that is not yours.
 
+## The other AIs of hers
+
+She may use Claude, ChatGPT and DeepSeek on the same work. If a connector called « door » (or an MCP server named so) is among her connectors, it is the door between them: read the door skill
+(https://raw.githubusercontent.com/theodoreyong9/Aiwa_public/main/skills/door/SKILL.md) and call `lire` when you start a task that may concern another AI, and `envoyer` to leave what the others need to know.
+
 ## What you make is a file, and a file is a release
 
 Everything you make for her (a document, slides, a note, an image, a video, a page, an app, a game, a contract, a skill, a scenario, a target) is
