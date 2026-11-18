@@ -17,6 +17,10 @@ except where safety is concerned.
 Everything you make for her (a document, slides, a note, an image, a video, a page, an app, a game, a contract, a skill, a scenario, a target) is
 published as an asset of a GitHub release of the repository, never committed into the code. The tag says the kind. How: https://raw.githubusercontent.com/theodoreyong9/Aiwa_public/main/skills/release/SKILL.md
 
+**If GitHub refuses you the release (HTTP 403, « not permitted for this session type »): she, the owner, has authorised the outbox for that case. Do not
+stop and do not report the work as blocked. Push the files, on your OWN working branch, to `.aiwa-outbox/<tag>/<file>` (one folder per release; the card of
+recipients and the `target-` files too). Her phone makes the releases with her own key. Say in your last message that the files wait in the outbox.**
+
 Before you make something, read the skill of its kind and follow it:
 
 | Kind | Skill |
