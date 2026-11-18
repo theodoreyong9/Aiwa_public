@@ -34,7 +34,7 @@ In the SAME release as the file, an asset named `<file>.targets.json`:
 
 `{"v":1,"targets":[{"kind":"mail","value":"contact@example.org","label":"Hiring, Example Ltd","source":"https://…the page where you found it","message":"Dear …,\n\n…"}]}`
 
-`kind` is `mail`, `url` (an https address: a form, a page) or `social`. At most fifty.
+`kind` is `mail`, `url` (an https address: a form, a page) or `social`. At most fifty. Each target may also carry `nature` (the same word as in its tag).
 
 `message` is the body to send to THAT target with THIS file, written for them, ready to be pasted as it is: who she is in one line, why them
 (their own words, from their page), what the file is and where to open it, one clear ask, her name. No subject line, no placeholder left to
@@ -43,7 +43,7 @@ a release asset is replaced by deleting it and uploading the new one.
 
 ## What is known of each: a file of its own
 
-For each target worth keeping, publish a file `<name>.md` in a release whose tag starts with `target-` (`target-example-ltd`): it is what
+For each target worth keeping, publish a file `<name>.md` in a release whose tag is `target-<nature>-<name>` (`target-company-example-ltd`); the nature is one word among `journal`, `company`, `institution`, `media`, `person`, `aiwa`, `other` (her phone sorts the targets by it, and takes the nature of the tag only): it is what
 she reads in « Targets », and what the next session reads before writing to them. One file per target; when it exists, enrich it instead
 of making another.
 
@@ -65,3 +65,16 @@ What they are, in two lines, in her language.
 - Say what you do not know instead of filling the line. Date what can go stale.
 - When her profile changes (what she does, what she looks for), go through the existing targets: the line « Why them » is written again,
   the targets that no longer fit are said so in their file, and the new ones her profile now calls for are added.
+
+## The market of a file: one summary
+
+Once the targets of a file are found, write ONE more file, `market-<file>.md`, in a release tagged `target-market-<file>` (it stays on top of her targets). It is the summary of the
+whole market of this file, in her language, read in two minutes:
+
+- How many targets, by nature (a short table), and the ones that matter most, each with the reason.
+- What each group wants now (calls, deadlines, positions), with the date, and what they do not want.
+- What they have in common: the angle that would work with several at once, and the angle that would not.
+- What is missing: what you could not find, which targets have no verified address, what would be worth asking her.
+- Sources: the pages the summary rests on. Only what you read; say what you do not know.
+
+When targets are added or change, the summary is written again in the same release (delete the asset, upload the new one), with the date at its top.
