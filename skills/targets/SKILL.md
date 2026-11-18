@@ -11,6 +11,21 @@ this?) or for herself (who should know her?). She sees them in two places: under
   Never invent a recipient, never guess an e-mail from a pattern, never take one from a list sold or leaked.
 - Prefer the address meant for that purpose (a hiring address, a press address, a contact form) to a personal one.
 
+## Aiwa profiles are targets too
+
+Some of the people she could write to are in Aiwa: a person whose profile repository holds `Profile/aiwa.json`. Look among them as well as on the web, and put the
+ones that fit in the card like any other target (`kind` `url`, `value` the address of the profile repository, `https://github.com/<owner>/<repo>`; her phone opens it
+and her agent can act on the page by voice). Where to look, in this order:
+
+1. Her own network: `Profile/aiwa-lists.json` of her profile repository (the favourites and the jumps she shares), then the same file of those, one level out.
+2. The public profiles of GitHub: search repositories for the file `Profile/aiwa.json` (code search `filename:aiwa.json path:Profile`), and read each page
+   (`Profile/index.html`) and its offers (`Profile/aiwa-offers.json`).
+3. Keep those whose offers meet THIS file from HER: write in `source` the file or the offer that made you choose them, and in `message` what you would say to them
+   as a person of Aiwa (short, spoken, in their language when their page tells it). Never contact anyone from here: she sends, from her phone.
+
+The same rules apply as for the others: only what you read, only public, ten that fit rather than fifty, and say what you do not know. A profile that offers nothing
+related is not a target because it is in Aiwa.
+
 ## The card, next to the file
 
 (If you may not create releases, leave the card and the `target-` files in `.aiwa-outbox/<tag>/` of your branch, as the release skill says: her phone publishes them.)
