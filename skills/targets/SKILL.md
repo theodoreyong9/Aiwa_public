@@ -34,7 +34,12 @@ In the SAME release as the file, an asset named `<file>.targets.json`:
 
 `{"v":1,"targets":[{"kind":"mail","value":"contact@example.org","label":"Hiring, Example Ltd","source":"https://…the page where you found it","message":"Dear …,\n\n…"}]}`
 
-`kind` is `mail`, `url` (an https address: a form, a page) or `social`. At most fifty. Each target may also carry `nature` (the same word as in its tag).
+`kind` is `mail`, `url` (an https address: a form, a page), `social` or `telegram`. At most fifty.
+
+`telegram`: the value is an identifier she can write to on Telegram: a public name (`@name`), a `t.me/…` address (a public channel or group, or an invitation
+link a page offers), or a telephone number in international form (`+33612345678`) ONLY when the person or the company publishes it themselves for contact. Look for the
+Telegram of each target on its own pages (footer, contact page, social links, a channel it announces); never guess a name, never derive a number. Her phone copies the
+message and opens `t.me/…`: Telegram itself tells whether the number or the name exists. A target that has both a mail and a Telegram gets two entries. Each target may also carry `nature` (the same word as in its tag).
 
 `message` is the body to send to THAT target with THIS file, written for them, ready to be pasted as it is: who she is in one line, why them
 (their own words, from their page), what the file is and where to open it, one clear ask, her name. No subject line, no placeholder left to
