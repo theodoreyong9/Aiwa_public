@@ -1220,6 +1220,8 @@ narrow way out by its host: it posts requests (`{ aiwa: 1, id, cmd, args }`) and
 person before it pays. **Limit.** The door's two sides are implemented and tested in `aiwa-lib`; the application of this repository does
 not host published applications, so nothing answers the door in it.
 
+**The application's own use.** The Android application runs the profile page of someone else the same way: its scripts run in a frame with `sandbox="allow-scripts"` and no `allow-same-origin` (`ProfilePage.sandboxed`), so a visited page behaves like a normal page but cannot reach the application's storage, its wallet or its forms. The application keeps its hand on the page (to read the buttons, press one, scroll, apply an adaptation) through a small bridge inside the frame, whose answers are data for the agent, never trusted. The door is not opened for profile pages: nothing in them can pay.
+
 *Does not guarantee.* That the application cannot use the network (it can), or that it is not malicious towards its own user (it
 is not reviewed). Storage inside a fully opaque origin is unreliable: an application cannot count on `IndexedDB` persisting
 across sessions.
