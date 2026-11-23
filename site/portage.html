@@ -40,7 +40,7 @@ button{height:52px;min-width:52px;border-radius:14px;border:1px solid var(--line
 button.main{background:var(--pink);border-color:var(--pink);color:#1a0b16}
 button:disabled{opacity:.45;cursor:default}
 button.on{border-color:var(--pink);color:var(--pink)}
-.bar{display:flex;gap:10px;width:100%;align-items:center}
+.bar{display:flex;gap:10px;width:100%;align-items:center;flex-wrap:wrap}
 #left{margin-left:auto}
 footer{padding:14px 0 18px;text-align:center;color:var(--dim);font-size:12px;line-height:1.55;max-width:56ch;margin:0 auto}
 footer a{color:var(--text)}
@@ -74,7 +74,12 @@ footer a{color:var(--text)}
       <button type="button" id="mic" aria-label="Speak" title="Speak">Mic</button>
       <button class="main" type="submit" id="send" aria-label="Send">Send</button>
     </form>
-    <div class="bar"><span class="mono" id="state"></span><span class="mono" id="left"></span></div>
+    <div class="bar" id="shots"><button type="button" id="cam">Camera</button><button type="button" id="scr">Screen</button><span class="mono" id="state"></span><span class="mono" id="left"></span></div>
+    <div id="preview" hidden style="width:100%;display:flex;flex-direction:column;gap:10px;align-items:center">
+      <video id="vid" playsinline muted style="width:min(100%,260px);border-radius:14px;border:1px solid var(--line);background:#000"></video>
+      <div class="bar"><button class="main" type="button" id="snap">Send a picture</button><button type="button" id="stopcap">Stop</button></div>
+      <div class="mono" id="capnote">Only when you press “Send a picture”. Nothing else leaves your device.</div>
+    </div>
   </div>
 </main>
 <footer id="foot">An agent of its owner that can only talk: it cannot act on anything. This conversation is kept by its owner so that she can read it, for the days she chose. <a href="https://theodoreyong9.github.io/Aiwa_public/">What is Aiwa?</a><br>The head is adapted from “Lisa – Woman Head with BlendShapes” by skullvez, <a href="https://sketchfab.com/3d-models/lisa-woman-head-with-blendshapes-7670d1c2742b4188a989f1b3205a628b">CC-BY-4.0</a>.</footer>
@@ -159,10 +164,10 @@ function clock(){
   var draw=function(){ var m=Math.max(0,Math.ceil(remaining/60)); set('left',m+' min left'); };
   draw(); tick=setInterval(function(){ remaining=Math.max(0,remaining-1); if(remaining%30===0) draw(); },1000);
 }
-function ask(t,m){
+function ask(t,m,extra){
   setState('thinking'); clearTimeout(waiting);
   waiting=setTimeout(function(){ setState(''); set('say','No answer. The phone that answers may be off, or Aiwa closed on it. Try again in a moment.'); },60000);
-  send({t:t,m:m}).catch(function(){ setState(''); set('say','The message could not be sent. Check your connection.'); });
+  send(Object.assign({t:t,m:m},extra||{})).catch(function(){ setState(''); set('say','The message could not be sent. Check your connection.'); });
 }
 
 /* the session: a pair of keys of this tab, the relay, and the first message */
@@ -180,6 +185,32 @@ $('form').addEventListener('submit',function(e){
   e.preventDefault(); var m=$('msg').value.trim(); if(!m||!ready) return;
   $('msg').value=''; set('you',m); speechSynthesis&&speechSynthesis.cancel(); ask('say',m);
 });
+/* what the guest chooses to show: the camera, or the screen. The browser asks; a picture leaves only when the button is pressed, small, one every minute and a half. */
+var stream=null,kind='camera',lastShot=0;
+function stopCap(){ if(stream){ stream.getTracks().forEach(function(t){ t.stop(); }); stream=null; } $('preview').hidden=true; }
+async function capture(k){
+  stopCap();
+  try{ stream=k==='screen'?await navigator.mediaDevices.getDisplayMedia({video:true}):await navigator.mediaDevices.getUserMedia({video:{facingMode:'user'}}); }
+  catch(e){ set('you','Not allowed, or not available on this device.'); return; }
+  kind=k; var v=$('vid'); v.srcObject=stream; try{ await v.play(); }catch(e){}
+  $('preview').hidden=false; stream.getVideoTracks()[0].addEventListener('ended',stopCap);
+}
+$('cam').addEventListener('click',function(){ capture('camera'); });
+$('scr').addEventListener('click',function(){ capture('screen'); });
+if(!navigator.mediaDevices||!navigator.mediaDevices.getDisplayMedia) $('scr').hidden=true;
+if(!navigator.mediaDevices||!navigator.mediaDevices.getUserMedia) $('cam').hidden=true;
+$('stopcap').addEventListener('click',stopCap);
+$('snap').addEventListener('click',function(){
+  if(!stream||!ready) return; var v=$('vid');
+  var wait=90000-(Date.now()-lastShot); if(wait>0){ set('you','One picture every minute and a half: wait '+Math.ceil(wait/1000)+' s.'); return; }
+  if(!v.videoWidth) return;
+  var w=Math.min(384,v.videoWidth),h=Math.round(v.videoHeight*w/v.videoWidth),c=document.createElement('canvas'); c.width=w; c.height=h;
+  c.getContext('2d').drawImage(v,0,0,w,h);
+  var jpeg=c.toDataURL('image/jpeg',.55).split(',')[1]; lastShot=Date.now();
+  var cap=$('msg').value.trim(); $('msg').value=''; set('you',cap||'(a picture of your '+kind+')'); speechSynthesis&&speechSynthesis.cancel();
+  ask('image',cap,{i:jpeg,k:kind});
+});
+window.addEventListener('pagehide',stopCap);
 var rec=null;
 $('mic').addEventListener('click',function(){
   var SR=window.SpeechRecognition||window.webkitSpeechRecognition;
