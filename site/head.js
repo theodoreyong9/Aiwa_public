@@ -193,7 +193,7 @@ function start(canvas,opts){
     var pr=gl.createProgram(); gl.attachShader(pr,sh(gl.VERTEX_SHADER,VS)); gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,FS)); gl.linkProgram(pr); gl.useProgram(pr);
     var bp=gl.createBuffer(),bc=gl.createBuffer(),bi=gl.createBuffer(),lp=gl.getAttribLocation(pr,'p'),lc=gl.getAttribLocation(pr,'c'),lr=gl.getUniformLocation(pr,'res');
     gl.enable(gl.BLEND); gl.blendFuncSeparate(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA,gl.ONE,gl.ONE_MINUS_SRC_ALPHA);
-    var st={awake:1,speaks:0,thinks:0,smile:.15,brow:0,px:0,py:0},pose={yaw:0,pitch:0,roll:0,awake:1,w:new Float32Array(NSHAPES)},last=0,alive=true,sp=0,mm={open:0,wide:1,hiss:0};
+    var st={awake:1,speaks:0,thinks:0,smile:.15,brow:0,px:0,py:0,mx:0,my:0},pose={yaw:0,pitch:0,roll:0,awake:1,w:new Float32Array(NSHAPES)},last=0,alive=true,sp=0,mm={open:0,wide:1,hiss:0};
     var frameCap=1000/36;
     function resize(){ var d=Math.min(2,window.devicePixelRatio||1),w=Math.round(canvas.clientWidth*d),h=Math.round(canvas.clientHeight*d); if(canvas.width!==w||canvas.height!==h){ canvas.width=w; canvas.height=h; } gl.viewport(0,0,canvas.width,canvas.height); }
     function frame(now){
@@ -204,7 +204,7 @@ function start(canvas,opts){
       sp=follow(sp,mouth.speaking?1:0,8,dt);
       anim.step(dt,{open:mm.open,wide:mm.wide,hiss:mm.hiss,awake:st.awake,speaks:sp,thinks:st.thinks});
       anim.applyTo(pose,{smile:st.smile,brow:st.brow,thinks:st.thinks,awake:st.awake});
-      pose.yaw+=st.px*.35; pose.pitch+=st.py*.2;       /* the head turns a little toward the pointer */
+      pose.yaw+=st.px*.35+st.mx*.35; pose.pitch+=st.py*.2+st.my*.25;       /* the head turns a little toward the pointer, and against the turn of the phone */
       var s=Math.min(canvas.width,canvas.height);
       rig.update(pose,canvas.width/2,canvas.height/2+s*.03,s);
       gl.clearColor(0,0,0,0); gl.clear(gl.COLOR_BUFFER_BIT);
@@ -215,6 +215,14 @@ function start(canvas,opts){
       gl.drawElements(gl.TRIANGLES,rig.sorted.length,gl.UNSIGNED_SHORT,0);
     }
     requestAnimationFrame(frame);
+    /* the phone's own turn, where the browser gives it: the change from how it is usually held (a baseline that follows slowly), full at about 12 degrees */
+    var base=null;
+    window.addEventListener('deviceorientation',function(e){
+      if(e.beta==null||e.gamma==null) return;
+      if(!base) base={b:e.beta,g:e.gamma};
+      base.b+=(e.beta-base.b)*0.004; base.g+=(e.gamma-base.g)*0.004;
+      st.mx=Math.max(-1,Math.min(1,-(e.gamma-base.g)/12)); st.my=Math.max(-1,Math.min(1,(e.beta-base.b)/12));
+    },{passive:true});
     window.addEventListener('pointermove',function(e){ st.px=(e.clientX/innerWidth-.5)*2; st.py=(e.clientY/innerHeight-.5)*2; },{passive:true});
     return {
       state:function(o){ for(var k in o) st[k]=o[k]; },
