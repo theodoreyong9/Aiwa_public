@@ -38,7 +38,7 @@ Rig.prototype.update=function(pose,cx,cy,size){
     var ids=m.si[k],d=m.sd[k];
     for(var j=0;j<ids.length;j++){ var q=ids[j]*3; pos[q]+=d[j*3]*w; pos[q+1]+=d[j*3+1]*w; pos[q+2]+=d[j*3+2]*w; }
   }
-  for(var i=0;i<this.eyeL.length;i++){ pos[this.eyeL[i]*3]+=0.004; }
+  for(var i=0;i<this.eyeL.length;i++){ pos[this.eyeL[i]*3]+=-0.001; }
   for(var i=0;i<this.eyeR.length;i++){ pos[this.eyeR[i]*3]+=0.013; }
   var hx=-0.45*0.5,hy=0.62*0.5,hz=(0.64+1)*0.5,hl=Math.sqrt(hx*hx+hy*hy+hz*hz),lit=0.88+0.12*pose.awake,c=m.col;
   for(var i=0;i<m.v;i++){
