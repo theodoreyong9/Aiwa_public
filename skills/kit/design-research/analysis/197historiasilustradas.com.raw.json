@@ -1,0 +1,3064 @@
+{
+  "url": "https://www.197historiasilustradas.com/",
+  "at": "2026-11-23T14:47:44.603Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 6324,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 905,
+      "typography": {
+        "families": [
+          [
+            "font",
+            9
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            9
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            9
+          ]
+        ],
+        "sizeMin": 13.8125,
+        "sizeMedian": 13.8125,
+        "sizeMax": 13.8125,
+        "sizeMaxVw": 1,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "font",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 9
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(250, 250, 250)",
+            1287
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(23, 23, 23)",
+            233
+          ],
+          [
+            "rgb(255, 255, 255)",
+            34
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--background": "#fff",
+          "--foreground": "#171717",
+          "--muted": "#737373",
+          "--ease": "cubic-bezier(.645,.045,.355,1)",
+          "--ease-out-expo": "cubic-bezier(.19,1,.22,1)",
+          "--ease-base": "cubic-bezier(.46,.03,.12,1)",
+          "--ease-magic": "cubic-bezier(.33,0,0,1)",
+          "--ease-quart": "cubic-bezier(.41,.35,.2,1)",
+          "--ease-overshoot": "cubic-bezier(.175,.885,.43,1.6)",
+          "--ease-anticipate": "cubic-bezier(1,-.4,.35,.95)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 0,
+        "fixed": 5,
+        "grid": 1,
+        "flex": 27,
+        "absolute": 6,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            4,
+            9
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            17,
+            3
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            34,
+            1
+          ],
+          [
+            38,
+            1
+          ],
+          [
+            136,
+            1
+          ],
+          [
+            21,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            150,
+            9
+          ],
+          [
+            500,
+            2
+          ],
+          [
+            1000,
+            1
+          ],
+          [
+            200,
+            1
+          ]
+        ],
+        "keyframes": [
+          "fade-in",
+          "fade-out"
+        ],
+        "viewTransitionCss": true,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 1,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 0,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 140,
+        "io": 1,
+        "ro": 3,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "197 Historias Ilustradas",
+      "lang": "es-ES",
+      "description": "197 historias ilustradas es un proyecto que busca dar a conocer la vida de cada una de las personas detenidas desaparecidas nacidas en Uruguay o bajo responsabilidad del Estado uruguayo durante las décadas de los sesenta, setenta y ochenta."
+    },
+    "featuresBeforeScroll": {
+      "elements": 905,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 1
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 8477588,
+        "layoutCount": 208,
+        "recalcStyleCount": 484,
+        "scriptDuration": 0.133098,
+        "taskDuration": 0.515181,
+        "nodes": 1918
+      },
+      "timing": {
+        "domContentLoaded": 883,
+        "load": 925,
+        "first-paint": 836,
+        "first-contentful-paint": 836
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.197historiasilustradas.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 41874
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/media/simplon_mono_regular-s.p.4c1db703.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 23896
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/882aee3e7e5fa64f.css?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 9981
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/3068344f6b59fc28.css?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 616
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/a6a883b7ec42f0a6.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4140
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/1c40893e27076bb9.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9513
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/acdad15f71b0805d.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 35689
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/b2da08d1b6ebffb9.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 71298
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/turbopack-050b080a7efb18b1.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4372
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/06516ac8d28d89c4.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2564
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/00a0e8471c3af2a9.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6138
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/7d91959f8c296086.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11045
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/011fe4e7e534d1f8.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10737
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/8ec8d2a021320e6e.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10243
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/c027892f20c746b1.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 28845
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/26fe417c4105e7e9.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 22410
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/947d768e5681c534.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 27529
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/640dd8321267c746.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 19146
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/693665aa436e6d15.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10793
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/e5aedf40e4209827.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 27537
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/6084ea3c22bda091.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 239422
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/203b373eb27e5840.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 24905
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaB68sFoBIGEg35F_figure-193.jpg%3Fauto%3Dformat%252Ccompress%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2698
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHAvMFoBIGEg7mZ_2-heber-eduardo.jpg%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2554
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Fae4t88BOoF08xTa5_3.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C173%252C173%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2201
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHA7sFoBIGEg7mp_4-jose-mendez.jpg%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1346
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaCclMFoBIGEg4VK_184_AdalbertoSOBA_PinchesArtistas1.png%3Fauto%3Dformat%252Ccompress%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2538
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Fae4uXcBOoF08xTbK_6.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C173%252C173%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1345
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaCftcFoBIGEg4Vt_162_ElenaQUINTEROS_MaviAmigo1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1840
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaChyMFoBIGEg4Xa_139_UranoMIRANDA_AngelinaMontero_RGB__page-00011.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2710
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaCivMFoBIGEg4YZ_140_FernandoMIRANDA_FelipeEcheverria_publicacio%25CC%2581n1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2680
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaCjnMFoBIGEg4ZW_163_Modesto_Quin%25CC%2583ones_PiaMartini1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1624
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaCkh8FoBIGEg4am_134_AlbertoMECHOSO_HernanBarcelo_web2.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3534
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaClcMFoBIGEg4b4_124_Arazati%25CC%2581LO%25CC%2581PEZ_EduSganga_RGB_2400x30002.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2650
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaCm88FoBIGEg4e-_45_LuisCARVALHO_AnaDupont1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1920
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Fae4urcBOoF08xTbL_14.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C173%252C173%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1358
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaCpf8FoBIGEg4jL_84_Rau%25CC%2581lGA%25CC%2581MBARO_FabricioLombardo_cuadrado1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2810
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaCqe8FoBIGEg4km_6_GustavoARCE_FedericoTorres_1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2030
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Fae4vFcBOoF08xTbO_17.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C173%252C173%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3035
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaCtUcFoBIGEg4of_161_WashingtonQUEIRO%25CC%2581_SantiagoHermida1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1772
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaCupsFoBIGEg4qx_135_NebioMELO_CatalinaOrtiz1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2269
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaCvU8FoBIGEg4rw_133_WinstonMAZZUCHI_CatalinaOrtiz-2-1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2318
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaCv5cFoBIGEg4sb_34_CarlosCABEZUDO_JuanPurtscher1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2747
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaGwUcFoBIGEg7aJ_10_ArmandoARNONE_RocioSosa-1-2.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1843
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaXTMFxvIZEnjPt9_44_CasimiraCARRETERO_NatCardozo1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2679
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaXXM1xvIZEnjPvj_166_JuanPabloRECAGNO_NatCardozo_IG1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2127
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaXbcFxvIZEnjPxR_46_YolandaCASCO_InesFerron1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1563
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaXct1xvIZEnjPyN_62_JulioCesarDElia_InesFerron1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1690
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaXel1xvIZEnjPzF_57_AlbertoCorchs_14_AnnaRiguetti_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2768
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaXhBlxvIZEnjP0Q_120_ElenaPaulinaLerena_14_AnnaRiguetti_1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2920
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaXjaVxvIZEnjP1D_120_ElenaPaulinaLerena_14_AnnaRiguetti_2.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2143
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaXleVxvIZEnjP10_IMG_81521.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1957
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaXnE1xvIZEnjP2N_148_Fe%25CC%2581lixORTIZ_LucianaDeCarlo1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2044
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaXoslxvIZEnjP2q_118_JosefinaKEIM_FlorenciaRodriguez_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1807
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaXpyVxvIZEnjP2__143_JuanMORALES_FlorenciaRodriguez_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1478
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaXrSFxvIZEnjP3d_129_JorgeMARTI%25CC%2581NEZ_CarolinaDuarte1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2656
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaXtc1xvIZEnjP3__181_MartaSEVERO_CarolinaDuarte1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2356
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqTT8BOoF08xQ1v_Frame2147243685.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C174%252C174%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2928
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqTgcBOoF08xQ1w_Frame2147243686.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C173%252C173%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2003
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Faab6EVxvIZEnjR46_196_RobertoZAFFARONI_FranCunha_cuadrada1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2561
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Faab9AVxvIZEnjR6__116_Mari%25CC%2581aEmiliaISLAS_FranCunha_cuadrada1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1873
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Faab_PFxvIZEnjR8z_83_EduardoGALLO_ElianStolarsky-1-1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2857
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaacAH1xvIZEnjR9W_83_EduardoGALLO_ElianStolarsky-1-2.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2898
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaacCbFxvIZEnjR_I_92_AdrianaGATTI_CathyBurghi1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2501
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaacER1xvIZEnjSAc_91_GerardoGATTI_CathyBurghi1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1915
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaacGFFxvIZEnjSB2_72_Leo%25CC%2581nDUARTE_HernanBarcelo_web1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3462
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaacJMFxvIZEnjSEa_114_JuanCarlosINSAUSTI_VeronicaAlves_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2351
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaacKEVxvIZEnjSFG_113_Mari%25CC%2581aAnge%25CC%2581licaIBARBIA_VeronicaAlves1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2310
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaacK51xvIZEnjSFe_95_EstherGersberg_CarlaEbert1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2896%252C2896%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2102
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaacK6VxvIZEnjSFf_87_MariaClaudiaGarcia_LorennaEsposito1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1839
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaGzIMFoBIGEg7cj_9_LuisEduardoARIGON_LeandroMangado1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1611
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaG0vcFoBIGEg7do_9_LuisEduardoARIGON_LeandroMangado2.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2143
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaG3M8FoBIGEg7fe_9_LuisEduardoARIGON_LeandroMangado3.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2237
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqNO8BOoF08xQ0q_Frame2147243674.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C174%252C174%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2498
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqOQsBOoF08xQ04_Frame2147243675.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C174%252C174%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2290
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaG4oMFoBIGEg7g7_123_ClaudioLOGARES_LetiMato1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2154
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaG5D8FoBIGEg7hM_106_Mo%25CC%2581nicaGRINSPON_LetiMato1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2063
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaG5dsFoBIGEg7he_125_EnriqueJoaquin_LucasLopez_IngridPeirano1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1876
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaG51sFoBIGEg7ht_89.IleanaGARCIA_JuTiscornia1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3277%252C3277%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2281
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaG-vsFoBIGEg7lg_71.EdmundoDOSSETTI_JuTiscornia1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3277%252C3277%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2392
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaG_CcFoBIGEg7lp_100_JorgeGONCALVEZ_RominaSantana_RGB-cuadrado-instagram1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2446
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaG_XsFoBIGEg7ly_191_CeciliaTRI%25CC%2581AS_StefiDeMello1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1729
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaG_pMFoBIGEg7l7_59_WashingtonCRAM_StefiDeMello1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1609
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaG_9MFoBIGEg7mC_167_MiguelRI%25CC%2581O_LuciaFidalgo_cuadrado_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2440
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHAMsFoBIGEg7mH_185_GuillermoSOBRINO_LuciaFidalgo_Cuadrada_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C4%252C2393%252C2393%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2443
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHAicFoBIGEg7mQ_54_UbagesnerCHA%25CC%2581VESSOSA_JulietaChiesa1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2439
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHAvMFoBIGEg7mY_35_AryCabrera_8_Palarino_rgb1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3091
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHBHMFoBIGEg7mu_194_RaymundoVILLAFLOR_TaniaMalzoni1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2456
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHBYsFoBIGEg7nA_90_Mari%25CC%2581aElsaGARREIRO_ArenaHerna%25CC%2581ndez_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1900
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHBw8FoBIGEg7nP_85_ElbaGANDARA_LuciaPinto_RGB-1-1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1676
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHCGcFoBIGEg7n3_96_He%25CC%2581ctorGIORDANO_Soph1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2879
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHCXMFoBIGEg7oJ_58_JulioCORREA_LauraVillar1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3144
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqVMcBOoF08xQ2g_Frame2147243689.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C174%252C174%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2196
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqUMMBOoF08xQ17_O%25CC%2581scarRubenDeGregorioMarconi.jpg%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C512%252C512%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1975
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHDfMFoBIGEg7o7_189_OscarTASSINO_CeciliaBran%25CC%2583a1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3337
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHN_cFoBIGEg72B_41_Francisco_CandiaCorrea_AnaCeciliaCardozo1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2865%252C2865%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3055
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHOT8FoBIGEg72V_64_GracielaDeGOUVEIA_DanielaBeracochea_RGB-1-1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2449
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHOfMFoBIGEg72d_138_Jose%25CC%2581EnriqueMICHELENA_DanielaBeracochea_RGB-1-1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2795
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHOu8FoBIGEg72j_30_RaulBORELLI_JoaquinGodoy1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1970
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHPCMFoBIGEg728_130_LuisFernandoMARTI%25CC%2581NEZ_JulietaMacchi1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1569
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHPUsFoBIGEg73-_2_DanielALFARO_AmaliaRodriguez1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2162
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FabTOVVxvIZEnjrCs_27_RicardoBLANCO_NicolasPeruzzoGrande.jpeg%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C128%252C1024%252C1024%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2597
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHP2sFoBIGEg75W_56_EduardoCHIZZOLA_CuteZuki_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2132
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqOpsBOoF08xQ1C_Frame2147243676.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C174%252C174%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2536
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHQZcFoBIGEg76X_79_ElsaFERNA%25CC%2581NDEZ_ElisaRios1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2205%252C2205%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3409
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqU3MBOoF08xQ2a_Frame2147243688.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C174%252C174%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2131
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHQ7MFoBIGEg77z_32_JuanBRIEBA_VirginiaRiviezzo_11.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2300%252C2300%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2703
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHRLMFoBIGEg78Z_8_CarlosArevalo_PaulaMartinez_Cuadrado1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2014
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FabTNs1xvIZEnjrCr_16_OscarBALIN%25CC%2583AS_AlejandraGuillen.jpg%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C300%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2569
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHR58FoBIGEg78z_61_OmarCUBAS_AiaraCamacho1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1624
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHSIsFoBIGEg785_97_HugoGomensoro_NataliaVera1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2126
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHSX8FoBIGEg79a_98_TitoGomensoro_NataliaVera1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2140
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHSm8FoBIGEg79x_110_CarlosPetisoHERNANDEZ_AnaDupont1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1974
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHS3MFoBIGEg794_111_JorgeHERNA%25CC%2581NDEZ_ZafiroCarbonell_rgb1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2418
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHTLcFoBIGEg7-E_137_Juan_Micheff_GastonReal1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2500%252C2500%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1911
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHTcMFoBIGEg7-O_42_EdisonCANTERO_AlvaroDiaz_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2778
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHTq8FoBIGEg7-X_141_CarlosMODERNELL_KaoValer1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1633
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHUDMFoBIGEg7-s_144_MiguelAngel_Moreno_PiaMartini1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2787%252C2787%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1702
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FabTMIlxvIZEnjrCf_78_JulioFERNA%25CC%2581NDEZ_AntonellaSiragusa_RGB.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C178%252C2944%252C2944%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2727
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHUo8FoBIGEg7-1_12_IgnacioAROCENA_GonzaloFirpo_2400x3000_300dpi1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2776
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHU7MFoBIGEg7-4_13_JoseARPINO__Arena_rgb1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1816
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHViMFoBIGEg7_G_50_Mari%25CC%2581aAntoniaCASTRO_RominaVigo1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2619
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHVysFoBIGEg7_R_131_Jose%25CC%2581MarioMARTI%25CC%2581NEZ_RominaVigo1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2657
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHWGcFoBIGEg7_U_15_AbelAYALA_RominaGarcia-1-1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2706
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHWacFoBIGEg7_f_177_OlivarSENA_LuisRamirez_rgb1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2160
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHWqsFoBIGEg7_q_150_Asdru%25CC%2581balPACIELLO_CamiCoutinho1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2237
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Fae_JWsBOoF08xWB8_23_Mo%25CC%2581nicaBENARROYO_GenovevaPerez1-1-.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C173%252C173%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2511
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHXUsFoBIGEg8AA_154_Jose%25CC%2581PELU%25CC%2581A_CeciliaBran%25CC%2583a_RGB_Libro1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2379
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHXgsFoBIGEg8AI_156_Rene%25CC%2581ePEREIRA_CamilaVaz1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1722
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHXz8FoBIGEg8AV_155_Marti%25CC%2581nPELU%25CC%2581A_CamilaVaz1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1879
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHYCsFoBIGEg8Az_70_FernandoDIAZ_KarinaElmallian1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2100%252C2100%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2808
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHYXsFoBIGEg8Bz_37_Jose%25CC%2581EnriqueCAITANO_KaoValer1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1605
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHYtMFoBIGEg8Cq_49_AtalivasCastillo_DiegoMundarain_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2847
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHY9cFoBIGEg8DU_128_Fe%25CC%2581lixMAIDANA_MartinaGarcia_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1996
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHZTcFoBIGEg8ER_51_JulioCASTRO_LuciaRuggiano_rgb-1-1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C7%252C3508%252C3508%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1904
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqPb8BOoF08xQ1G_Frame2147243677.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C174%252C174%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2418
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHZ0sFoBIGEg8Ef_66_JuanDELEON_FedericoTorres_Cuadrado1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2163
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHaGcFoBIGEg8Ej_68_JupiterDELPINO_HernanAlfaro-1-1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2838
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHabsFoBIGEg8E4_94_GordoLucasGELPI_AgustinaMandacen1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2106
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHan8FoBIGEg8FB_69_NatalioAbdalaDERGAN_FabioRodriguez1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C1452%252C1452%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1567
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHbBsFoBIGEg8FU_180_CarlosSEVEROBARRETO_MagdalenaGutierrez1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C4096%252C4096%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3500
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHbT8FoBIGEg8Fb_168_BlancaMargaritaRODRI%25CC%2581GUEZ_FlorenciaPertusatti1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1994
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHqLsFoBIGEg8Lt_1_MariaRosaAguirre_11_ClauPre_IG1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2670
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqQDcBOoF08xQ1K_Mo%25CC%2581nicaCristinaBenaroyoPencu.jpg%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C512%252C512%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1604
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqRhsBOoF08xQ1c_Frame2147243682.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C174%252C174%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2054
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHq6cFoBIGEg8ME_24_Mari%25CC%2581aCatalinaBENASSI_LeticiaSotura1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2048%252C2048%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3191
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHrHcFoBIGEg8MJ_3_RicardoALTAMIRANO_AmaliaRodriguez1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1947
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHrW8FoBIGEg8Ml_197_MariaNievesZUAZU_Lumaral1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2452
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHrn8FoBIGEg8Mo_48_Ani%25CC%2581balCASTAGNO_IselenValido1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2136
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHrzsFoBIGEg8Mr_17_Jose%25CC%2581LuisBARBOZA_NicolasPeruzzo1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1701
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHsHsFoBIGEg8M1_60_MarioJorgeCRUZ_CarlaEbert1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1867
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHsecFoBIGEg8M9_107_CarlosGUAZ_LucianaDeCarlo1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2531
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHsw8FoBIGEg8Nn_67_EduardoDelFABRO_RominaPontes1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1878
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHtFcFoBIGEg8Nu_JuanGuillermoFernandezAmarillo_2400x3000_300dpi_CMYK-v21-1-.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2406%252C2406%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3069
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHudMFoBIGEg8Oy_103_Dari%25CC%2581oGON%25CC%2583I_JoseDelValle1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3177
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHvVcFoBIGEg8Pd_108_BeatrizHERNA%25CC%2581NDEZ_ManuelMaldonado1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1934
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHwXMFoBIGEg8P__109_WashingtonHERNA%25CC%2581NDEZ_ManuelMaldonado1-1-.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2137
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHwrMFoBIGEg8QD_112.LourdesHobbas-KiaraLucas1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1806
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHw-sFoBIGEg8QG_127_HumbertoMACHADO_Ninna_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1677
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHxg8FoBIGEg8QS_188_Adolfo_Sorman_GastonReal1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2555%252C2555%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2007
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqTBMBOoF08xQ1l_Frame2147243684.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C174%252C174%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2141
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHyFcFoBIGEg8Qh_164_CarlosRAINA_CarlosLemos1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1959
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHya8FoBIGEg8Qj_182_KleberIRIBARNEGARAY_MattJelen1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1796
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHyrcFoBIGEg8Q5_192_LiverTRINIDAD_JosefinaAbramczyk_IG_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2276
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHy8MFoBIGEg8RA_179_Ary_SeveroBarreto_LeonardoRodriguez1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2228
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaHzMsFoBIGEg8RL_99_Ce%25CC%2581licaGO%25CC%2581MEZ_RocioSosa1-1-.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1626
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqT38BOoF08xQ13_LuisAlbertoCamachoOsoria.jpg%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C512%252C512%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2360
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH2bMFoBIGEg8Sm_Juan_Pablo_Errandonea_Matias_Reyes-1-1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2429
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH2vMFoBIGEg8Sy_121.Rafael_Lezama_IngridPeirano1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2351%252C2351%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1590
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqSi8BOoF08xQ1j_Frame2147243683.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C174%252C174%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2151
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH3UsFoBIGEg8Ta_176_NormaSCO%25CC%2581PICE_AnaBidault1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1929
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqRPcBOoF08xQ1X_Frame2147243681.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C174%252C174%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1764
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Fae_J4sBOoF08xWCe_151.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C173%252C173%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1737
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH4E8FoBIGEg8Tg_178_HeliosSERRA_LuciaMostarda1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C1785%252C1785%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2290
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH4ZMFoBIGEg8Th_158_Agusti%25CC%2581nPOTENZA_KatiaFernandez_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2061
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH4j8FoBIGEg8Tk_80_RafaelaFILIPAZZI_KatiaFernandez_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1976
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Fae_KG8BOoF08xWCi_155.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C173%252C173%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1933
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH5u8FoBIGEg8T0_132_MiguelMATO_LuciaPicerno1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2774
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH6DsFoBIGEg8UI_153_JorgePedreiraBrum_LorenaCanelas_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1778
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH6UsFoBIGEg8UQ_25_WalnerBentancour_MartinaGarcia_RGB-1-1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1916
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH7BMFoBIGEg8Ue_101_WilfredoGonzalez_FabricioCeppi1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1317
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH7XMFoBIGEg8Uv_73_ClaudioEPELBAUM_EugeniaCurbelo1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2025
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH7nsFoBIGEg8Uz_74_LilaEPELBAUM_EugeniaCurbelo1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1978
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH8MMFoBIGEg8VB_47_HectorCASTAGNETTO_IgnacioLopez1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1832
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqQXMBOoF08xQ1P_Frame2147243679.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C174%252C174%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2427
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH9BMFoBIGEg8VN_115_GustavoINZAURRALDE_ValentinaSkorupsky_11.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2399%252C2399%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2166
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH9OsFoBIGEg8VR_174_NelsonSANTANA_ValentinaSkorupsky_21.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2399%252C2399%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2735
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH9ccFoBIGEg8VV_152_OmarPAITTA_FlorenciaSequeira_RGB.png1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2296%252C2296%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2618
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH9vcFoBIGEg8Va_53.JuanAngelCENDAN_Mati%25CC%2581asPregliasco_PNG1-1-.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1964
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH-EMFoBIGEg8Vd_7.ArielARCOSLATORRE-JustLuri1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1587
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqUbcBOoF08xQ2B_Frame2147243687-1-.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C174%252C174%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2145
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH-rcFoBIGEg8Vj_187_Luja%25CC%2581nSOSA_NoeliaPrat1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3024%252C3024%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2870
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaH_i8FoBIGEg8Vu_11_MarcosAROCENA_EricSilva1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C1920%252C1920%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1869
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Fae4xb8BOoF08xTbo_172.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C173%252C173%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3170
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaIAIMFoBIGEg8V4_26_RutiloBENTANCOUR_VeronicaAlvarado-1-1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2863
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaIAaMFoBIGEg8V7_193_Jose%25CC%2581URTASUN_MatiasBergara__rgb1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2681
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Fae4xB8BOoF08xTbj_175.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C173%252C173%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2509
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaIBMMFoBIGEg8WL_160_RubenPRIETO_MariaJosePita1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2950
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaIBfMFoBIGEg8WM_63.GracielaTeresaDASILVEIRACHIAPPINOdeCHEGENIAN-17.Sofi%25CC%2581aTeperino1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2796
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaIBp8FoBIGEg8WQ_55.SegundoCHEGENIANRODRI%25CC%2581GUEZ-17.Sofi%25CC%2581aTeperino1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2548
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaIB-cFoBIGEg8WV_5_BeatrizANGLET_LucilaGonzalez1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2760
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaICSMFoBIGEg8Wb_86_GermanGarcia_TatiMesa1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2491
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaICjcFoBIGEg8We_157_EduardoPE%25CC%2581REZ_AntonellaSiragusa_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C64%252C2568%252C2568%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1971
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaICxcFoBIGEg8Wh_76_JulioESCUDERO_RominaGarcia1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2826
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Fae4wlcBOoF08xTbh_183.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C173%252C173%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2425
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaIDdcFoBIGEg8W2_126_MaryLUPPI_BelenValverde1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1914
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Fae4wPMBOoF08xTbc_185.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C173%252C173%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1705
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaIEGMFoBIGEg8XF_170_CarlosRODRI%25CC%2581GUEZ_NinoFernandez_RGB1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2595
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2Fae4vyMBOoF08xTbW_172_Ever_Rodriguez_KarinaEillman1-1-.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C173%252C173%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2304
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaWQ2sFoBIGEg-3c_4_BlancaALTMAN_BravaCaballero1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1754
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaWRMMFoBIGEg-4V_173_AmeliaSanjurjo_LorennaEsposito_CMYK1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2252
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaWRYsFoBIGEg-4p_190_Rau%25CC%2581lTEJERA_Soph-1-1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2552
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaeqQt8BOoF08xQ1S_Frame2147243680.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C174%252C174%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1743
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaWSJcFoBIGEg-6Z_43_JuveliniAndres_Carneiro_MaAgustinaFernandez-1-1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2513%252C2513%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1457
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaWSWMFoBIGEg-60_19_Carolina_Barrientos_MaAgustinaFernandez-1-1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1484
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaWSnsFoBIGEg-7c_82_NelsaGADEA_MelissaMartinez_21.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C3000%252C3000%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3578
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaWS68FoBIGEg-78_171_JulioOscarRODRI%25CC%2581GUEZ_DanielaFernandez_21.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2044%252C2044%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2017
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaWTccFoBIGEg-8e_169_Fe%25CC%2581lixRODRI%25CC%2581GUEZ_GastonChavat1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2717%252C2717%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2749
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2F197historiasilustradas%2FaaWT78FoBIGEg-9H_29_CarlosBONAVITA_FabricioLombardo_Cuadrado1.png%3Fauto%3Dformat%252Ccompress%26rect%3D0%252C0%252C2400%252C2400%26w%3D512%26h%3D512%26fit%3Dcrop&w=128&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3239
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/en?_rsc=1r34m",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 238
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/?_rsc=1r34m",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 306
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/sobre-nosotros?_rsc=1r34m",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1002
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/503ff501e3577af6/script.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2349
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/galeria?_rsc=1r34m",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1187
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/archivo?_rsc=1r34m",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 252
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/galeria?_rsc=1pn8p",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1389
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/galeria?_rsc=nn07o",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 6151
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/galeria?_rsc=wkqot",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 6620
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/galeria?_rsc=8wjnh",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 723
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/galeria?_rsc=9532x",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 12455
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/e89636d385980285.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5082
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/?_rsc=p37cr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1199
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/en?_rsc=p37cr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/sobre-nosotros?_rsc=1pn8p",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1221
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/sobre-nosotros?_rsc=5lfia",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 726
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/archivo?_rsc=p37cr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1194
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/sobre-nosotros?_rsc=xvt4z",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 12120
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/b603f7efcb3715a3.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1144
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/1b3b77d04ab37ce9.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 20267
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/0d18ebdc59e9bec9.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 19051
+      },
+      {
+        "url": "https://www.197historiasilustradas.com/_next/static/chunks/93f56733d5441e0b.js?dpl=dpl_7RTkUUy5Urj5D2dsgeJEkmpmqYLf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 21200
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.197historiasilustradas.com/en?_rsc=p37cr",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 3286,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 905,
+      "typography": {
+        "families": [
+          [
+            "font",
+            5
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            5
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            5
+          ]
+        ],
+        "sizeMin": 12.8487,
+        "sizeMedian": 12.8487,
+        "sizeMax": 12.8487,
+        "sizeMaxVw": 3.3,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "font",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 5
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(250, 250, 250)",
+            329
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(23, 23, 23)",
+            235
+          ],
+          [
+            "rgb(255, 255, 255)",
+            14
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--background": "#fff",
+          "--foreground": "#171717",
+          "--muted": "#737373",
+          "--ease": "cubic-bezier(.645,.045,.355,1)",
+          "--ease-out-expo": "cubic-bezier(.19,1,.22,1)",
+          "--ease-base": "cubic-bezier(.46,.03,.12,1)",
+          "--ease-magic": "cubic-bezier(.33,0,0,1)",
+          "--ease-quart": "cubic-bezier(.41,.35,.2,1)",
+          "--ease-overshoot": "cubic-bezier(.175,.885,.43,1.6)",
+          "--ease-anticipate": "cubic-bezier(1,-.4,.35,.95)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 0,
+        "fixed": 5,
+        "grid": 1,
+        "flex": 27,
+        "absolute": 6,
+        "asymmetricGrids": 1,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            4,
+            9
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            16,
+            3
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            32,
+            1
+          ],
+          [
+            36,
+            1
+          ],
+          [
+            127,
+            1
+          ],
+          [
+            20,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            150,
+            9
+          ],
+          [
+            500,
+            2
+          ],
+          [
+            1000,
+            1
+          ],
+          [
+            200,
+            1
+          ]
+        ],
+        "keyframes": [
+          "fade-in",
+          "fade-out"
+        ],
+        "viewTransitionCss": true,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 1,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 0,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 141,
+        "io": 1,
+        "ro": 3,
+        "mo": 0,
+        "startViewTransition": 2,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "197 Historias Ilustradas",
+      "lang": "es-ES",
+      "description": "197 historias ilustradas es un proyecto que busca dar a conocer la vida de cada una de las personas detenidas desaparecidas nacidas en Uruguay o bajo responsabilidad del Estado uruguayo durante las décadas de los sesenta, setenta y ochenta."
+    },
+    "featuresBeforeScroll": {
+      "elements": 905,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 1
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7349788,
+        "layoutCount": 144,
+        "recalcStyleCount": 343,
+        "scriptDuration": 0.128496,
+        "taskDuration": 0.453081,
+        "nodes": 1846
+      },
+      "timing": {
+        "domContentLoaded": 925,
+        "load": 926,
+        "first-paint": 812,
+        "first-contentful-paint": 812
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "fade-in",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "-ua-view-transition-fade-out",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "fade-out",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "-ua-view-transition-fade-out",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.197historiasilustradas.com/en?_rsc=p37cr",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

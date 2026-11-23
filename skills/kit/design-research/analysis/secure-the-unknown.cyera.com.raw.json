@@ -1,0 +1,637 @@
+{
+  "url": "https://secure-the-unknown.cyera.com/",
+  "at": "2026-11-23T14:52:11.503Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 2567,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1,
+      "typography": {
+        "families": [
+          [
+            "Times New Roman",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            1
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 32,
+        "sizeMedian": 32,
+        "sizeMax": 32,
+        "sizeMaxVw": 2.2,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [],
+        "variableFont": false,
+        "textElements": 1
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            1
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 0,
+        "sticky": 0,
+        "fixed": 0,
+        "grid": 0,
+        "flex": 0,
+        "absolute": 0,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            21,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 0,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 0,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 0,
+        "io": 0,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Not Supported",
+      "lang": "en",
+      "description": ""
+    },
+    "featuresBeforeScroll": {
+      "elements": 1,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 0
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7056152,
+        "layoutCount": 11,
+        "recalcStyleCount": 12,
+        "scriptDuration": 0.039223,
+        "taskDuration": 0.113696,
+        "nodes": 244
+      },
+      "timing": {
+        "domContentLoaded": 45,
+        "load": 45,
+        "first-paint": 52,
+        "first-contentful-paint": 52
+      }
+    },
+    "network": [
+      {
+        "url": "https://secure-the-unknown.cyera.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 14139
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-QQS790847Y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 183264
+      },
+      {
+        "url": "https://secure-the-unknown.cyera.com/assets/images/loader/ray.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 40252
+      },
+      {
+        "url": "https://secure-the-unknown.cyera.com/assets/images/loader/ray_big.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 149519
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K4KHWDLW",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script"
+      },
+      {
+        "url": "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script"
+      },
+      {
+        "url": "https://secure-the-unknown.cyera.com/assets/js/app.1780667410342.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 318390
+      },
+      {
+        "url": "https://secure-the-unknown.cyera.com/assets/fonts/HafferUprightsVF.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 166502
+      },
+      {
+        "url": "https://secure-the-unknown.cyera.com/assets/js/hydra/hydra-thread.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://secure-the-unknown.cyera.com/assets/js/hydra/hydra-thread.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://secure-the-unknown.cyera.com/assets/js/hydra/hydra-thread.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://secure-the-unknown.cyera.com/assets/js/hydra/hydra-thread.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAADybWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAeaWxvYwAAAABEAAABAAEAAAABAAABGgAAAB0AAAAoaWluZgAAAAAAAQAAABppbmZlAgAAAAABAABhdjAxQ29sb3IAAAAAamlwcnAAAABLaXBjbwAAABRpc3BlAAAAAAAAAAIAAAACAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQ0MAAAAABNjb2xybmNseAACAAIAAYAAAAAXaXBtYQAAAAAAAAABAAEEAQKDBAAAACVtZGF0EgAKCBgANogQEAwgMg8f8D///8WfhwB8+ErK42A=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://secure-the-unknown.cyera.com/unsupported",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 450
+      },
+      {
+        "url": "https://secure-the-unknown.cyera.com/assets/data/uil.1780667410342.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 12008
+      },
+      {
+        "url": "https://us-central1-at-services.cloudfunctions.net/geo",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script"
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "loader-particle-float-a",
+        "duration": 6400,
+        "delay": -1700,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "loader-particle-float-b",
+        "duration": 5800,
+        "delay": -2100,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "loader-particle-float-b",
+        "duration": 6100,
+        "delay": -1200,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "loader-particle-float-a",
+        "duration": 5400,
+        "delay": -400,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "loader-particle-float-c",
+        "duration": 5200,
+        "delay": -800,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000840A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K4KHWDLW",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://us-central1-at-services.cloudfunctions.net/geo",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 2499,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1,
+      "typography": {
+        "families": [
+          [
+            "Times New Roman",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            1
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 32,
+        "sizeMedian": 32,
+        "sizeMax": 32,
+        "sizeMaxVw": 8.2,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [],
+        "variableFont": false,
+        "textElements": 1
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            1
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 0,
+        "sticky": 0,
+        "fixed": 0,
+        "grid": 0,
+        "flex": 0,
+        "absolute": 0,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            21,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 0,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 0,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 0,
+        "io": 0,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Not Supported",
+      "lang": "en",
+      "description": ""
+    },
+    "featuresBeforeScroll": {
+      "elements": 1,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 0
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7120988,
+        "layoutCount": 12,
+        "recalcStyleCount": 11,
+        "scriptDuration": 0.060184,
+        "taskDuration": 0.110256,
+        "nodes": 246
+      },
+      "timing": {
+        "domContentLoaded": 49,
+        "load": 49,
+        "first-paint": 60,
+        "first-contentful-paint": 60
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "loader-particle-float-a",
+        "duration": 6400,
+        "delay": -1700,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "loader-particle-float-b",
+        "duration": 5800,
+        "delay": -2100,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "loader-particle-float-b",
+        "duration": 6100,
+        "delay": -1200,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "loader-particle-float-a",
+        "duration": 5400,
+        "delay": -400,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "loader-particle-float-c",
+        "duration": 5200,
+        "delay": -800,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000840A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://us-central1-at-services.cloudfunctions.net/geo",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://secure-the-unknown.cyera.com/assets/data/uil.1780667410342.json",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-4H8YYK1SPX&cx=c&gtm=4e6bh1",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

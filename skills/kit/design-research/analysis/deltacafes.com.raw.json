@@ -1,0 +1,3793 @@
+{
+  "url": "https://deltacafes.com/en",
+  "at": "2026-11-23T14:51:49.745Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 11414,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 2380,
+      "typography": {
+        "families": [
+          [
+            "delta-season",
+            83
+          ],
+          [
+            "trade-gothic",
+            59
+          ],
+          [
+            "sans-serif",
+            10
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            54
+          ],
+          [
+            "550",
+            51
+          ],
+          [
+            "420",
+            15
+          ],
+          [
+            "500",
+            9
+          ],
+          [
+            "300",
+            8
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            68
+          ]
+        ],
+        "sizeMin": 11.84,
+        "sizeMedian": 15.575,
+        "sizeMax": 109.685,
+        "sizeMaxVw": 7.6,
+        "scaleRatio": 7,
+        "letterSpacingMean": -0.004,
+        "loadedFonts": [
+          {
+            "family": "trade-gothic",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "trade-gothic",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "delta-season",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 152
+      },
+      "color": {
+        "background": "rgb(43, 27, 20)",
+        "backgroundLuminance": 0.013479640507513066,
+        "backgrounds": [
+          [
+            "rgb(43, 27, 20)",
+            9104
+          ],
+          [
+            "rgb(20, 33, 21)",
+            2071
+          ],
+          [
+            "rgb(53, 34, 26)",
+            1343
+          ],
+          [
+            "rgb(255, 255, 255)",
+            459
+          ],
+          [
+            "rgb(34, 22, 17)",
+            390
+          ],
+          [
+            "rgba(110, 110, 110, 0.65)",
+            234
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            347
+          ],
+          [
+            "rgb(242, 222, 206)",
+            235
+          ],
+          [
+            "rgb(255, 255, 255)",
+            201
+          ],
+          [
+            "rgb(237, 209, 189)",
+            199
+          ],
+          [
+            "rgb(53, 34, 26)",
+            187
+          ]
+        ],
+        "meanSaturation": 0.32,
+        "rootVars": {
+          "--initial-100vh": "100vh",
+          "--native-scrollbar-width": "0px",
+          "--computed-100vh": "100vh",
+          "--computed-100vw": "calc(100vw - var(--native-scrollbar-width))",
+          "--grid-columns": "32",
+          "--grid-gap": "clamp(12px, 8.412px + 100vw * .0092, 24px)",
+          "--grid-half-gap": "calc(var(--grid-gap)*.5)",
+          "--grid-margin": "clamp(12px, 8.412px + 100vw * .0092, 24px)",
+          "--grid-padding": "calc(var(--grid-margin) - var(--grid-gap)*.5)",
+          "--grid-width": "calc(var(--100vw) - var(--grid-margin)*2)",
+          "--modal-row-width": "calc((var(--100vw) - 2*var(--grid-padding))*18/var(--grid-columns) - var(--grid-gap) + var(--grid-gap) + var(--grid-padding))",
+          "--modal-width": "calc(var(--modal-row-width) + var(--grid-half-gap))",
+          "--color-black": "#000",
+          "--color-white": "#fff",
+          "--color-geral-black": "#000",
+          "--color-geral-white": "#fff",
+          "--color-geral-delta-yellow": "#ffd300",
+          "--color-geral-delta-darkRed": "#9e0212",
+          "--color-geral-delta-brightRed": "#e70025",
+          "--color-aged-oak-200": "#aca59e",
+          "--color-aged-oak-300": "#90877e",
+          "--color-aged-oak-400": "#74695e",
+          "--color-aged-oak-500": "#594b3e",
+          "--color-aged-oak-600": "#4a3e33",
+          "--color-aged-oak-700": "#3b3229",
+          "--color-aged-oak-800": "#342923",
+          "--color-aged-oak-900": "#2c251f",
+          "--color-aged-oak-950": "#231b16",
+          "--color-aged-oak-1000": "#181818",
+          "--color-creme-50": "#fcf3ed",
+          "--color-creme-100": "#f8eae0",
+          "--color-creme-200": "#f2dece",
+          "--color-creme-300": "#edd1bd",
+          "--color-creme-400": "#e3c1ad",
+          "--color-creme-500": "#deb89f",
+          "--color-creme-600": "#cca68e",
+          "--color-creme-700": "#be9a83",
+          "--color-creme-800": "#a9836d",
+          "--color-creme-900": "#8c6550",
+          "--color-brown-50": "#c4aea4"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 1,
+        "fixed": 17,
+        "grid": 35,
+        "flex": 673,
+        "absolute": 231,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 11157,
+        "pages": 12.4,
+        "spacing": [
+          [
+            8,
+            79
+          ],
+          [
+            32,
+            63
+          ],
+          [
+            4,
+            53
+          ],
+          [
+            23,
+            38
+          ],
+          [
+            12,
+            27
+          ],
+          [
+            16,
+            26
+          ],
+          [
+            3,
+            25
+          ],
+          [
+            15,
+            21
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          24000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            450,
+            139
+          ],
+          [
+            500,
+            132
+          ],
+          [
+            675,
+            68
+          ],
+          [
+            1500,
+            54
+          ],
+          [
+            250,
+            52
+          ]
+        ],
+        "keyframes": [
+          "spin-dea02d2c",
+          "spinClose-209224a7",
+          "imageLoading"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 62,
+      "media": {
+        "canvases": [
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0
+          },
+          {
+            "w": 1440,
+            "h": 542,
+            "area": 0.6
+          },
+          {
+            "w": 1584,
+            "h": 1340,
+            "area": 1.64
+          },
+          {
+            "w": 30,
+            "h": 30,
+            "area": 0
+          },
+          {
+            "w": 30,
+            "h": 30,
+            "area": 0
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-10T15-08-34.030Z-historia-menu.mp4#t=0.1"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-06-19T09-23-25.595Z-menu-about.mp4#t=0.1"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-10T14-16-48.360Z-acores-menu.mp4#t=0.1"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-10T14-33-40.575Z-ciclo-menu.mp4#t=0.1"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-10T15-05-01.687Z-academia-menu.mp4#t=0.1"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-10T15-19-01.080Z-ccc-menu.mp4#t=0.1"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-31T15-28-54.839Z-homepage-mobile.mp4#t=0.1"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-31T16-08-38.041Z-acores-mobile.mp4#t=0.1"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-01-28T17-42-18.232Z-herman-jose-web.mp4#t=0.1"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-05-28T14-22-31.599Z-ciclo-mobile.mp4#t=0.1"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-05-28T14-25-45.349Z-acores-footer-mobile.mp4#t=0.1"
+          }
+        ],
+        "svg": 133,
+        "images": 165,
+        "iframes": 2,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 11
+        },
+        "raf": 1091,
+        "io": 26,
+        "ro": 5,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Delta, coffee with heart | Delta Cafés — The coffee of your life",
+      "lang": "en",
+      "description": "Discover Delta Cafés: Portuguese coffee heritage, culture, sustainability, and experiences from bean to cup for every coffee lover."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2008,
+      "canvases": 5,
+      "animations": 1,
+      "hidden": 57
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 3
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 31761552,
+        "layoutCount": 503,
+        "recalcStyleCount": 969,
+        "scriptDuration": 0.563167,
+        "taskDuration": 4.979316,
+        "nodes": 8270
+      },
+      "timing": {
+        "domContentLoaded": 505,
+        "load": 512,
+        "first-paint": 492,
+        "first-contentful-paint": 492
+      }
+    },
+    "network": [
+      {
+        "url": "https://deltacafes.com/en",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 53893
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/entry.DAMcazEw.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 26189
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/Footer.BmMrv4ac.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3511
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/TransitionLogoMask.DT4Lfp-V.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 509
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/TagFlag.BCy09Tyz.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 692
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/PopupArea.C0DIm-_Q.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1452
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/QuizWrapper.BkXb9FNN.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1059
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/JournalCardsList.CLowEg_w.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1449
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/JournalCard.C6_CaNVh.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1339
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/Tag.DTHRULsv.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 707
+      },
+      {
+        "url": "https://deltacafes.com/_scripts/assets/421de0f7237ed74a.js?id=GTM-PMS77Z74",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 128585
+      },
+      {
+        "url": "https://deltacafes.com/fonts/delta-season-vf.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 209703
+      },
+      {
+        "url": "https://deltacafes.com/fonts/trade-gothic-condenced.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 12785
+      },
+      {
+        "url": "https://deltacafes.com/en/_payload.json?f4cfa39b-784c-4460-a52f-762a1b31592e",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 33891
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/D7Tjnq8b.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 368373
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/BEci-LJZ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9085
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/C_s-VTvJ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 255
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/BKyDiw1o.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 856
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/CxND0aCV.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3675
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/DT-dCSl5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1687
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/Bvr8YRPh.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1562
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/CpvY7vNY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 536
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/CGLWpwAe.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 689
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/Bo0J6Qz1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 653
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/Byc2V1YU.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 939
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/DsNYzAj3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1018
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/Da_l43mb.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9201
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/D8VtRFlF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1250
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/BDooyJtX.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 858
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/BfB5Wuft.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3729
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/DJM9MajS.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 916
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/C_uOSn1M.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1525
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/B1o7v3Xw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 547
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/Ba54w0ZK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1668
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/B-rszeeQ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 947
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/BpPI6nGv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 892
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/BynAUwTc.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2974
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/NLb20PMH.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 834
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/CpyQ2WF9.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1585
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/p-gs9b8_.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1387
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/_MgAjojw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1152
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/C3ybEXLx.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1161
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/flags.a2kmUSbF.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 28381
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/flags_2x.gR6KPp3x.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 66633
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Ff25bc355a209b988dc8a6cfa00dac898ee4af13c-504x324.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 21113
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fcf329b54fe19b444f33439a2a2580e6f48601fdc-500x320.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17010
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F58196a9e00d675ce97e0b508d66d0c7dfff6c615-500x320.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11327
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F360034adb2563ecae69c516bb1aa77cb83abdb01-500x320.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9622
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F3cc867af6ecb9be83babd955f23e995e6c7deb8e-504x324.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 15344
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F608546f91cd6e0e622cfb67d41b82fe9786d385f-500x320.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 21991
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Ff0f69aff81fd15fba09ca70bcdf43e5e9fca029c-1280x720.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19736
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fcf53c4b8ead0290391d473affb2485032690aaa2-206x124.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3359
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F2ea2e09733aaa2f44783df1adcc4a1f86938bfa8-206x124.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4525
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fcc80cdfcde4a1f4b870fdb7ddf82bcdeee290a16-532x652.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 28107
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F7ba5d7606e3ea4fc5264fa69416e6fd9420bb451-532x652.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 27216
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F5bf7ae776f3b58af2031c266fa9d99dba5688556-532x652.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 32539
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F646bc4149f0dca782b015c657bdc5c4037c8ee8b-532x652.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 39005
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fb46986173d3e49922e9a867d20eaa515695deb04-532x652.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 31152
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fa59d12bc818e95eb7e654af833fdcd8278f7eb89-532x652.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 31485
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fb7c9fb6b4bb9f707b45a9931f561af76d34af6ae-532x652.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 37625
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F3d12868a6ddf06d001ad67224b41cd79a90a6dcd-532x652.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 31314
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F7cce7ac0f51041c61b69b34c3c1e7bfc4a8f69a2-532x652.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 32241
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fac871c06e04663c50705a6d5a1cf3a48fec84e5c-532x652.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 25078
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F68c7b46bbe4cc69656bb64d17a71a9a29788f006-288x218.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9213
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F4964395f83fc72a4a5fb8b25e1c99205ac4f03af-250x358.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11042
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F5b21088ca92b191a19f4194cc69c74192cb87b5d-328x468.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17582
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fda6cb5e4ba52bf708af9b2400e057ed6e7f2af1a-349x269.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9755
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fc57f070dd85d15b92018d6dc1ad6d79b79887072-332x254.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9242
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fc0c8079c3fc884c1d097d773ff9c7e9deba0e12f-216x310.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12053
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F306aed7832fb7bcdee6138ceb3d8bd6fb0fb723f-694x911.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 57901
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F2f098cd19fd85ebe3af420bf92e778cc3cf2ba3b-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7663
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fb8cc96c1ee7eceb172136cf852a381f743490ffd-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 26815
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F19ba32117828c96d389a3b3679626ae8188c598b-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 27492
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F2d692ec563d59f492e29fd7cd0116005fba270ea-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17777
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fb562905c66d1ea28f85cad3229944180506dee4f-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 15138
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F6a0fb810927ab4afa56229925b099557d2a64bd2-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 21656
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F63da04340cd540da1584bfddd73da03ef7a73282-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7063
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F98672e02ff0965fa58e8ec156cbb57c73f794b7f-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 15115
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F377a4a27863726b29c9815130d2f85dfe7acdfcb-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9046
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F660609afa319fcfc87512ccd2f13fb13535284d4-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 29429
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F1976772bcafa43ca9d45a8e8e96581d50b8a2f89-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 35008
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F9363237a5593e6ee265d422ec43a4c66bb363522-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 23385
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F0c175bcfe3c957bcbd59bc921d4a5efb845d1c89-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 37513
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fce237b7c21145e4b87c3d1d5feebf1bd97f3cbcb-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 42017
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F5f5f8330ceb7f04c0423a6949f1838d7de559545-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 22435
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F99554a987e1c59320cbf2a0b4ec39e3bab613960-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 26234
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F27480712ac54f96be7398457bfc483aa2c0989cb-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 37300
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fc401d7dced354e7e30664e88d2014f45180bfbe5-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 46875
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F00b849fff9fea61784f290f83811a62ea0d5880c-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 55371
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F45ebd12e51f5987dbb8370f9510f02723a828584-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 20819
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F25b9a9c778a386c8fcaf7c1aa3cf874097e14e6d-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 30152
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F54131f5c5225c34b5e37184b377be29956410c36-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 26563
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F854fc15085e9692d25585abf3afde9748af330cf-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 32908
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F066cbf09a72d0746adcd8da1af077deed1ded168-440x630.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17089
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F10f1efd1149e8fd2c5696f01629b9b189c4617ac-628x440.jpg&w=1200&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 46063
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F1f94aa3b0158d9642b43adf7a90223cebc4476ee-628x440.jpg&w=1200&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 28336
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F772c836cc90cbfe6290d0ccc38c124cdd769a77a-1024x683.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 32491
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fb6879f4b3ab0af728582ac06947bea3fd92e7d8a-1721x857.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 27697
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F94331cb0506255b47d10daf088ec79bfde5feee5-1920x1440.webp&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 32813
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fef681d8d80de465ba5ccfea283132fb0b57da12d-468x586.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 29271
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fb2a5cb9fb3942f98659beae3c15ecb85e5157c83-582x388.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19858
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Ff9570482b6771be43e3456c27ce28d2a2f49800b-1920x1080.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8070
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fe6c4d6f82adf783e529e16b9a4894a62ed782518-3840x2160.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17701
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fb7706143e025d43329060986be1f6ca43a89305f-1920x1080.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 16839
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F2c70c1d7fa30b37176905e1854c8a445e7845853-1920x1080.jpg&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9709
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23fff%22%20rx%3D%2212%22%2F%3E%3C%2Fsvg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2245%22%20height%3D%2218%22%20viewBox%3D%220%200%2045%2018%22%3E%3Cpath%20d%3D%22M44.818%200a6%206%200%200%200-4.243%201.758L26.651%2015.682a6%206%200%200%201-8.484%200L4.243%201.758A6%206%200%200%200%200%200z%22%2F%3E%3C%2Fsvg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/product-bg-tile.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 532417
+      },
+      {
+        "url": "https://deltacafes.com/fonts/trade-gothic-bold-condenced.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 12424
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/quiz-icon.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 77650
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/index.BABTVLj8.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3531
+      },
+      {
+        "url": "https://deltacafes.com/_i18n/e3b0c442/en/messages.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 150
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/origins-script.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2453
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/origins-script.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 100
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/origins-script.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 46
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/origins-script.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 45
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/origins-script.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 69
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/origins-script.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 45
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/origins-script.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 99
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/origins-script.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 45
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/origins-script.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 45
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/origins-script.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 45
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/origins-script.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 46
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/origins-script.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 45
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/origins-script.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 45
+      },
+      {
+        "url": "https://deltacafes.com/imgs/product/origins-script.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 46
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/CL9y0YPN.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7738
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F41055945e447cad059d08d4a30e062dda19a93a4-591x573.png&w=1200&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14155
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F95916597284e9950bedfae2b0c6c68ca83f3d56d-112x176.png&w=1200&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3618
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F3086abbc07e8e61d5a1bd668f34841b4f3bd2dfa-240x250.png&w=1200&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5929
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fb06f5f5cb8a50e008ae0eddedc59240ef0e679f3-394x382.jpg&w=1200&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 24798
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Feb95bfa4a69ffac638e5f26853c5c697d9addd54-400x388.jpg&w=1200&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11815
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F7449709b4174a21f279d103553dacd63d454d97a-192x192.png&w=1200&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12960
+      },
+      {
+        "url": "https://cloud.umami.is/script.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5389
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-31T15-28-54.839Z-homepage-mobile.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 3070673
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-31T16-08-38.041Z-acores-mobile.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-05-28T14-25-45.349Z-acores-footer-mobile.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-10T15-08-34.030Z-historia-menu.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 512724
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-06-19T09-23-25.595Z-menu-about.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 420909
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-10T14-16-48.360Z-acores-menu.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 385561
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-10T14-33-40.575Z-ciclo-menu.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 287080
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-10T15-05-01.687Z-academia-menu.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 517328
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-10T15-19-01.080Z-ccc-menu.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 761006
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/2YQKGmkU.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 99304
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-23-06.693Z-origins-angola.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 40018
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-38-18.486Z-quiz-mindful-minimalist.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 345541
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-39-24.887Z-quiz-nostalgic-timeless.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 416492
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-36-30.476Z-quiz-warm-spontaneous.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 273666
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-19-07.079Z-coffee-cycle.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 1213606
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-24-38.211Z-origins-brasil.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 45871
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-27-24.520Z-origins-guatemala.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 77492
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-35-39.783Z-quiz-answer-2.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 6854
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-35-14.295Z-quiz-answer-1.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 6003
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-30-48.505Z-origins-timor.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 41795
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-37-58.102Z-quiz-naturally-authentic.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 377049
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-29-15.217Z-origins-india.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 61192
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-38-49.227Z-quiz-classic-with-soul.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 435794
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-36-50.900Z-quiz-subtle-magnetic.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 453670
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-25-53.409Z-origins-congo.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 57177
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-29-54.402Z-origins-peru.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 41538
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-33-23.433Z-quiz-question-4.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 73164
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-31-13.925Z-origins-uganda.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 78703
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-37-14.285Z-quiz-sensory-traveller.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 698204
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-25-24.992Z-origins-colombia.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 76737
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-34-17.932Z-quiz-hearts-1.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 10012
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-33-06.106Z-quiz-question-3.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 70795
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-20-08.220Z-quiz-bg.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 741109
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-30-17.544Z-origins-tanzania.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 35896
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-26-24.077Z-origins-cuba.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 43500
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-32-48.538Z-quiz-question-2.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 69146
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-36-01.539Z-quiz-answer-3.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 7215
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-32-29.012Z-quiz-question-1.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 70881
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-34-55.710Z-quiz-hearts-3.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 9874
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-23-42.822Z-quiz-question-intro.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 63851
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-34-38.840Z-quiz-hearts-2.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 10224
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-31-41.887Z-origins-vietnam.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 61798
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-33-53.879Z-quiz-question-5.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 53484
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-07-31T15-27-00.863Z-origins-ethiopia.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 105512
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/History.DAb4jQmo.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1521
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/CoffeeCycle.B4mWrw3f.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1092
+      },
+      {
+        "url": "https://unpkg.com/@rive-app/webgl2@2.52.0/rive.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 1047634
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/DDD.TnwtBL33.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 745
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/CoffeeCulture.B94tL-I-.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1081
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/Quiz.Dc7c2RCY.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 837
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/CoffeeJournal.ds7_YY7K.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 571
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F1ba13eb3a47f2c7f0e90f0415b8aa3c8460decd8-425x317.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 21881
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F11ca77fa3d76d195abda20b19e0f935f2746d9b7-271x381.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10696
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2Fa850c8389fb748bbf5b9637c4bfd87dccb9f2d85-480x379.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17654
+      },
+      {
+        "url": "https://deltacafes.com/_vercel/image?url=https:%2F%2Fcdn.sanity.io%2Fimages%2Fpcdkofnf%2Fproduction%2F9f513ffd4131a61fd2003c65de09c7342dcf98b0-186x280.png&w=640&q=88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4852
+      },
+      {
+        "url": "https://deltacafes.com/imgs/history/tv-herman-jose.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 876720
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-01-28T17-42-18.232Z-herman-jose-web.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/Sustainability.Dl6MpMzs.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 976
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-05-28T14-22-31.599Z-ciclo-mobile.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1580530
+      },
+      {
+        "url": "https://deltacafes.com/rives/icon-audio.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 2769
+      },
+      {
+        "url": "https://deltacafes.com/rives/icon-globe.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 2564
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 615
+      },
+      {
+        "url": "https://deltacafes.com/rives/icon-audio.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 96
+      },
+      {
+        "url": "https://consent.cookiebot.com/uc.js?cbid=cb6cab0b-3666-47f6-90c9-9b7c7a3eed9b&implementation=gtm&consentmode-dataredaction=dynamic",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 38118
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-HZ24HNQQBV&cx=c&gtm=4e6bh1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 165690
+      },
+      {
+        "url": "https://cdn.sanity.io/files/pcdkofnf/production/2edabc205298ab2f529dc93d8e78b56c7b6fd429.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 52505
+      },
+      {
+        "url": "https://consentcdn.cookiebot.com/sdk/bc-v5.min.html",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 819
+      },
+      {
+        "url": "https://consentcdn.cookiebot.com/consentconfig/cb6cab0b-3666-47f6-90c9-9b7c7a3eed9b/settings.json",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 627
+      },
+      {
+        "url": "https://consent.cookiebot.com/cb6cab0b-3666-47f6-90c9-9b7c7a3eed9b/cc.js?renew=false&referer=deltacafes.com&dnt=false&init=false",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 122184
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-HZ24HNQQBV&gtm=45je6bh1v9118282085za20ozb9250925757zd9250925757xf1&_p=1795445491801&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dMWZhNz&are=1&cid=1257910863.1795445493&frm=0&ngs=1&pscdl=denied&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938468~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795445493&sct=1&seg=0&dl=https%3A%2F%2Fdeltacafes.com%2Fen&dt=Delta%2C%20coffee%20with%20heart%20%7C%20Delta%20Caf%C3%A9s%20%E2%80%94%20The%20coffee%20of%20your%20life&_tu=iA&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2130",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-08-04T15-20-54.413Z-Delta-Sustentabilidade.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 129616
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAuCAYAAAC4e0AJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAk4SURBVGhD1Vl7cFTlFV9bp1X7sEiS3Xv3fffeu0sSqFCx09piZ5jRau30/cKWtmPrTGundWydoZ1p+QPpQwstWjGQtxHyAiVBLKVADElIAgESAhFpCARFkihULQmN6J7+zne/DzabJZAXpGfmzN79Huf8vt93zvm+u+uaLKk2w8Vdc7NPbTDCj8mm/w/JzdAW7JkVpfZbMmlntk050/X5smtqy+Lrp+sbwqHT+z4xg3beHKVWfFYGA90Pu6Z/RA6ZupKXoVW3gPWm2TEBvmlOjHYx++l6rhwyNeXJmzwLNxth2gXADFwpf68KhuiJadqdcujUksL0oKfI7T1dP9M+z7rSZoCvy7IoL0Pv/lt6+ofllKkjOWn6s8w6h0kicKW8oE2hEOVkaCvllKkh+R7v18s0P9VkW8NYV8rsb8s0qcTjozyPZ56cenWlMBj8WF663lMVDgmAqYAr5YVtCAYJpfRQRWbmB6SJqyeI47wKsL59BNaV8uK2zDCpHONz3d4l0sTVkSKPb16J20frQsFLsq6UF1gRCBCS+1y+J5ApTV1ZqXHdfm2B23twjeaj7agkl2JdqWJ/LWI/3+2tleaurMDxonIAqBgF60p5oaX+AJVhfpHHu1CavDKCahGE0wHoqFhXqthH6FChx9v7HJJemp58yXfr60rBWvkYWFfKC14L9jl5UWqfkKYnVwoz9PmlcJgH1sbCulKH/QjHPdf+94oyvLOki8mRxS7X+wo8ehtXmPGwrlSxz8mb59G3STeTI/ma9/4KnWu0Pi7WlarYz83QqQx2C9z6F6WriZUKXKgKPN6TnGRjqTAXU8U+XxsQQh0VLtf7pcuJk3yP/rvKRNYnCLxifzXYZ/uFmu8+6XJiZJWmpaGkvYlDiSpwN5ko1pUq9otResH+cdyXrpOuxy8ojUuHsD7OWE/WZPbh7wHpenyS6/PdpFgvnwTWlSax373CND8oIYxdCjXvIsX6tixzwmI9WR32I4J9rmgoyd+XEMYmy3y+65Gor3KFmUzWlTL7a/x+p/J49P3kcl0joYxe+NKk6jqzPtngE9kvhd8izX+HhDJ6wRWghVm4EqyzNmRFqXEm2A/4nVPXrW+SUEYnhZp2G9/VxR0m26TGrBjtCEdphwHFZ50Nhx+Hznacnu+T/Q2zolQ/A88hPM/Ec2bSGDmOP9lOfSxKe79q0757orTZigi/2Pl3i3XdlpAuX3DTW8M3x7JgQABv/aZNRx616MgfTer8vUVtC2yqj8IpdO+X0fcnC+0mxpjU9WeE2GdtMabrLybtut2m1m/ZdPSv6P+DSf9agrFLnbGszZ9GvH8qSgd+gnGYsxP+OPb5pb7Q7R3db538Gwwm9XN55FhvMGLUCYfvDIbpP10G9Z806L9vGXT0cZNe1GP00q8sGuS+boPeOmzQmWMGtXyegVv0LoVp39dsevk3FvX3GGL+wOsY8yr0uEE9z0cE833/jNDeL9liRzlE/xGLMHC+LvdUa9oNEtqlpdDj+yW/5TDrbIi39vBvAfBMmDoetKjxliid3BChwYEw7V9oU/uPbPH88q8tJ0wQMjzn6AoTi8SY72KXEEIc1214PnvKoON5Ju3kcZEoHfwpiDkXFm0cSjxOVR7e/QLNt0BCG1m4POF6eoATdRtO0yHg+wH+AYtqpseo5U5bMNi9yqT2+5znN+oi9Nr6iGCTQ4VDSYD/HhgFSFaO67OnMS/HpFqfkwuv74jQmVecXeEd41BU7D8DHCib2yW8kYUT9WmccokVZhj4tBjtvkOCXy3B9wF8Q4ROboxQ7xaA/9wF8G332oLReitK+74hwWPRNekx6vi5RQNvGMLGv1sNeqUY7HMSw2+jPHURvu9dVuIixvI5UbYm1PUh4OGMK8xr600aPAtWf4CwgWMRNossqg061YXBqrBp/6FNDdloB8sK/LGnwHwwRqeasNjNEar1I69QCAZ6JfuoPor9Mg9OXM37iISYWkpM86OrM7TT65PqOgMRCftOmN7uRKKdQMK+DQArAcCbkLBHkbAd2P4jAICw6lruJDnP6UeCdi61aM/dUToXd+YexC6Kfox/sx1zDxni+4ky83wpZvYrAwFana4fqXG5rpVQh0ue5ruX30+3Zg49TTnZWr/tVI+uZShvj5nUhjgWpRJO9n7FAcrtXBqZ8eZ5KJVIzqM8B6Xz2JMIL+xS8228Ixbtx24weDGPy+typ8RyOeZFNt7qJL5in3OQ358l1OGyKl3fsjEUGn75QpgMOWTwOeyQQpURfbKfK4k6pLitNnBhDrdxWLCet5kwt87EuAT/jfBRFQji2qA9LaEOlWJNC+Rn6IM1ssIkTh5RGTwWxp/iGbEtyqJ8ZrDMYOPcKCqQs1DOiZ1zoKnspVDGs03c97XTq6YZN0rIFyQnzfPQC6HwqF80GCifpIeQrAxyzz22yIEdSNyXHrLo0MOW2LWuZQgVnAlNn0T+IDH5RBWLSGEzlSr2n0rTviMhXxDc5HY3ZCMmR8M6tA7lj8FwDHMdP7zYop5NzqnJ+dHxC1QagDxRboorRiMYP15gilOXwyaVzVTKuOozLcpJ156XkB1Z/iF3VmUwGE/+L+lylENj93yckj8DMJy8fMQzyObPRKnlLtxTODywI1xO93wB38HggR/bOAecualsXkx3OafuwCM3pGkSumB9Mf9jN1rWhao452TEd45/wSgAc3yrpOZ+8R1jxDOHDNqH2LqEMr4GsL8yTbtfQnddUxEMtvP/pakmKG1khTPOCTaSrNzOymN47MXmjjQ/1dxkbZszg8r8/q0C+Yob9dm1qDAqZHhysoMmGG1A+45ZtvgHBG/68ReiRrzaDMefNULxylAwXh4MxEtxmPBl6hmfPw7lT6VxcclCP64d8XXhYPw5zKu2wrATibM9tsv22c9w/1gY2hlfC75viUUGl1w3ze/aZIYf7bo1m/aCee5oxgD+O3I7StPfbYOqjJA44dYCRInuw9s9DgtcVfm6nKjcppR/+k7WxP5Uc9ku2y+FH+Sf8LsZ/rfjwGQ8zTfHaA/wMc7OuVm00TQedGHFNQ1Zdl9VJNRbHgj0Fuu+PrzF9OE47sOhJRQ50ZcL5XalcDphet5uhlf4YX+JvnlMidfXi93trTZDvU3Zdt+LWVbl/wDwhrXWgz1JvgAAAABJRU5ErkJggg==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/builds/meta/f4cfa39b-784c-4460-a52f-762a1b31592e.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 286
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/BtVXQIIH.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4809
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/o7IH3k3-.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 830
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/ButtonCircle.DcmGBOFz.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1337
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/CBXnY2F0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2390
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/CknYxtmG.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5509
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/ScriptYouTubePlayer.CoSvkT4i.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1111
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/VideoPlayer.Cv1zUTJV.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4568
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/DCmgetYj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 851
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/about.BlSxpkrh.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1811
+      },
+      {
+        "url": "https://deltacafes.com/en/about/_payload.json?f4cfa39b-784c-4460-a52f-762a1b31592e",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 94354
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/D6f3bw3Q.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9011
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/Cz6Vb5gA.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1602
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/ProductCard.BtHvzgpK.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 908
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/D8pnOGg6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1028
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/CTcodI_s.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 831
+      },
+      {
+        "url": "https://deltacafes.com/_nuxt/_slug_.BlzZJ5Os.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 5160
+      },
+      {
+        "url": "https://deltacafes.com/en/products/ground/lote/chavena/_payload.json?f4cfa39b-784c-4460-a52f-762a1b31592e",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 24733
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "fill",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "fill",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "fill",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000F40E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000F40E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000F40E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x19cc033f5c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x19cc1dad9e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x19cc033f5c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x19cc033f5c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F02B08F40E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0502C08F40E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0005D08F40E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-31T16-08-38.041Z-acores-mobile.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-05-28T14-25-45.349Z-acores-footer-mobile.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-01-28T17-42-18.232Z-herman-jose-web.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-HZ24HNQQBV&gtm=45je6bh1v9118282085za20ozb9250925757zd9250925757xf1&_p=1795445491801&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dMWZhNz&are=1&cid=1257910863.1795445493&frm=0&ngs=1&pscdl=denied&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938468~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795445493&sct=1&seg=0&dl=https%3A%2F%2Fdeltacafes.com%2Fen&dt=Delta%2C%20coffee%20with%20heart%20%7C%20Delta%20Caf%C3%A9s%20%E2%80%94%20The%20coffee%20of%20your%20life&_tu=iA&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2130",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 3,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 7064,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 2249,
+      "typography": {
+        "families": [
+          [
+            "delta-season",
+            84
+          ],
+          [
+            "trade-gothic",
+            64
+          ],
+          [
+            "sans-serif",
+            10
+          ]
+        ],
+        "weights": [
+          [
+            "550",
+            65
+          ],
+          [
+            "700",
+            59
+          ],
+          [
+            "500",
+            9
+          ],
+          [
+            "300",
+            8
+          ],
+          [
+            "420",
+            8
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            70
+          ]
+        ],
+        "sizeMin": 11,
+        "sizeMedian": 16,
+        "sizeMax": 68,
+        "sizeMaxVw": 17.4,
+        "scaleRatio": 4.3,
+        "letterSpacingMean": -0.007,
+        "loadedFonts": [
+          {
+            "family": "trade-gothic",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "trade-gothic",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "delta-season",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 158
+      },
+      "color": {
+        "background": "rgb(43, 27, 20)",
+        "backgroundLuminance": 0.013479640507513066,
+        "backgrounds": [
+          [
+            "rgb(43, 27, 20)",
+            1065
+          ],
+          [
+            "rgb(20, 33, 21)",
+            442
+          ],
+          [
+            "rgb(53, 34, 26)",
+            373
+          ],
+          [
+            "rgb(255, 255, 255)",
+            352
+          ],
+          [
+            "rgba(90, 90, 90, 0.2)",
+            302
+          ],
+          [
+            "rgb(34, 22, 17)",
+            265
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            351
+          ],
+          [
+            "rgb(237, 209, 189)",
+            264
+          ],
+          [
+            "rgb(242, 222, 206)",
+            224
+          ],
+          [
+            "rgb(255, 255, 255)",
+            201
+          ],
+          [
+            "rgb(53, 34, 26)",
+            191
+          ]
+        ],
+        "meanSaturation": 0.32,
+        "rootVars": {
+          "--initial-100vh": "100vh",
+          "--native-scrollbar-width": "0px",
+          "--computed-100vh": "100vh",
+          "--computed-100vw": "calc(100vw - var(--native-scrollbar-width))",
+          "--grid-columns": "32",
+          "--grid-gap": "clamp(12px, 8.412px + 100vw * .0092, 24px)",
+          "--grid-half-gap": "calc(var(--grid-gap)*.5)",
+          "--grid-margin": "clamp(12px, 8.412px + 100vw * .0092, 24px)",
+          "--grid-padding": "calc(var(--grid-margin) - var(--grid-gap)*.5)",
+          "--grid-width": "calc(var(--100vw) - var(--grid-margin)*2)",
+          "--modal-row-width": "calc((var(--100vw) - 2*var(--grid-padding))*18/var(--grid-columns) - var(--grid-gap) + var(--grid-gap) + var(--grid-padding))",
+          "--modal-width": "calc(var(--modal-row-width) + var(--grid-half-gap))",
+          "--color-black": "#000",
+          "--color-white": "#fff",
+          "--color-geral-black": "#000",
+          "--color-geral-white": "#fff",
+          "--color-geral-delta-yellow": "#ffd300",
+          "--color-geral-delta-darkRed": "#9e0212",
+          "--color-geral-delta-brightRed": "#e70025",
+          "--color-aged-oak-200": "#aca59e",
+          "--color-aged-oak-300": "#90877e",
+          "--color-aged-oak-400": "#74695e",
+          "--color-aged-oak-500": "#594b3e",
+          "--color-aged-oak-600": "#4a3e33",
+          "--color-aged-oak-700": "#3b3229",
+          "--color-aged-oak-800": "#342923",
+          "--color-aged-oak-900": "#2c251f",
+          "--color-aged-oak-950": "#231b16",
+          "--color-aged-oak-1000": "#181818",
+          "--color-creme-50": "#fcf3ed",
+          "--color-creme-100": "#f8eae0",
+          "--color-creme-200": "#f2dece",
+          "--color-creme-300": "#edd1bd",
+          "--color-creme-400": "#e3c1ad",
+          "--color-creme-500": "#deb89f",
+          "--color-creme-600": "#cca68e",
+          "--color-creme-700": "#be9a83",
+          "--color-creme-800": "#a9836d",
+          "--color-creme-900": "#8c6550",
+          "--color-brown-50": "#c4aea4"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 5,
+        "sticky": 1,
+        "fixed": 17,
+        "grid": 20,
+        "flex": 631,
+        "absolute": 214,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 10837,
+        "pages": 12.8,
+        "spacing": [
+          [
+            8,
+            68
+          ],
+          [
+            32,
+            62
+          ],
+          [
+            15,
+            61
+          ],
+          [
+            4,
+            53
+          ],
+          [
+            10,
+            35
+          ],
+          [
+            18,
+            27
+          ],
+          [
+            3,
+            19
+          ],
+          [
+            12,
+            18
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            450,
+            139
+          ],
+          [
+            500,
+            113
+          ],
+          [
+            675,
+            68
+          ],
+          [
+            1500,
+            54
+          ],
+          [
+            250,
+            52
+          ]
+        ],
+        "keyframes": [
+          "spin-dea02d2c",
+          "spinClose-209224a7",
+          "imageLoading"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 33,
+      "media": {
+        "canvases": [
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0
+          },
+          {
+            "w": 2200,
+            "h": 828,
+            "area": 1.38
+          },
+          {
+            "w": 2400,
+            "h": 2200,
+            "area": 4.01
+          },
+          {
+            "w": 60,
+            "h": 60,
+            "area": 0
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-31T15-28-54.839Z-homepage-mobile.mp4#t=0.1"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-31T16-08-38.041Z-acores-mobile.mp4#t=0.1"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-05-28T14-22-31.599Z-ciclo-mobile.mp4#t=0.1"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-05-28T14-25-45.349Z-acores-footer-mobile.mp4#t=0.1"
+          }
+        ],
+        "svg": 126,
+        "images": 154,
+        "iframes": 2,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 11
+        },
+        "raf": 1209,
+        "io": 18,
+        "ro": 4,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Delta, coffee with heart | Delta Cafés — The coffee of your life",
+      "lang": "en",
+      "description": "Discover Delta Cafés: Portuguese coffee heritage, culture, sustainability, and experiences from bean to cup for every coffee lover."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2249,
+      "canvases": 5,
+      "animations": 0,
+      "hidden": 48
+    },
+    "scrollReveal": 15,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 34747768,
+        "layoutCount": 422,
+        "recalcStyleCount": 1123,
+        "scriptDuration": 0.385012,
+        "taskDuration": 3.666407,
+        "nodes": 5908
+      },
+      "timing": {
+        "domContentLoaded": 224,
+        "load": 259,
+        "first-paint": 196,
+        "first-contentful-paint": 196
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000F40E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000F40E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000F40E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0005D08F40E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0305D08F40E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0605D08F40E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-05-28T14-25-45.349Z-acores-footer-mobile.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://burospaces1.fra1.cdn.digitaloceanspaces.com/delta/2026-03-31T16-08-38.041Z-acores-mobile.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-HZ24HNQQBV&gtm=45je6bh1v9118282085za20ozb9250925757zd9250925757xf1&_p=1795445502944&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dMWZhNz&are=1&cid=930443683.1795445504&frm=0&ngs=1&pscdl=denied&rcb=9&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938468~120213116~120385422~120469145~120469153~121246026~121246034~123785232&sid=1795445503&sct=1&seg=0&dl=https%3A%2F%2Fdeltacafes.com%2Fen&dt=Delta%2C%20coffee%20with%20heart%20%7C%20Delta%20Caf%C3%A9s%20%E2%80%94%20The%20coffee%20of%20your%20life&_tu=iA&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=830",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 3,
+      "workers": 0
+    }
+  }
+}

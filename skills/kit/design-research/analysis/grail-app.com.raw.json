@@ -1,0 +1,2213 @@
+{
+  "url": "https://grail-app.com/",
+  "at": "2026-11-23T14:54:10.846Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 11228,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 562,
+      "typography": {
+        "families": [
+          [
+            "-apple-system",
+            33
+          ],
+          [
+            "Switzer",
+            26
+          ],
+          [
+            "PP Pangaia",
+            21
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            29
+          ],
+          [
+            "300",
+            21
+          ],
+          [
+            "500",
+            15
+          ],
+          [
+            "600",
+            8
+          ],
+          [
+            "700",
+            7
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            21
+          ]
+        ],
+        "sizeMin": 13,
+        "sizeMedian": 16,
+        "sizeMax": 208,
+        "sizeMaxVw": 14.4,
+        "scaleRatio": 13,
+        "letterSpacingMean": -0.008,
+        "loadedFonts": [
+          {
+            "family": "Switzer",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "PP Pangaia",
+            "weight": "300",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 80
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(246, 246, 246)",
+            3922
+          ],
+          [
+            "rgb(0, 0, 0)",
+            3888
+          ],
+          [
+            "rgb(22, 22, 22)",
+            67
+          ],
+          [
+            "rgba(255, 255, 255, 0.13)",
+            14
+          ],
+          [
+            "rgba(96, 42, 86, 0.2)",
+            12
+          ],
+          [
+            "rgb(236, 210, 243)",
+            6
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            121
+          ],
+          [
+            "rgb(255, 255, 255)",
+            109
+          ],
+          [
+            "rgb(238, 238, 238)",
+            64
+          ],
+          [
+            "rgba(0, 0, 0, 0.6)",
+            16
+          ],
+          [
+            "rgb(231, 175, 231)",
+            12
+          ]
+        ],
+        "meanSaturation": 0.12,
+        "rootVars": {
+          "--bg-primary": "#fff",
+          "--bg-secondary": "#f2f2f7",
+          "--bg-grouped": "#f2f2f7",
+          "--bg-card": "#00000008",
+          "--text-primary": "#000",
+          "--text-secondary": "#8e8e93",
+          "--text-tertiary": "#c7c7cc",
+          "--text-quaternary": "#d1d1d6",
+          "--tint": "#007aff",
+          "--tint-light": "#007aff1a",
+          "--destructive": "#ff3b30",
+          "--destructive-light": "#ff3b301a",
+          "--warning": "#ff9500",
+          "--success": "#34c759",
+          "--glass-bg": "#fffc",
+          "--glass-border": "#0000000f",
+          "--glass-blur": "20px",
+          "--separator": "#3c3c431f",
+          "--radius-card": "20px",
+          "--radius-button": "12px",
+          "--radius-input": "10px",
+          "--radius-progress": "4px",
+          "--spacing-xs": "4px",
+          "--spacing-sm": "8px",
+          "--spacing-md": "12px",
+          "--spacing-lg": "16px",
+          "--spacing-xl": "24px",
+          "--spacing-2xl": "32px",
+          "--spacing-3xl": "40px",
+          "--font-sans": "\"Switzer\", -apple-system, \"SF Pro Display\", system-ui, sans-serif",
+          "--font-serif": "Georgia, \"Times New Roman\", serif",
+          "--font-mono": "\"SF Mono\", ui-monospace, \"Menlo\", monospace",
+          "--shell-bg": "#eeeae3",
+          "--shell-text": "#1c1c1e",
+          "--shell-text-secondary": "#1c1c1e80",
+          "--landing-bg": "#fafaf8",
+          "--landing-bg-warm": "#f0ede6",
+          "--landing-text": "#18181b",
+          "--landing-text-secondary": "#71717a",
+          "--landing-text-tertiary": "#a1a1aa"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 4,
+        "fixed": 8,
+        "grid": 7,
+        "flex": 45,
+        "absolute": 99,
+        "asymmetricGrids": 5,
+        "splitScreen": false,
+        "scrollHeight": 11728,
+        "pages": 13,
+        "spacing": [
+          [
+            12,
+            13
+          ],
+          [
+            17,
+            8
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            24,
+            3
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 26,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          780,
+          600,
+          780,
+          780,
+          500
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            54
+          ],
+          [
+            200,
+            6
+          ],
+          [
+            550,
+            5
+          ],
+          [
+            600,
+            5
+          ],
+          [
+            350,
+            4
+          ]
+        ],
+        "keyframes": [
+          "_wordRise_1pamk_1",
+          "_digitIn_1pamk_1",
+          "_swapIn_1pamk_1",
+          "_stageIn_1pamk_1",
+          "_statsRise_10nox_1",
+          "_statsFade_10nox_1",
+          "_guildsFade_194d4_1",
+          "_footRise_jyv7u_1",
+          "_bubbleFloat_jyv7u_1",
+          "_dotRun_jyv7u_1",
+          "_bubblePop_jyv7u_1",
+          "_bubbleLine_jyv7u_1",
+          "_s2rise_bwga5_1",
+          "_rise_bwga5_1",
+          "_s5headRise_bwga5_1",
+          "_cookieIn_1lt29_1"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 172,
+      "media": {
+        "canvases": [
+          {
+            "w": 185,
+            "h": 94,
+            "area": 0.01
+          },
+          {
+            "w": 720,
+            "h": 450,
+            "area": 1
+          },
+          {
+            "w": 720,
+            "h": 450,
+            "area": 1
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 27,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 4,
+          "webgl": 1
+        },
+        "raf": 2246,
+        "io": 7,
+        "ro": 1,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Grail: Real-world quests, every day",
+      "lang": "en",
+      "description": "Grail pulls you out of autopilot with one real-world quest a day. Grow four stats: Strength, Intellect, Charisma, Wisdom. When you graduate, your subscription cancels itself."
+    },
+    "featuresBeforeScroll": {
+      "elements": 570,
+      "canvases": 5,
+      "animations": 25,
+      "hidden": 192
+    },
+    "scrollReveal": 20,
+    "hover": {
+      "probed": 5,
+      "changed": 1
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7886228,
+        "layoutCount": 76,
+        "recalcStyleCount": 905,
+        "scriptDuration": 0.212932,
+        "taskDuration": 2.013801,
+        "nodes": 1286
+      },
+      "timing": {
+        "domContentLoaded": 178,
+        "load": 179,
+        "first-paint": 184,
+        "first-contentful-paint": 256
+      }
+    },
+    "network": [
+      {
+        "url": "https://grail-app.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 1859
+      },
+      {
+        "url": "https://grail-app.com/fonts/Switzer-Variable.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 43398
+      },
+      {
+        "url": "https://grail-app.com/fonts/PPPangaia-Light.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 67976
+      },
+      {
+        "url": "https://grail-app.com/assets/index-qyEp212_.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 59874
+      },
+      {
+        "url": "https://grail-app.com/assets/chunk-BEqpzyXh.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 954
+      },
+      {
+        "url": "https://grail-app.com/assets/preload-helper-rov5CBGT.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 825
+      },
+      {
+        "url": "https://grail-app.com/assets/jsx-runtime-B4RpOl0S.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3252
+      },
+      {
+        "url": "https://grail-app.com/assets/three.module-DHIuxIYb.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 144621
+      },
+      {
+        "url": "https://grail-app.com/assets/device-DfrJF2Wj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 803
+      },
+      {
+        "url": "https://grail-app.com/assets/viewport-DYDJlLll.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1089
+      },
+      {
+        "url": "https://grail-app.com/assets/totems-6Ag_iF3F.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2880
+      },
+      {
+        "url": "https://grail-app.com/assets/vineGarden-CW1PICZE.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1507
+      },
+      {
+        "url": "https://grail-app.com/assets/VoiceGarden-B9VM_bVK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2924
+      },
+      {
+        "url": "https://grail-app.com/assets/quests-CQ2WangE.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 942
+      },
+      {
+        "url": "https://grail-app.com/assets/analytics-CTl5M4iv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1052
+      },
+      {
+        "url": "https://grail-app.com/assets/warpFill-CfnOsA5y.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2792
+      },
+      {
+        "url": "https://grail-app.com/assets/HomePage-SelUD7Yz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 40177
+      },
+      {
+        "url": "https://grail-app.com/assets/chunk-QFMPRPBF-DfRS6Yst.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14531
+      },
+      {
+        "url": "https://grail-app.com/assets/HomePage-B7z74ohK.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 13451
+      },
+      {
+        "url": "https://grail-app.com/assets/index-B4wO6xrz.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1954
+      },
+      {
+        "url": "https://grail-app.com/loader-mark.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1176
+      },
+      {
+        "url": "https://grail-app.com/Logo.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2295
+      },
+      {
+        "url": "https://grail-app.com/accept-phone.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 65212
+      },
+      {
+        "url": "https://grail-app.com/arrow.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 892
+      },
+      {
+        "url": "https://grail-app.com/guild-crest.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 489
+      },
+      {
+        "url": "https://grail-app.com/grail-mark.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1323
+      },
+      {
+        "url": "https://grail-app.com/patterns/tempers-160.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2382
+      },
+      {
+        "url": "https://grail-app.com/patterns/brotherhood-of-tale-160.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4100
+      },
+      {
+        "url": "https://grail-app.com/patterns/keepers-of-time-160.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2369
+      },
+      {
+        "url": "https://grail-app.com/patterns/seeker-of-forsaken-160.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 3191
+      },
+      {
+        "url": "https://grail-app.com/patterns/wind-shifters-160.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2895
+      },
+      {
+        "url": "https://grail-app.com/assets/matter-DegRgWhp.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 27281
+      },
+      {
+        "url": "https://grail-app.com/mobile/deck-hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 48575
+      },
+      {
+        "url": "https://grail-app.com/patterns/stats-bg-char.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 13405
+      },
+      {
+        "url": "https://grail-app.com/patterns/stats-bg-str.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 6024
+      },
+      {
+        "url": "https://grail-app.com/patterns/stats-bg-wis.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 7514
+      },
+      {
+        "url": "https://grail-app.com/patterns/stats-bg-int.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 9531
+      },
+      {
+        "url": "https://grail-app.com/assets/module-BDwWso9v.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 61319
+      },
+      {
+        "url": "https://eu-assets.i.posthog.com/static/web-vitals.js?v=1.369.3",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4502
+      },
+      {
+        "url": "https://eu-assets.i.posthog.com/array/phc_vdvYidzkbtMGCUFzaiaMM4xDxshSQrC3kLcp4nt2sKFd/config.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 986
+      },
+      {
+        "url": "https://eu-assets.i.posthog.com/static/surveys.js?v=1.369.3",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 49743
+      },
+      {
+        "url": "https://grail-app.com/story/01-320.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 6057
+      },
+      {
+        "url": "https://grail-app.com/story/02-320.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2728
+      },
+      {
+        "url": "https://grail-app.com/story/03-320.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 9864
+      },
+      {
+        "url": "https://grail-app.com/story/04-320.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 13060
+      },
+      {
+        "url": "https://grail-app.com/story/05-320.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 7826
+      },
+      {
+        "url": "https://grail-app.com/mobile/totem-duck.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 57911
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 224.99999999999997,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 135,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 449.99999999999994,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_bubbleFloat_jyv7u_1",
+        "duration": 3400,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 540,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_wordRise_1pamk_1",
+        "duration": 780,
+        "delay": 270,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_wordRise_1pamk_1",
+        "duration": 780,
+        "delay": 230,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_wordRise_1pamk_1",
+        "duration": 780,
+        "delay": 140,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 270,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_wordRise_1pamk_1",
+        "duration": 780,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_wordRise_1pamk_1",
+        "duration": 780,
+        "delay": 90,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_swapIn_1pamk_1",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_digitIn_1pamk_1",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 585,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 360,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_wordRise_1pamk_1",
+        "duration": 780,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 495,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 404.99999999999994,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 630,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 45,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_wordRise_1pamk_1",
+        "duration": 780,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 315,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 90,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "left",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 315,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 224.99999999999997,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 585,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 404.99999999999994,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 270,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 360,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 135,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 449.99999999999994,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 90,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 630,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 495,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 540,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 45,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_s2rise_bwga5_1",
+        "duration": 720,
+        "delay": 820,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_s2rise_bwga5_1",
+        "duration": 720,
+        "delay": 260,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_s2rise_bwga5_1",
+        "duration": 720,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_s2rise_bwga5_1",
+        "duration": 720,
+        "delay": 620,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_s2rise_bwga5_1",
+        "duration": 720,
+        "delay": 440,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 6803,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 579,
+      "typography": {
+        "families": [
+          [
+            "-apple-system",
+            33
+          ],
+          [
+            "Switzer",
+            27
+          ],
+          [
+            "PP Pangaia",
+            18
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            30
+          ],
+          [
+            "300",
+            18
+          ],
+          [
+            "500",
+            15
+          ],
+          [
+            "700",
+            8
+          ],
+          [
+            "600",
+            7
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            18
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 16,
+        "sizeMax": 48.75,
+        "sizeMaxVw": 12.5,
+        "scaleRatio": 3,
+        "letterSpacingMean": -0.008,
+        "loadedFonts": [
+          {
+            "family": "Switzer",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "PP Pangaia",
+            "weight": "300",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 78
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            987
+          ],
+          [
+            "rgb(246, 246, 246)",
+            980
+          ],
+          [
+            "rgb(22, 22, 22)",
+            85
+          ],
+          [
+            "rgb(243, 243, 243)",
+            44
+          ],
+          [
+            "rgba(255, 255, 255, 0.13)",
+            14
+          ],
+          [
+            "rgba(96, 42, 86, 0.2)",
+            12
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            131
+          ],
+          [
+            "rgb(255, 255, 255)",
+            115
+          ],
+          [
+            "rgb(238, 238, 238)",
+            64
+          ],
+          [
+            "rgba(0, 0, 0, 0.6)",
+            15
+          ],
+          [
+            "rgb(231, 175, 231)",
+            12
+          ]
+        ],
+        "meanSaturation": 0.09,
+        "rootVars": {
+          "--bg-primary": "#fff",
+          "--bg-secondary": "#f2f2f7",
+          "--bg-grouped": "#f2f2f7",
+          "--bg-card": "#00000008",
+          "--text-primary": "#000",
+          "--text-secondary": "#8e8e93",
+          "--text-tertiary": "#c7c7cc",
+          "--text-quaternary": "#d1d1d6",
+          "--tint": "#007aff",
+          "--tint-light": "#007aff1a",
+          "--destructive": "#ff3b30",
+          "--destructive-light": "#ff3b301a",
+          "--warning": "#ff9500",
+          "--success": "#34c759",
+          "--glass-bg": "#fffc",
+          "--glass-border": "#0000000f",
+          "--glass-blur": "20px",
+          "--separator": "#3c3c431f",
+          "--radius-card": "20px",
+          "--radius-button": "12px",
+          "--radius-input": "10px",
+          "--radius-progress": "4px",
+          "--spacing-xs": "4px",
+          "--spacing-sm": "8px",
+          "--spacing-md": "12px",
+          "--spacing-lg": "16px",
+          "--spacing-xl": "24px",
+          "--spacing-2xl": "32px",
+          "--spacing-3xl": "40px",
+          "--font-sans": "\"Switzer\", -apple-system, \"SF Pro Display\", system-ui, sans-serif",
+          "--font-serif": "Georgia, \"Times New Roman\", serif",
+          "--font-mono": "\"SF Mono\", ui-monospace, \"Menlo\", monospace",
+          "--shell-bg": "#eeeae3",
+          "--shell-text": "#1c1c1e",
+          "--shell-text-secondary": "#1c1c1e80",
+          "--landing-bg": "#fafaf8",
+          "--landing-bg-warm": "#f0ede6",
+          "--landing-text": "#18181b",
+          "--landing-text-secondary": "#71717a",
+          "--landing-text-tertiary": "#a1a1aa"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 2,
+        "fixed": 9,
+        "grid": 7,
+        "flex": 53,
+        "absolute": 87,
+        "asymmetricGrids": 1,
+        "splitScreen": false,
+        "scrollHeight": 10102,
+        "pages": 12,
+        "spacing": [
+          [
+            12,
+            15
+          ],
+          [
+            14,
+            11
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            26,
+            4
+          ],
+          [
+            16,
+            4
+          ],
+          [
+            6,
+            4
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 25,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          620,
+          780,
+          780,
+          780,
+          500,
+          500
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            54
+          ],
+          [
+            500,
+            6
+          ],
+          [
+            200,
+            6
+          ],
+          [
+            550,
+            5
+          ],
+          [
+            600,
+            5
+          ]
+        ],
+        "keyframes": [
+          "_wordRise_1pamk_1",
+          "_digitIn_1pamk_1",
+          "_swapIn_1pamk_1",
+          "_stageIn_1pamk_1",
+          "_statsRise_10nox_1",
+          "_statsFade_10nox_1",
+          "_guildsFade_194d4_1",
+          "_footRise_jyv7u_1",
+          "_bubbleFloat_jyv7u_1",
+          "_dotRun_jyv7u_1",
+          "_bubblePop_jyv7u_1",
+          "_bubbleLine_jyv7u_1",
+          "_s2rise_bwga5_1",
+          "_rise_bwga5_1",
+          "_s5headRise_bwga5_1",
+          "_cookieIn_1lt29_1"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 154,
+      "media": {
+        "canvases": [
+          {
+            "w": 408,
+            "h": 0,
+            "area": 0.11
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 28,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 2,
+          "webgl": 1
+        },
+        "raf": 1422,
+        "io": 8,
+        "ro": 1,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Grail: Real-world quests, every day",
+      "lang": "en",
+      "description": "Grail pulls you out of autopilot with one real-world quest a day. Grow four stats: Strength, Intellect, Charisma, Wisdom. When you graduate, your subscription cancels itself."
+    },
+    "featuresBeforeScroll": {
+      "elements": 589,
+      "canvases": 3,
+      "animations": 25,
+      "hidden": 153
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4830572,
+        "layoutCount": 59,
+        "recalcStyleCount": 586,
+        "scriptDuration": 0.128159,
+        "taskDuration": 1.33283,
+        "nodes": 1236
+      },
+      "timing": {
+        "domContentLoaded": 122,
+        "load": 210,
+        "first-paint": 216,
+        "first-contentful-paint": 216
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "_wordRise_1pamk_1",
+        "duration": 780,
+        "delay": 230,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 224.99999999999997,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_wordRise_1pamk_1",
+        "duration": 780,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 135,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 449.99999999999994,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 540,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_digitIn_1pamk_1",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_wordRise_1pamk_1",
+        "duration": 780,
+        "delay": 90,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 270,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_bubbleFloat_jyv7u_1",
+        "duration": 3400,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 585,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 360,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 495,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 404.99999999999994,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_swapIn_1pamk_1",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_wordRise_1pamk_1",
+        "duration": 780,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_wordRise_1pamk_1",
+        "duration": 780,
+        "delay": 140,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 630,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 45,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_wordRise_1pamk_1",
+        "duration": 780,
+        "delay": 270,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 315,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_wordRise_1pamk_1",
+        "duration": 780,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 90,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 449.99999999999994,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 135,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 540,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 360,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 224.99999999999997,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 315,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 270,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 630,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 45,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 495,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 585,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 90,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_rise_bwga5_1",
+        "duration": 620,
+        "delay": 404.99999999999994,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_s2rise_bwga5_1",
+        "duration": 720,
+        "delay": 820,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_s2rise_bwga5_1",
+        "duration": 720,
+        "delay": 260,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_s2rise_bwga5_1",
+        "duration": 720,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_s2rise_bwga5_1",
+        "duration": 720,
+        "delay": 620,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_s2rise_bwga5_1",
+        "duration": 720,
+        "delay": 440,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

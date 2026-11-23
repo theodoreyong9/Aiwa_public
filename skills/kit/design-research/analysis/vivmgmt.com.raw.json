@@ -1,0 +1,1386 @@
+{
+  "url": "https://vivmgmt.com/",
+  "at": "2026-11-23T14:53:52.693Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 14907,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 354,
+      "typography": {
+        "families": [
+          [
+            "Helvetica Now Display",
+            38
+          ],
+          [
+            "Garamond Narrow",
+            11
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            28
+          ],
+          [
+            "500",
+            21
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 14,
+        "sizeMedian": 24,
+        "sizeMax": 96.0048,
+        "sizeMaxVw": 6.7,
+        "scaleRatio": 4,
+        "letterSpacingMean": 0.01,
+        "loadedFonts": [
+          {
+            "family": "Garamond Narrow",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 49
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            2592
+          ],
+          [
+            "rgb(32, 29, 29)",
+            1296
+          ],
+          [
+            "rgb(168, 197, 210)",
+            468
+          ],
+          [
+            "rgb(68, 68, 68)",
+            350
+          ],
+          [
+            "rgb(203, 186, 168)",
+            322
+          ],
+          [
+            "rgb(232, 232, 232)",
+            286
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            238
+          ]
+        ],
+        "meanSaturation": 0.08,
+        "rootVars": {
+          "--color-page-bg": "#ffffff",
+          "--color-page-text": "#000000",
+          "--space-xs": "clamp(.3125rem, .2344rem + .3906vw, .625rem)",
+          "--space-s": "clamp(.625rem, .4688rem + .7813vw, 1.25rem)",
+          "--space-m": "clamp(1.25rem, .9375rem + 1.5625vw, 2.5rem)",
+          "--space-l": "clamp(1.875rem, 1.4063rem + 2.3438vw, 3.75rem)",
+          "--space-xl": "clamp(2.5rem, 1.875rem + 3.125vw, 5rem)",
+          "--space-2xl": "clamp(3.125rem, 2.3438rem + 3.9063vw, 6.25rem)",
+          "--space-3xl": "clamp(3.75rem, 2.8125rem + 4.6875vw, 7.5rem)",
+          "--space-4xl": "clamp(4.375rem, 3.2813rem + 5.4688vw, 8.75rem)",
+          "--space-5xl": "clamp(5rem, 3.75rem + 6.25vw, 10rem)",
+          "--space-xs-s": "clamp(.3125rem, .0781rem + 1.1719vw, 1.25rem)",
+          "--space-s-m": "clamp(.625rem, .1563rem + 2.3438vw, 2.5rem)",
+          "--space-m-l": "clamp(1.25rem, .625rem + 3.125vw, 3.75rem)",
+          "--space-l-xl": "clamp(1.875rem, 1.0938rem + 3.9063vw, 5rem)",
+          "--space-xl-2xl": "clamp(2.5rem, 1.5625rem + 4.6875vw, 6.25rem)",
+          "--space-2xl-3xl": "clamp(3.125rem, 2.0313rem + 5.4688vw, 7.5rem)",
+          "--space-3xl-4xl": "clamp(3.75rem, 2.5rem + 6.25vw, 8.75rem)",
+          "--space-4xl-5xl": "clamp(4.375rem, 2.9688rem + 7.0313vw, 10rem)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 12,
+        "grid": 0,
+        "flex": 41,
+        "absolute": 40,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            10,
+            12
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            19,
+            6
+          ],
+          [
+            38,
+            4
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            270,
+            2
+          ],
+          [
+            324,
+            2
+          ],
+          [
+            20,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            8
+          ],
+          [
+            150,
+            4
+          ],
+          [
+            700,
+            2
+          ],
+          [
+            350,
+            2
+          ]
+        ],
+        "keyframes": [
+          "artistsClose",
+          "artistsStrapline",
+          "itemLoad"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 59,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 6,
+        "images": 22,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 452,
+        "io": 5,
+        "ro": 3,
+        "mo": 11,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Photographer Agency & Commercial Photo Production — ViV MGMT",
+      "lang": "en",
+      "description": "Representing commercial photographers, directors, and creatives while providing full-service photo and video production for brands nationwide."
+    },
+    "featuresBeforeScroll": {
+      "elements": 354,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 60
+    },
+    "scrollReveal": 1,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 11824436,
+        "layoutCount": 149,
+        "recalcStyleCount": 541,
+        "scriptDuration": 0.190474,
+        "taskDuration": 0.877208,
+        "nodes": 2395
+      },
+      "timing": {
+        "domContentLoaded": 663,
+        "load": 714,
+        "first-paint": 428,
+        "first-contentful-paint": 428
+      }
+    },
+    "network": [
+      {
+        "url": "https://vivmgmt.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 6743
+      },
+      {
+        "url": "https://vivmgmt.com/fonts/GaramondNarrow-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 29606
+      },
+      {
+        "url": "https://vivmgmt.com/fonts/HelveticaNowDisplay-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 41771
+      },
+      {
+        "url": "https://vivmgmt.com/fonts/HelveticaNowDisplay-Medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 45390
+      },
+      {
+        "url": "https://vivmgmt.com/_astro/seo.QeLUzPju.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 10345
+      },
+      {
+        "url": "https://vivmgmt.com/_astro/page.vUjA9JOR.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11705
+      },
+      {
+        "url": "https://vivmgmt.com/js/modernizr.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2355
+      },
+      {
+        "url": "https://vivmgmt.com/_astro/Layout.astro_astro_type_script_index_0_lang.UjCx6UYb.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 94684
+      },
+      {
+        "url": "https://vivmgmt.com/_astro/index.modern.D1GSzRwm.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 939
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779142866-arturo-torres-advertising-photographer-lifestyle-fashion-sports88.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 53456
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1784528935-danielle-moore-old-navy-kids-art-direction-product-styling-color-collection-instagram-03.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 66406
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1782286849-morpheliplock3446.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 147796
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1773702313-danielle-moore-arturo-torres-summer-25-quay19.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 110978
+      },
+      {
+        "url": "https://vivmgmt.com/_astro/mixin.4jUoCLCE.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 197825
+      },
+      {
+        "url": "https://vivmgmt.com/",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://image.mux.com/g01MHyRNqn01zJw6x81ckEU1CILwna5kTF/thumbnail.jpg?width=1200",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 148726
+      },
+      {
+        "url": "https://image.mux.com/023u7rfeEpGMqj3RtVjZtvuPGQMnyWkNw/thumbnail.jpg?width=1200",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 72589
+      },
+      {
+        "url": "https://image.mux.com/Q2PGRS54ZVUS418j1vLtqaaoa01lAh5KM/thumbnail.jpg?width=1200",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 69427
+      },
+      {
+        "url": "https://image.mux.com/hXfMGSk00sYeao99EqE8eqg3lRjNXNrDE/thumbnail.jpg?width=1200",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 68747
+      },
+      {
+        "url": "https://image.mux.com/moiR01sgh1u3bxRJ00nnzsQ202B7uZT7BX4/thumbnail.jpg?width=1200",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 94837
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779918226-beauty-model-photography-beth-sternbaum-la-nyc-52.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 208889
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779144620-jonathan-mannion-hiphop-music-rap-photography-advertising-photographer-sports22.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 110115
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1778793995-arturo-torres-fashion-photography-advertising-photographer-15.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 129907
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1778184120-gap-studio-zac-posen-denim-portrait.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 97625
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779142866-arturo-torres-advertising-photographer-lifestyle-fashion-sports30.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 102457
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779144619-jonathan-mannion-advertising-photographer-lifestyle-celebrity-sports3.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 93401
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779142867-arturo-torres-advertising-photographer-lifestyle-fashion-sports13.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 83450
+      },
+      {
+        "url": "https://stream.mux.com/g01MHyRNqn01zJw6x81ckEU1CILwna5kTF.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 1031
+      },
+      {
+        "url": "https://stream.mux.com/023u7rfeEpGMqj3RtVjZtvuPGQMnyWkNw.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 1399
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1784525114-arturo-torres-travis-matthew-catalog-photography-05.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 38183
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779918224-beauty-model-photography-beth-sternbaum-la-nyc-63.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 79837
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779918229-beauty-model-photography-beth-sternbaum-la-nyc-10.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 58919
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779918225-beauty-model-photography-beth-sternbaum-la-nyc-50.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 76295
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779144620-jonathan-mannion-hiphop-music-rap-photography-advertising-photographer-sports48.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 277317
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779144620-jonathan-mannion-hiphop-music-rap-photography-advertising-photographer-sports32.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 93432
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1778184121-danielle-moore-tidal-magazine-black-and-white-fashion-portrait.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 82799
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1778184121-fashion-editorial-horse-barragan-stables-mexico.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 155200
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1778772904-danielle-moore-phils-skincare-mens-beauty-portrait.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 67472
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/Q2PGRS54ZVUS418j1vLtqaaoa01lAh5KM.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 1041
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/hXfMGSk00sYeao99EqE8eqg3lRjNXNrDE.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 1039
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/moiR01sgh1u3bxRJ00nnzsQ202B7uZT7BX4.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 1040
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false
+      },
+      {
+        "url": "https://vivmgmt.com/artists",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 3457
+      },
+      {
+        "url": "https://vivmgmt.com/news",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5975
+      },
+      {
+        "url": "https://vivmgmt.com/about",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 4208
+      },
+      {
+        "url": "https://vivmgmt.com/all",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 3967
+      },
+      {
+        "url": "https://vivmgmt.com/production",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 4201
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1778793996-arturo-torres-fashion-photography-advertising-photographer-25.jpg?auto=format&q=80&w=600",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 72996
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779918227-beauty-model-photography-beth-sternbaum-la-nyc-46.jpg?auto=format&q=80&w=600",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 29759
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1778275287-kinship-makeup-sunscreen-stilllife-photoshoot-production-6.jpg?auto=format&q=80&w=600",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 69467
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1778184121-danielle-moore-desert-couture-fashion-editorial.jpg?auto=format&q=80&w=600",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 103447
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779483426-garrett-byrum-producion-photography-advertising-powerade-fifa-3.jpg?auto=format&q=80&w=600",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 26763
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779948867-jason-kent-beauty-photographer-la-nyc-still-life141.jpg?auto=format&q=80&w=600",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 102227
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1779132350-jonathan-mannion-hiphop-music-rap-photography-advertising-photographer-archive-5.jpg?auto=format&q=80&w=600",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 56930
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1778795293-quinn-gravier-advertising-photographer-portraits-celebrity26.jpg?auto=format&q=80&w=600",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 32892
+      },
+      {
+        "url": "https://stream.mux.com/FHz8NP01m1g9j4zStyj1XZfio4fLsLkHz.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 1064
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1774484866-byrum-191105-adidas-victor-702.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 87429
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1777466641-cera-hensley-beauty-photography-stilllife-cosmetics-21.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 13899
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1778795294-quinn-gravier-advertising-photographer-portraits-celebrity36.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 36962
+      },
+      {
+        "url": "https://www.datocms-assets.com/196616/1774485213-160609-harper-christian-1484-3.jpg?auto=format&q=90&w=750",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 28867
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 2813,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 354,
+      "typography": {
+        "families": [
+          [
+            "Helvetica Now Display",
+            32
+          ],
+          [
+            "Garamond Narrow",
+            11
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            28
+          ],
+          [
+            "500",
+            15
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 14,
+        "sizeMedian": 16,
+        "sizeMax": 50.7,
+        "sizeMaxVw": 13,
+        "scaleRatio": 3.2,
+        "letterSpacingMean": 0.01,
+        "loadedFonts": [
+          {
+            "family": "Garamond Narrow",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 43
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            658
+          ],
+          [
+            "rgb(32, 29, 29)",
+            329
+          ],
+          [
+            "rgb(203, 186, 168)",
+            205
+          ],
+          [
+            "rgb(168, 197, 210)",
+            187
+          ],
+          [
+            "rgb(232, 232, 232)",
+            183
+          ],
+          [
+            "rgb(204, 188, 167)",
+            172
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            191
+          ]
+        ],
+        "meanSaturation": 0.11,
+        "rootVars": {
+          "--color-page-bg": "#ffffff",
+          "--color-page-text": "#000000",
+          "--space-xs": "clamp(.3125rem, .2344rem + .3906vw, .625rem)",
+          "--space-s": "clamp(.625rem, .4688rem + .7813vw, 1.25rem)",
+          "--space-m": "clamp(1.25rem, .9375rem + 1.5625vw, 2.5rem)",
+          "--space-l": "clamp(1.875rem, 1.4063rem + 2.3438vw, 3.75rem)",
+          "--space-xl": "clamp(2.5rem, 1.875rem + 3.125vw, 5rem)",
+          "--space-2xl": "clamp(3.125rem, 2.3438rem + 3.9063vw, 6.25rem)",
+          "--space-3xl": "clamp(3.75rem, 2.8125rem + 4.6875vw, 7.5rem)",
+          "--space-4xl": "clamp(4.375rem, 3.2813rem + 5.4688vw, 8.75rem)",
+          "--space-5xl": "clamp(5rem, 3.75rem + 6.25vw, 10rem)",
+          "--space-xs-s": "clamp(.3125rem, .0781rem + 1.1719vw, 1.25rem)",
+          "--space-s-m": "clamp(.625rem, .1563rem + 2.3438vw, 2.5rem)",
+          "--space-m-l": "clamp(1.25rem, .625rem + 3.125vw, 3.75rem)",
+          "--space-l-xl": "clamp(1.875rem, 1.0938rem + 3.9063vw, 5rem)",
+          "--space-xl-2xl": "clamp(2.5rem, 1.5625rem + 4.6875vw, 6.25rem)",
+          "--space-2xl-3xl": "clamp(3.125rem, 2.0313rem + 5.4688vw, 7.5rem)",
+          "--space-3xl-4xl": "clamp(3.75rem, 2.5rem + 6.25vw, 8.75rem)",
+          "--space-4xl-5xl": "clamp(4.375rem, 2.9688rem + 7.0313vw, 10rem)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 12,
+        "grid": 1,
+        "flex": 43,
+        "absolute": 41,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            10,
+            12
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            21,
+            7
+          ],
+          [
+            253,
+            2
+          ],
+          [
+            137,
+            2
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            110,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            8
+          ],
+          [
+            150,
+            4
+          ],
+          [
+            700,
+            2
+          ],
+          [
+            350,
+            2
+          ]
+        ],
+        "keyframes": [
+          "artistsClose",
+          "artistsStrapline",
+          "itemLoad"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 56,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 6,
+        "images": 25,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 302,
+        "io": 5,
+        "ro": 3,
+        "mo": 14,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Photographer Agency & Commercial Photo Production — ViV MGMT",
+      "lang": "en",
+      "description": "Representing commercial photographers, directors, and creatives while providing full-service photo and video production for brands nationwide."
+    },
+    "featuresBeforeScroll": {
+      "elements": 354,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 57
+    },
+    "scrollReveal": 1,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 9387416,
+        "layoutCount": 131,
+        "recalcStyleCount": 254,
+        "scriptDuration": 0.101314,
+        "taskDuration": 0.297605,
+        "nodes": 1843
+      },
+      "timing": {
+        "domContentLoaded": 397,
+        "load": 438,
+        "first-paint": 276,
+        "first-contentful-paint": 276
+      }
+    },
+    "animationsReported": [],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://inferred.litix.io/",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

@@ -1,0 +1,3533 @@
+{
+  "url": "https://santalarch.com/",
+  "at": "2026-11-23T14:51:10.900Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 77575,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1702,
+      "typography": {
+        "families": [
+          [
+            "Helvetica",
+            166
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            103
+          ],
+          [
+            "500",
+            63
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            7
+          ]
+        ],
+        "sizeMin": 8,
+        "sizeMedian": 10,
+        "sizeMax": 234,
+        "sizeMaxVw": 16.3,
+        "scaleRatio": 23.4,
+        "letterSpacingMean": -0.027,
+        "loadedFonts": [
+          {
+            "family": "lil-gui",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 166
+      },
+      "color": {
+        "background": "rgb(15, 15, 15)",
+        "backgroundLuminance": 0.004776953480693728,
+        "backgrounds": [
+          [
+            "rgb(15, 15, 15)",
+            6493
+          ],
+          [
+            "rgb(240, 240, 240)",
+            3888
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(240, 240, 240)",
+            518
+          ],
+          [
+            "rgb(15, 15, 15)",
+            191
+          ],
+          [
+            "rgba(242, 240, 240, 0.2)",
+            29
+          ],
+          [
+            "color(srgb 0 0 0 / 0)",
+            12
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            4
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--viewport-width": "1440",
+          "--viewport-height": "800",
+          "--font-helvetica": "\"Helvetica\",sans-serif",
+          "--ease-out": "cubic-bezier(.25,1,.5,1)",
+          "--transition": ".5s var(--ease-out)",
+          "--transition-fast": ".3s var(--ease-out)",
+          "--transition-slow": ".8s var(--ease-out)",
+          "--c-base-light-primary": "#f0f0f0",
+          "--c-base-line-highlight": "#f2f0f033",
+          "--c-base-line-dark-bg": "#f2f0f00d",
+          "--c-pure-black": "#000",
+          "--c-pure-white": "#fff",
+          "--c-pure-black-rgb": "0,0,0",
+          "--c-pure-black-0": "rgba(var(--c-pure-black-rgb),0)",
+          "--c-light-primary": "var(--c-base-light-primary)",
+          "--c-light-secondary": "#f2f0f066",
+          "--c-base-dark-primary": "#0f0f0f",
+          "--c-base-dark-primary-rgb": "15,15,15",
+          "--c-base-dark-primary-07": "rgba(var(--c-base-dark-primary-rgb),.07)",
+          "--c-base-dark-primary-20": "rgba(var(--c-base-dark-primary-rgb),.2)",
+          "--c-base-dark-primary-30": "rgba(var(--c-base-dark-primary-rgb),.3)",
+          "--c-base-dark-primary-40": "rgba(var(--c-base-dark-primary-rgb),.4)",
+          "--c-dark-primary": "var(--c-base-dark-primary)",
+          "--c-dark-secondary": "#0f0f0f66",
+          "--c-line-highlight": "var(--c-base-line-highlight)",
+          "--c-line-dark-bg": "var(--c-base-line-dark-bg)",
+          "--c-line-light-bg": "#f2f0f00d",
+          "--dark-gr": "linear-gradient(0deg,hsla(0,0%,6%,0),#0f0f0f)",
+          "--c-error": "#8f2424",
+          "--padding": "1rem",
+          "--padding-sm": ".5rem",
+          "--header-height": "2.4375rem",
+          "--logo-aspect": "13.68056%",
+          "--logo-offset": "calc(13.40278% + 1rem)",
+          "--column-gap": "1rem",
+          "--half-column-gap": "calc(var(--column-gap)*.5)",
+          "--negative-column-gap": "calc(var(--column-gap)*-1)",
+          "--negative-half-column-gap": "calc(var(--column-gap)*-.5)",
+          "--offset-256": "16rem",
+          "--offset-172": "10.75rem"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 23,
+        "fixed": 5,
+        "grid": 48,
+        "flex": 210,
+        "absolute": 177,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 41673,
+        "pages": 46.3,
+        "spacing": [
+          [
+            16,
+            60
+          ],
+          [
+            7,
+            58
+          ],
+          [
+            12,
+            49
+          ],
+          [
+            4,
+            48
+          ],
+          [
+            10,
+            36
+          ],
+          [
+            72,
+            18
+          ],
+          [
+            32,
+            9
+          ],
+          [
+            2,
+            8
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 24,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 24,
+        "animationDurations": [
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            29
+          ],
+          [
+            800,
+            8
+          ],
+          [
+            500,
+            7
+          ]
+        ],
+        "keyframes": [
+          "ticker-a72922c5",
+          "ticker-fd5224ce",
+          "ticker-211bdc1c",
+          "ticker-52d76f34",
+          "ticker-9bd963ea",
+          "ticker-c3a581e8",
+          "ticker-972f133a",
+          "ticker-78741b06",
+          "ticker-b94ad754",
+          "ticker-14959e0e",
+          "ticker-8a164553",
+          "ticker-f0d0158e",
+          "ticker-155daac1",
+          "ticker-80b969e1",
+          "ticker-b7a22a0f",
+          "ticker-f0db7165",
+          "ticker-232f1d80",
+          "ticker-fb44628a",
+          "ticker-4bed1aac",
+          "ticker-a6df4a52"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 333,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1080,
+            "h": 1080,
+            "area": 0
+          },
+          {
+            "w": 1080,
+            "h": 1224,
+            "area": 0.38
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 62,
+        "images": 31,
+        "iframes": 0,
+        "customCursor": true
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 2,
+          "webgl": 26
+        },
+        "raf": 2437,
+        "io": 2,
+        "ro": 73,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 6,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Santalarch",
+      "lang": "en",
+      "description": "Architectural studio built on uncompromising precision and intent."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1702,
+      "canvases": 4,
+      "animations": 24,
+      "hidden": 331
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 26652460,
+        "layoutCount": 788,
+        "recalcStyleCount": 1538,
+        "scriptDuration": 2.334294,
+        "taskDuration": 73.49372,
+        "nodes": 4935
+      },
+      "timing": {
+        "domContentLoaded": 1430,
+        "load": 25281,
+        "first-paint": 1424,
+        "first-contentful-paint": 1424
+      }
+    },
+    "network": [
+      {
+        "url": "https://santalarch.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 37000
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-TDYW18124Q",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 183292
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/entry.D7X7o5bn.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 92338
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/CI8pdcr7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 165612
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/builds/meta/03be9e1c-9e63-48c6-b4db-59a6b0167f79.json",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 210
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ad.B18i8NGa.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 11646
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ad.Blhdm5jl.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 11120
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/af.C77Rf6cE.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 8066
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/af.Bc2fqp73.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 7995
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/as.Dekqy8Of.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 12025
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/as.BTEVCXG-.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 12206
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/aw.W0PWLK5p.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1882
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/aw.CLCX8uk5.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2085
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/bm.BeYgB2z9.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 7541
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/bm.DvNWWcPM.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 7496
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/bn.B6T3O78g.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5820
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/bn.CPQcA8Ol.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5889
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/bo.CcUiMqkJ.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 26224
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/bo.Dry0C6UA.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 26776
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/br.Cu5YU29T.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2567
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/br.Dr5rMAMb.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2420
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/bt.BTo4qm10.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 10450
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/bt.SxWnbWW0.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 10316
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/bz.BCKHR4_q.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 16341
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/bz.CoBdB-p8.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 16368
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/cy.bZuP8hmf.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2512
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/cy.DJKnEFYW.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2542
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/dm.Cbhezfe1.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3234
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/dm.DPPHwW2M.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3404
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/do.B86d445t.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 15280
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/do.DeRnbj4d.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 15615
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ec.CaVOFQ3t.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 7196
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ec.cwfBJlvF.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 7089
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/eg.YC70hswZ.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3730
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/eg.DwOkwyQ0.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3744
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/es.d5m8M5h8.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 16011
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/es.BuSGTZm_.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 16789
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/fj.DEAVMg38.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 9543
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/fj.u3dAPoew.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 9585
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/fk.nuUF_Ak3.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 9591
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/fk.B-RvQ4Hz.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 9215
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/gq.Cag8QTk2.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2164
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/gq.CPnMO1hT.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2264
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/gs.DiiNa0F5.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 11974
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/gs.DOgYbHsY.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 11656
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/gt.CJo5DI-7.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 11735
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/gt.BLpn5qMn.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 11734
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/gu.Di1JYREk.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1965
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/gu.SbvrH0uZ.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1885
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/hr.fzLfaANM.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 13369
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/hr.BpiVVBoV.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 13574
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ht.DIMg4gti.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5062
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ht.pweRl6ZP.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5130
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/im.-VPIqfkF.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3678
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/im.Dd9p-0-T.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3963
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/io.13HOfeJD.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4324
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/io.BImhNBcd.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4394
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ir.cCIgaNf6.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2558
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ir.Q03Mij62.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2421
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/je.DyWbhIiC.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 10371
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/je.vXe0Dr49.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 10582
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/kg.B0FsxZiL.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2063
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/kg.CjfitMyT.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2096
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/kh.BeWfuE30.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2882
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/kh.BBvObpUS.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2894
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ki.p_fAQGbS.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1723
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ki.fuIMkEYQ.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1793
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ky.Dpsu1myA.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 9009
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ky.BqaZHuhf.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 8998
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/kz.CwKXYZ8s.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3079
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/kz.Dkyx6q-p.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3058
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/li.CHdhvNcr.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3135
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/li.CMlf0YU8.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3145
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/lk.DUkgV9Tq.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4620
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/lk.DSQoDxn_.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4616
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/md.DRlxvNwm.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3047
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/md.DTi94M3M.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2897
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/me.Cv4Gwqah.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 22483
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/me.CfGorN3b.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 22768
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/mp.CrOApEqW.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 7232
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/mp.CuaQmCLf.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 7280
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ms.DxciGbUu.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2712
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ms.B-w7hFKu.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2687
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/mt.YqzKx9xl.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6047
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/mt.YDa8zgzO.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5575
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/mx.Cc8Ccfe8.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 31586
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/mx.CvCwYHGF.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 29654
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/nf.Dl00mlk2.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2582
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/nf.DGrQb42O.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2495
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ni.CcFCSQxm.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5659
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/ni.BX2WCaNt.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5706
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/om.DcqxRdQL.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4543
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/om.nN8zP2Bu.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4559
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/pn.DgxdtieE.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5183
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/pn.BPAlH32D.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5130
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/pt.DZ2ADgIR.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3407
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/pt.BTevY6N2.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3424
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/py.mNzh0mZC.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6028
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/py.BKi5dxWt.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6094
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/rs.BfwKwXtn.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 55711
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/rs.CnTO3ehk.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 55527
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sa.Dh79zbT9.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4386
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sa.DnlyVVKx.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4331
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sm.DGBIRFB_.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5487
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sm.BKrUHzrq.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5578
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sv.CJIHhYwF.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 23085
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sv.RZ39q5hO.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 23331
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sx.nDhIaDNb.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4480
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sx.RKKs0ph6.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4295
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sz.qxMwa2gs.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2087
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sz.D39eIL5d.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2077
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/tc.dtelpZmc.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3165
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/tc.CJHJmJj1.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3221
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/tm.C_WSgUcv.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 12935
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/tm.DGBJvQay.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 12786
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/va.B9-hqIE-.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 10071
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/va.s7kyhqIM.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 10063
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/vg.C7xY6pic.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4324
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/vg.ClZ-0KpG.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4327
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/vi.BC_zcciE.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3750
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/vi.BSdsyIxY.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3710
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/zm.BmsW91ne.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2460
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/zm.D8B-0kdx.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2409
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/zw.U0m7oJ5e.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2650
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/zw.CSuuaw9K.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2630
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/arab.C4CYPgyC.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 8394
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/arab.C-KgnQEz.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 8488
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/dg.CJPJrjiZ.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4323
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/dg.DqkWLbnk.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4394
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/eac.CwGQsyAM.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5069
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/eac.h4QKADRE.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5076
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/es-ga.D9xG2hYr.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6526
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/es-ga.DXhVZ333.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6564
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/gb-nir.D4gikpNq.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6363
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/gb-nir.vEp1ZXy6.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5854
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/gb-wls.Bxz9hxvX.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4296
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/gb-wls.CK0XlKT-.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4186
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sh-ac.FjwY7RYr.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 51000
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sh-ac.D-aE2xRW.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 50425
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sh-hl.CqtQPzWZ.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 13608
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sh-hl.CgxUDvtv.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 13224
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sh-ta.CPJublpi.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 11591
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/sh-ta.BFo5zkKU.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 11367
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/un.Bqg4Cbbh.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 7743
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/un.DabL4p35.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 7916
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/xk.Bj15g7cp.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3449
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/xk.Cdz2uTvR.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3253
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/index.Ot20sIss.css",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 10981
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/DgNNnVYr.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 119818
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/001.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 16655
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/004.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 7592
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/008.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 20750
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/010.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 9522
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/012.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 11766
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/002.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 12702
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/006.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 7932
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/011.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 17507
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/003.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 13338
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/005.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 7116
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/007.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 10320
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/009.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 20074
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/thumbnail_img_a3bd9995b5.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5896
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/thumbnail_img_1_bfa5071c8d.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2783
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/thumbnail_img_2_ef9f62821d.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2044
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/thumbnail_img_3_e2f6f15ce9.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 3279
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/thumbnail_img_4_2dc39ed17c.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2287
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/thumbnail_mariia_plyuta_f13e9b0741.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1624
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/thumbnail_img_3105_a124e30f83.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1412
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/thumbnail_misak_melkonyan_35014294dc.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2033
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TDYW18124Q&gtm=45je6bh1v9262780313za208zd9262780313xf1&_p=1795445358441&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1386619022.1795445358&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~119860443~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795445358&sct=1&seg=0&dl=https%3A%2F%2Fsantalarch.com%2F&dt=Santalarch&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1364",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://santalarch.com/icons/door-layer-1.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5253
+      },
+      {
+        "url": "https://santalarch.com/icons/door-layer-2.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1512
+      },
+      {
+        "url": "https://santalarch.com/icons/door-layer-3.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 8427
+      },
+      {
+        "url": "https://santalarch.com/icons/door-layer-4.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 960
+      },
+      {
+        "url": "https://santalarch.com/icons/door-layer-5.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 559
+      },
+      {
+        "url": "https://santalarch.com/icons/tftl-text.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1464
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/Medium.mTItNYFI.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 19189
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/Regular.BXndOYno.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 18636
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/index.Ot20sIss.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/DgNNnVYr.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/text_c63fe82591.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1099
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/text_c63fe82591.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1044
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/text_c63fe82591.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1044
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/2NRRYcX_.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 59189
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/D0wMD3SA.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 121520
+      },
+      {
+        "url": "https://santalarch.com/sequences/watch_white.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1445
+      },
+      {
+        "url": "https://santalarch.com/_nuxt/E3Lbg25B.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 19268
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/017.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 15729
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/014.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 23990
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/018.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4728
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/013.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5662
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/015.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 6093
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/016.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 29451
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/019.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 10761
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/020.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 15412
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/021.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 15948
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/022.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 9361
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/023.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 9403
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/024.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 12379
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/025.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 61054
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/026.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 8451
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/027.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 3223
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/028.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 6751
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/029.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 10621
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/works/thumb/030.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5724
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/small_img_a3bd9995b5.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99632
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/small_img_1_bfa5071c8d.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 22885
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/small_img_2_ef9f62821d.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 17031
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/small_img_3_e2f6f15ce9.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 40496
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/small_img_4_2dc39ed17c.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 15396
+      },
+      {
+        "url": "blob:https://santalarch.com/529d914c-dcad-4626-abff-7fad87be93b7",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://santalarch.com/f27ddeff-88ed-445d-a643-5609a74e23fa",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAAUsAAsAAAAACJwAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAAH4AAADAImwmYE9TLzIAAAGIAAAAPwAAAGBKqH5SY21hcAAAAcgAAAD0AAACrukyyJBnbHlmAAACvAAAAF8AAACEIZpWH2hlYWQAAAMcAAAAJwAAADZfcj2zaGhlYQAAA0QAAAAYAAAAJAC5AHhobXR4AAADXAAAABAAAABMAZAAAGxvY2EAAANsAAAAFAAAACgCEgIybWF4cAAAA4AAAAAeAAAAIAEfABJuYW1lAAADoAAAASIAAAIK9SUU/XBvc3QAAATEAAAAZgAAAJCTcMc2eJxVjbEOgjAURU+hFRBK1dGRL+ALnAiToyMLEzFpnPz/eAshwSa97517c/MwwJmeB9kwPl+0cf5+uGPZXsqPu4nvZabcSZldZ6kfyWnomFY/eScKqZNWupKJO6kXN3K9uCVoL7iInPr1X5baXs3tjuMqCtzEuagm/AAlzQgPAAB4nGNgYRBlnMDAysDAYM/gBiT5oLQBAwuDJAMDEwMrMwNWEJDmmsJwgCFeXZghBcjlZMgFCzOiKOIFAB71Bb8AeJy1kjFuwkAQRZ+DwRAwBtNQRUGKQ8OdKCAWUhAgKLhIuAsVSpWz5Bbkj3dEgYiUIszqWdpZe+Z7/wB1oCYmIoboiwiLT2WjKl/jscrHfGg/pKdMkyklC5Zs2LEfHYpjcRoPzme9MWWmk3dWbK9ObkWkikOetJ554fWyoEsmdSlt+uR0pCJR34b6t/TVg1SY3sYvdf8vuiKrpyaDXDISiegp17p7579Gp3p++y7HPAiY9pmTibljrr85qSidtlg4+l25GLCaS8e6rRxNBmsnERunKbaOObRz7N72ju5vdAjYpBXHgJylOAVsMseDAPEP8LYoUHicY2BiAAEfhiAGJgZWBgZ7RnFRdnVJELCQlBSRlATJMoLV2DK4glSYs6ubq5vbKrJLSbGrgEmovDuDJVhe3VzcXFwNLCOILB/C4IuQ1xTn5FPilBTj5FPmBAB4WwoqAHicY2BkYGAA4sk1sR/j+W2+MnAzpDBgAyEMQUCSg4EJxAEAwUgFHgB4nGNgZGBgSGFggJMhDIwMqEAYAByHATJ4nGNgAIIUNEwmAABl3AGReJxjYAACIQYlBiMGJ3wQAEcQBEV4nGNgZGBgEGZgY2BiAAEQyQWEDAz/wXwGAAsPATIAAHicXdBNSsNAHAXwl35iA0UQXYnMShfS9GPZA7T7LgIu03SSpkwzYTIt1BN4Ak/gKTyAeCxfw39jZkjymzcvAwmAW/wgwHUEGDb36+jQQ3GXGot79L24jxCP4gHzF/EIr4jEIe7wxhOC3g2TMYy4Q7+Lu/SHuEd/ivt4wJd4wPxbPEKMX3GI5+DJFGaSn4qNzk8mcbKSR6xdXdhSzaOZJGtdapd4vVPbi6rP+cL7TGXOHtXKll4bY1Xl7EGnPtp7Xy2n00zyKLVHfkHBa4IcJ2oD3cgggWvt/V/FbDrUlEUJhTn/0azVWbNTNr0Ens8de1tceK9xZmfB1CPjOmPH4kitmvOubcNpmVTN3oFJyjzCvnmrwhJTzqzVj9jiSX911FjeAAB4nG3HMRKCMBBA0f0giiKi4DU8k0V2GWbIZDOh4PoWWvq6J5V8If9NVNQcaDhyouXMhY4rPTcG7jwYmXhKq8Wz+p762aNaeYXom2n3m2dLTVgsrCgFJ7OTmIkYbwIbC6vIB7WmFfAAAA==",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff",
+        "fromCache": false,
+        "bytes": 1324
+      },
+      {
+        "url": "https://santalarch.com/sequences/room.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 4985
+      },
+      {
+        "url": "https://santalarch.com/images/page/main/grid.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1074919
+      },
+      {
+        "url": "https://santalarch.com/models/Door.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 1178679
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TDYW18124Q&gtm=45je6bh1v9262780313za200zd9262780313xf1&_p=1795445358441&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1386619022.1795445358&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938465~115938469~119860443~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795445358&sct=1&seg=0&dl=https%3A%2F%2Fsantalarch.com%2F&dt=Santalarch&en=scroll&epn.percent_scrolled=90&_et=8&tfd=6413",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://santalarch.com/draco/gltf/draco_wasm_wrapper.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 12677
+      },
+      {
+        "url": "https://santalarch.com/draco/gltf/draco_decoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 61722
+      },
+      {
+        "url": "blob:https://santalarch.com/80445f65-019a-42f1-a078-3d40644dc94c",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://santalarch.com/b348ef5a-ffd9-4372-996b-b482812bd1c8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://santalarch.com/c7cf4aa2-74bb-4811-a2fd-e7a73c5be402",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://santalarch.com/e65b9051-9f90-4fd9-b0a6-4ead15018871",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://santalarch.com/ddf1bdd4-f5df-44fa-816f-7524f7368d19",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://santalarch.com/3a478f2a-b7fd-475b-b0ea-172f55739bf7",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://santalarch.com/3a478f2a-b7fd-475b-b0ea-172f55739bf7",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://santalarch.com/3a478f2a-b7fd-475b-b0ea-172f55739bf7",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://santalarch.com/3a478f2a-b7fd-475b-b0ea-172f55739bf7",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/small_img_a3bd9995b5.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98962
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/small_img_4_2dc39ed17c.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 15396
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/small_img_3_e2f6f15ce9.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 40496
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/small_img_2_ef9f62821d.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 17008
+      },
+      {
+        "url": "https://api.santalarch.com/uploads/small_img_1_bfa5071c8d.webp?v=20260813",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 22885
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000F4260000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000F4260000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x358400112c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x358400c3de00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x358400c3de00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x358400c3de00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000F4260000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [
+      "Error: Decoder not supported\n    at Sh.initDecoder (https://santalarch.com/_nuxt/DgNNnVYr.js:2:26824)\n    at async Sh.init (https://santalarch.com/_nuxt/DgNNnVYr.js:2:23673)",
+      "Error: Decoder not supported\n    at Sh.initDecoder (https://santalarch.com/_nuxt/DgNNnVYr.js:2:26824)\n    at async Sh.init (https://santalarch.com/_nuxt/DgNNnVYr.js:2:23673)"
+    ],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TDYW18124Q&gtm=45je6bh1v9262780313za208zd9262780313xf1&_p=1795445358441&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1386619022.1795445358&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~119860443~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795445358&sct=1&seg=0&dl=https%3A%2F%2Fsantalarch.com%2F&dt=Santalarch&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1364",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TDYW18124Q&gtm=45je6bh1v9262780313za200zd9262780313xf1&_p=1795445358441&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1386619022.1795445358&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938465~115938469~119860443~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795445358&sct=1&seg=0&dl=https%3A%2F%2Fsantalarch.com%2F&dt=Santalarch&en=scroll&epn.percent_scrolled=90&_et=8&tfd=6413",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 5
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 36159,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1667,
+      "typography": {
+        "families": [
+          [
+            "Helvetica",
+            145
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            102
+          ],
+          [
+            "400",
+            43
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            4
+          ]
+        ],
+        "sizeMin": 9.375,
+        "sizeMedian": 13.125,
+        "sizeMax": 118.125,
+        "sizeMaxVw": 30.3,
+        "scaleRatio": 9,
+        "letterSpacingMean": -0.024,
+        "loadedFonts": [
+          {
+            "family": "lil-gui",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 145
+      },
+      "color": {
+        "background": "rgb(15, 15, 15)",
+        "backgroundLuminance": 0.004776953480693728,
+        "backgrounds": [
+          [
+            "rgb(15, 15, 15)",
+            1570
+          ],
+          [
+            "rgb(240, 240, 240)",
+            1110
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(240, 240, 240)",
+            403
+          ],
+          [
+            "rgb(15, 15, 15)",
+            154
+          ],
+          [
+            "rgba(242, 240, 240, 0.2)",
+            29
+          ],
+          [
+            "color(srgb 0.941176 0.941176 0.941176)",
+            12
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            5
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--viewport-width": "1440",
+          "--viewport-height": "800",
+          "--font-helvetica": "\"Helvetica\",sans-serif",
+          "--ease-out": "cubic-bezier(.25,1,.5,1)",
+          "--transition": ".5s var(--ease-out)",
+          "--transition-fast": ".3s var(--ease-out)",
+          "--transition-slow": ".8s var(--ease-out)",
+          "--c-base-light-primary": "#f0f0f0",
+          "--c-base-line-highlight": "#f2f0f033",
+          "--c-base-line-dark-bg": "#f2f0f00d",
+          "--c-pure-black": "#000",
+          "--c-pure-white": "#fff",
+          "--c-pure-black-rgb": "0,0,0",
+          "--c-pure-black-0": "rgba(var(--c-pure-black-rgb),0)",
+          "--c-light-primary": "var(--c-base-light-primary)",
+          "--c-light-secondary": "#f2f0f066",
+          "--c-base-dark-primary": "#0f0f0f",
+          "--c-base-dark-primary-rgb": "15,15,15",
+          "--c-base-dark-primary-07": "rgba(var(--c-base-dark-primary-rgb),.07)",
+          "--c-base-dark-primary-20": "rgba(var(--c-base-dark-primary-rgb),.2)",
+          "--c-base-dark-primary-30": "rgba(var(--c-base-dark-primary-rgb),.3)",
+          "--c-base-dark-primary-40": "rgba(var(--c-base-dark-primary-rgb),.4)",
+          "--c-dark-primary": "var(--c-base-dark-primary)",
+          "--c-dark-secondary": "#0f0f0f66",
+          "--c-line-highlight": "var(--c-base-line-highlight)",
+          "--c-line-dark-bg": "var(--c-base-line-dark-bg)",
+          "--c-line-light-bg": "#f2f0f00d",
+          "--dark-gr": "linear-gradient(0deg,hsla(0,0%,6%,0),#0f0f0f)",
+          "--c-error": "#8f2424",
+          "--padding": "1rem",
+          "--padding-sm": ".5rem",
+          "--header-height": "2.4375rem",
+          "--logo-aspect": "13.68056%",
+          "--logo-offset": "calc(13.40278% + 1rem)",
+          "--column-gap": "1rem",
+          "--half-column-gap": "calc(var(--column-gap)*.5)",
+          "--negative-column-gap": "calc(var(--column-gap)*-1)",
+          "--negative-half-column-gap": "calc(var(--column-gap)*-.5)",
+          "--offset-256": "16rem",
+          "--offset-172": "10.75rem"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 19,
+        "fixed": 5,
+        "grid": 54,
+        "flex": 185,
+        "absolute": 175,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 33072,
+        "pages": 39.2,
+        "spacing": [
+          [
+            11,
+            86
+          ],
+          [
+            6,
+            64
+          ],
+          [
+            7,
+            58
+          ],
+          [
+            15,
+            30
+          ],
+          [
+            23,
+            16
+          ],
+          [
+            60,
+            15
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            161,
+            4
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 24,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 24,
+        "animationDurations": [
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            43
+          ],
+          [
+            800,
+            8
+          ],
+          [
+            500,
+            7
+          ]
+        ],
+        "keyframes": [
+          "ticker-a72922c5",
+          "ticker-fd5224ce",
+          "ticker-211bdc1c",
+          "ticker-52d76f34",
+          "ticker-9bd963ea",
+          "ticker-c3a581e8",
+          "ticker-972f133a",
+          "ticker-78741b06",
+          "ticker-b94ad754",
+          "ticker-14959e0e",
+          "ticker-8a164553",
+          "ticker-f0d0158e",
+          "ticker-155daac1",
+          "ticker-80b969e1",
+          "ticker-b7a22a0f",
+          "ticker-f0db7165",
+          "ticker-232f1d80",
+          "ticker-fb44628a",
+          "ticker-4bed1aac",
+          "ticker-a6df4a52"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 297,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          },
+          {
+            "w": 1080,
+            "h": 1080,
+            "area": 0
+          },
+          {
+            "w": 1080,
+            "h": 1224,
+            "area": 0.57
+          },
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 62,
+        "images": 25,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 2,
+          "webgl": 26
+        },
+        "raf": 484,
+        "io": 2,
+        "ro": 71,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 6,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Santalarch",
+      "lang": "en",
+      "description": "Architectural studio built on uncompromising precision and intent."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1667,
+      "canvases": 4,
+      "animations": 24,
+      "hidden": 297
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 21907360,
+        "layoutCount": 292,
+        "recalcStyleCount": 894,
+        "scriptDuration": 0.760114,
+        "taskDuration": 33.235873,
+        "nodes": 4639
+      },
+      "timing": {
+        "domContentLoaded": 1318,
+        "load": 5910,
+        "first-paint": 1204,
+        "first-contentful-paint": 1204
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-line-rotate-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "company-location-text-counter-y-0131da3c",
+        "duration": 24000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0205F09F4260000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A060480AF4260000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A090480AF4260000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [
+      "Error: Decoder not supported\n    at Sh.initDecoder (https://santalarch.com/_nuxt/DgNNnVYr.js:2:26824)\n    at async Sh.init (https://santalarch.com/_nuxt/DgNNnVYr.js:2:23673)",
+      "Error: Decoder not supported\n    at Sh.initDecoder (https://santalarch.com/_nuxt/DgNNnVYr.js:2:26824)\n    at async Sh.init (https://santalarch.com/_nuxt/DgNNnVYr.js:2:23673)"
+    ],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TDYW18124Q&gtm=45je6bh1v9262780313za208zd9262780313xf1&_p=1795445435882&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=130095596.1795445436&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616985~115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123785233&sid=1795445435&sct=1&seg=0&dl=https%3A%2F%2Fsantalarch.com%2F&dt=Santalarch&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1163",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TDYW18124Q&gtm=45je6bh1v9262780313za200zd9262780313xf1&_p=1795445435882&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=130095596.1795445436&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115616985~115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123785233&sid=1795445435&sct=1&seg=0&dl=https%3A%2F%2Fsantalarch.com%2F&dt=Santalarch&en=scroll&epn.percent_scrolled=90&_et=6&tfd=7644",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 5
+    }
+  }
+}

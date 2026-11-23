@@ -1,0 +1,2966 @@
+{
+  "url": "https://laboiteaslides.fr/",
+  "at": "2026-11-23T14:45:21.329Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 97816,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1544,
+      "typography": {
+        "families": [
+          [
+            "vInter",
+            118
+          ],
+          [
+            "FKScreamer",
+            60
+          ],
+          [
+            "Arial",
+            6
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            97
+          ],
+          [
+            "700",
+            48
+          ],
+          [
+            "900",
+            14
+          ],
+          [
+            "400",
+            14
+          ],
+          [
+            "600",
+            11
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            67
+          ]
+        ],
+        "sizeMin": 11,
+        "sizeMedian": 15.805,
+        "sizeMax": 221.27,
+        "sizeMaxVw": 15.4,
+        "scaleRatio": 14,
+        "letterSpacingMean": -0.029,
+        "loadedFonts": [
+          {
+            "family": "vInter",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "FKScreamer",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 184
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(102, 48, 255)",
+            1476
+          ],
+          [
+            "rgba(18, 0, 66, 0.07)",
+            1229
+          ],
+          [
+            "rgb(255, 255, 255)",
+            931
+          ],
+          [
+            "rgba(255, 255, 255, 0.1)",
+            876
+          ],
+          [
+            "rgb(18, 0, 66)",
+            409
+          ],
+          [
+            "rgb(8, 8, 8)",
+            197
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(18, 0, 66)",
+            298
+          ],
+          [
+            "rgb(102, 48, 255)",
+            240
+          ],
+          [
+            "rgb(255, 255, 255)",
+            196
+          ],
+          [
+            "rgb(0, 0, 238)",
+            61
+          ],
+          [
+            "rgb(112, 247, 74)",
+            10
+          ]
+        ],
+        "meanSaturation": 0.47,
+        "rootVars": {
+          "--lgh1": "#fff",
+          "--drk1": "#120042",
+          "--gry1": "#cecece",
+          "--gry2": "#aca6bd",
+          "--gry3": "#5f5f5f",
+          "--prm1": "#6630ff",
+          "--scd1": "#01daf6",
+          "--scd2": "#ff61f8",
+          "--scd3": "#62f740",
+          "--trt1": "#29daff",
+          "--trt3": "#70f74a",
+          "--err1": "#d00000",
+          "--upwwwards-screen-crushed-height": "435px",
+          "--upwwwards-screen-mobile-width": "768px",
+          "--upwwwards-screen-tablet-width": "1440px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 4,
+        "fixed": 6,
+        "grid": 20,
+        "flex": 194,
+        "absolute": 90,
+        "asymmetricGrids": 8,
+        "splitScreen": false,
+        "scrollHeight": 36143,
+        "pages": 40.2,
+        "spacing": [
+          [
+            22,
+            154
+          ],
+          [
+            7,
+            80
+          ],
+          [
+            4,
+            41
+          ],
+          [
+            28,
+            25
+          ],
+          [
+            14,
+            21
+          ],
+          [
+            10,
+            15
+          ],
+          [
+            18,
+            12
+          ],
+          [
+            49,
+            9
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 4,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 3,
+        "animationDurations": [
+          3500,
+          3500,
+          3500,
+          200
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            250,
+            67
+          ],
+          [
+            270,
+            50
+          ],
+          [
+            1500,
+            37
+          ],
+          [
+            200,
+            6
+          ],
+          [
+            2000,
+            5
+          ]
+        ],
+        "keyframes": [
+          "_aSkeleton_1cdzq_1",
+          "_aIntro_yiy3g_1",
+          "_aOutro_yiy3g_1",
+          "_aSuccess_i534k_1",
+          "_aError_i534k_1",
+          "_aTY_i534k_1",
+          "_aO0_i534k_1",
+          "_aRotate_i0x4i_1",
+          "_aLoad_hrv9k_1",
+          "_aBeforeLoad_hrv9k_1",
+          "_aAfterLoad_hrv9k_1",
+          "_aIconIntro_qo8d5_1",
+          "_aIconOutro_qo8d5_1"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 265,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://laboiteaslides.fr/sk/uploads/home_video_SD_79c96be094.mp4"
+          }
+        ],
+        "svg": 63,
+        "images": 36,
+        "iframes": 39,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1
+        },
+        "raf": 284,
+        "io": 2,
+        "ro": 25,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "La boite à slides® : l'Agence PowerPoint Certifiée ISO 9001",
+      "lang": "fr-FR",
+      "description": "La boite à slides® : transformez Powerpoint en puissant levier d'impact business avec la seule agence au monde certifiée ISO 9001"
+    },
+    "featuresBeforeScroll": {
+      "elements": 1091,
+      "canvases": 1,
+      "animations": 5,
+      "hidden": 58
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 2
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 35247724,
+        "layoutCount": 519,
+        "recalcStyleCount": 1046,
+        "scriptDuration": 1.241333,
+        "taskDuration": 94.357298,
+        "nodes": 4633
+      },
+      "timing": {
+        "domContentLoaded": 1503,
+        "load": 1658,
+        "first-paint": 1216,
+        "first-contentful-paint": 1216
+      }
+    },
+    "network": [
+      {
+        "url": "https://laboiteaslides.fr/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 53457
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/style.CYBTgxN-.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 23075
+      },
+      {
+        "url": "https://laboiteaslides.fr/fonts/FKScreamer/woff2/FKScreamerLegacy-Upright.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 24665
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/ChS5DbHj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 31106
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/Bb1GwpIs.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 7984
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/fufhQ66y.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 57523
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/CjDs1yTR.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 42599
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/BDNMzG2s.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 344
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/e08WuswR.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 7222
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/DPODnbns.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1767
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/CB1NCLt1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1787
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/Cjph-ZQ_.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3205
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/BJj6m2Z9.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 483
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/BufvS7nT.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1392
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/bztF8g8e.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1409
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/Bmhvz8Lg.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1247
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/Dn9C-hki.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 706
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/DK3Fl9T5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 418
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/sx6MXaKA.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2567
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/CnfhKW2n.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 850
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/BWRUY4Lu.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2598
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/BdtA61kN.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2729
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/CTnfGVfR.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1294
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/BmH8i0Am.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4080
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/BG3zXwBn.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1495
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/Cr-Hl4CM.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2345
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/D2fA4ZHg.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 859
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/DVMR7h32.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 884
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/CVKayWeQ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 829
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/C0YB-MPU.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2059
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/BmL6zKeL.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1343
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/BXVs94za.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1003
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/Cna8Kbc0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 652
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/B99mNBOh.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4401
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/BGRTs5Rh.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 591
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/CD_sbdMA.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 24971
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/v9G0t80U.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4098
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/AudOhXO9.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2600
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/CB3w6z9l.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1988
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/BmSAeTds.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4692
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/Di8ysjXi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3345
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/CRZfq7qL.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2361
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/Bmh5miP2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 616
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/2Mdqgtde.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1207
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/DZXDdvAe.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3676
+      },
+      {
+        "url": "https://laboiteaslides.fr/assets/images/whitePaper/2.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 11969
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/thumbnail_Safran_0239f5157e.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 4286
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/thumbnail_Adidas_2_20aaceff99.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 8608
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/thumbnail_Touchscreen_Mariott_la_boite_a_slides_agence_powerpoint_0415bcab60.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 7822
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/thumbnail_Ekaterra_Tea_Lipton_43f10e2e06.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 12259
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/thumbnail_Brasseries_kronenbourg_sceno_72f519a001.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6365
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/thumbnail_Nissan_ef41272a76.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 5011
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/thumbnail_Viridien_e87722da36.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 15008
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/thumbnail_Upciti_82768aec88.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 10676
+      },
+      {
+        "url": "https://laboiteaslides.fr/fonts/Inter/Inter.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 89095
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/thumbnail_Presentation_augmentee_1d02882a38.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 3894
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/thumbnail_Adobe_Stock_206118370_5ab61dcb89.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 7813
+      },
+      {
+        "url": "https://laboiteaslides.fr/_i18n/ee409046/fr/messages.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 2640
+      },
+      {
+        "url": "https://stats.sparkk.fr/matomo.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 68248
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/DsTynYHF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 5488
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/C-bFMc1o.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 63542
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/medium_Presentation_augmentee_1d02882a38.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 20591
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Adobe_Stock_206118370_5ab61dcb89.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 24718
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/medium_Safran_0239f5157e.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 26982
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/medium_Adidas_2_20aaceff99.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 50931
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/medium_Touchscreen_Mariott_la_boite_a_slides_agence_powerpoint_0415bcab60.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 42164
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/medium_Ekaterra_Tea_Lipton_43f10e2e06.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 86275
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/medium_Brasseries_kronenbourg_sceno_72f519a001.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 42974
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/medium_Nissan_ef41272a76.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 29806
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/medium_Viridien_e87722da36.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 117191
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/medium_Upciti_82768aec88.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 74309
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/boztimmU.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 5936
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/Cxv6UAhw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1769
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/DepE0tQI.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 11704
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/CwIQ-zuz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 545
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/Mch6t9J6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 8585
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/5KRc6LX0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 880
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/Dt1ZSKAt.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 6565
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/Biwy_mCY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 883
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/CYox2gac.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 629
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/DJlLKOdA.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2793
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/Cy-u63Xc.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 13662
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/LcyxQbxW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2999
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/CjdzYH6f.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1381
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/DUIcykVm.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 137008
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/BXrXDmkL.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 18898
+      },
+      {
+        "url": "https://laboiteaslides.fr/assets/hdr/studio_small_08_1k.hdr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 955159
+      },
+      {
+        "url": "https://laboiteaslides.fr/assets/fonts/FK%20Screamer%20Legacy%20Upright_Regular.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 19089
+      },
+      {
+        "url": "https://laboiteaslides.fr/assets/models/DECIMATE%20v2_compressed-compressed.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 1100302
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/DZXDdvAe.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://laboiteaslides.fr/_nuxt/builds/meta/fb907ce8-a630-46b0-84bf-b0e1db6b87ae.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 337
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/0e04e8c1-b239-45ad-aab0-01e8db7dc76b",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/606b77c4-3775-4d24-9f8d-cd9353f0b92e",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/e4870f06-ecc1-464b-81b8-ddd89f877918",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/3e8c01b6-7dc8-4e78-9d52-11440118cf29",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/ee0a7dfd-2b59-4bce-902a-c156bfcaeb69",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/f2d10833-b93f-41c1-89ad-11d4b8beba76",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/cf3adacc-8b69-432b-99e8-26a378bdf83e",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/44bedc4f-ed41-4411-aefd-7ea79bb84709",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/c8fa5831-267c-4836-9122-e5a027515f6c",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/1687bc56-0ce1-4cc0-bb87-be589e455719",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/42a5dafc-2293-4de5-9ee2-9e6b88338c6a",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/b8a67bc0-e874-4909-bbb9-070abaf21d73",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/79f8ea5b-0a92-4e3e-b537-08dafd6af577",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/90536062-40f8-403b-97ef-d66f2ba18367",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/5813b108-1494-40e9-b33f-a2353be449f4",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/318dd5e9-0130-43f4-be57-55ac7a9a7f6b",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/ebc69732-3a56-432c-b6d3-e054ecda8d6a",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/4e1b5049-e120-4e25-800a-1a65d844de56",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/c8eb13f9-a031-46ac-9849-5d76eb8e11dc",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/86d70a89-a173-405a-b486-516cb088507e",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/de1d0bb9-ca4c-43f9-80d1-6659b2e6697c",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/21aba7a2-4d18-434e-8922-ee2b81ff083e",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/98d530ce-dcc3-472b-83f2-883d1307872c",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/d324d764-3e8d-414d-8164-a59c29b550b3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/54a66022-a377-460b-bd9f-429322db37da",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/a5ca3831-dd9a-4ffd-883e-d36e5a493cb2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://laboiteaslides.fr/f0eb28d2-3a85-46fb-af0d-912532fd9f55",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Brico_Depot_9265283144.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 25693
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Brasseries_kronenbourg_2_ef3160d1cb.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 23232
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Econocom_1_bbf2deda06.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 10703
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Brasseries_kronenbourg_3_2c511aaf16.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 11627
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Candriam_d7ec4211ac.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 28049
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Brasseries_kronenbourg_c4aa37d707.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 24837
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Live_cam_powerpoint_66ba77a3d6.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 18020
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Limatech_0200a6e1da.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 28160
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Live_cam_Realite_Augmentee_powerpoint_1_326712230e.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 23920
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Econocom_3_09b37caa26.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 15248
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Econocom_2_b5451e30d7.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 15859
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Econocom_4_d6a171dce4.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 16847
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Live_cam_Realite_Augmentee_powerpoint_2_0da8adf478.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 23911
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_qui_veut_gagner_des_millions_7ec0f870fa.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 39958
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Trivial_Pursuit_8a4b25c1ca.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 23285
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Maison_Perrier_Award_219180308a.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 16448
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Maison_Perrier_6c1d185c63.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 18449
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Maison_Perrier_Chic_2e80303fbc.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 23929
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Trivial_Pursuit_3_7f9cf56cb4.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 23285
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Trivial_Pursuit_5_Trivial_Pursuit_6_34207ab249.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 23321
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Trivial_Pursuit_5_e5e59ced1f.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 30445
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Trivial_Pursuit_2_6fafb6e677.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 23018
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Trivial_Pursuit_4_07eee46f2f.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 20559
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_twix_snickers_a4c29b83f1.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 30476
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Vaudoise_0b797b5987.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 25016
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Adidas_20ec508fa3.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 30187
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Araymond_4eb84ffff0.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 25113
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Audiens_b499a54b85.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 30114
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Axa_ed688ebfaa.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 28323
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Axa_aide_a_la_vente_a02a510b23.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 24710
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Chanel_f654a93dae.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 15814
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Caterpillar_2278246ff0.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 32558
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Babymoov_cb337e2d48.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 21497
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_CBRE_00fce42506.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 21085
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Coface_144ab51cdd.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 28917
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Essity_9872bcbd26.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 18276
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_JDM_PRES_PPT_04_1_e2c5eec858.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 21439
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Flextone_1839960e8e.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 26728
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_General_Motors_0fde66cf2b.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 23188
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_M_and_Ms_mini_e4ae435636.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 27227
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Liebig_2b76ec3546.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 23129
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Marie_9cca944ff8.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 39044
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Nissan_aa945746e2.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 26552
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Nuxe_72b8bd830c.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 32270
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Mars_wrigley_ac9f9d1412.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 23513
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Pukka_9c6a08bda9.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 36717
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Renault_electric_dcecf4d28c.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 26379
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Renault_dd9391e8d8.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 32371
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Saur_cbcd180b87.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 33386
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Safran_bc185c343c.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 24677
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_The_edge_1_2_bef5289ffc.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 25049
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_The_edge_1_5cf73378d2.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 31975
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Renault_ev_forum_f11bc1287b.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 20773
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Ship_up_73ecf0f94b.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 24341
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Total_energies_8ec1dc0287.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 27302
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Upcoop_f8ef861fe9.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 23692
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Viridien_bbd464d417.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 26298
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_wolf_oil_e2c4402e3a.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 21589
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Vittel_980cb8f103.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 34809
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/small_Tishman_speyer_10c8fc2359.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 32178
+      },
+      {
+        "url": "https://stats.sparkk.fr/matomo.php?action_name=La%20boite%20%C3%A0%20slides%C2%AE%20%3A%20l%27Agence%20PowerPoint%20Certifi%C3%A9e%20ISO%209001&idsite=51&rec=1&r=793284&h=14&m=43&s=43&url=https%3A%2F%2Flaboiteaslides.fr%2F&_id=00e56c32c03032ba&_idn=1&send_image=0&_refts=0&pv_id=vVDwZo&pf_net=503&pf_srv=324&pf_tfr=163&pf_dm1=248&pf_dm2=579&pf_onl=0&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22HeadlessChrome%22%2C%22version%22%3A%22141.0.7390.37%22%7D%2C%7B%22brand%22%3A%22Not%3FA_Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22141.0.7390.37%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=1440x900",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 226
+      },
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/home_video_SD_79c96be094.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "_aIconOutro_qo8d5_1",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_aAfterLoad_hrv9k_1",
+        "duration": 3500,
+        "delay": -1400,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_aLoad_hrv9k_1",
+        "duration": 3500,
+        "delay": -1400,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_aBeforeLoad_hrv9k_1",
+        "duration": 3500,
+        "delay": -1400,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 370,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 370,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 370,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 370,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_aRotate_i0x4i_1",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 700,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 230,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 370,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 370,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 370,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 370,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 370,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 370,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000C4010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x14cc01dd2000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x14cc01dd2000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x14cc01dd2000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x14cc01dd2000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/home_video_SD_79c96be094.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 40,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 8370,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1055,
+      "typography": {
+        "families": [
+          [
+            "vInter",
+            134
+          ],
+          [
+            "FKScreamer",
+            44
+          ],
+          [
+            "Arial",
+            6
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            108
+          ],
+          [
+            "700",
+            48
+          ],
+          [
+            "400",
+            15
+          ],
+          [
+            "600",
+            13
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            55
+          ]
+        ],
+        "sizeMin": 10.5,
+        "sizeMedian": 14,
+        "sizeMax": 114.8,
+        "sizeMaxVw": 29.4,
+        "scaleRatio": 8.2,
+        "letterSpacingMean": -0.029,
+        "loadedFonts": [
+          {
+            "family": "vInter",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "FKScreamer",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 184
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(102, 48, 255)",
+            1533
+          ],
+          [
+            "rgba(18, 0, 66, 0.07)",
+            796
+          ],
+          [
+            "rgb(18, 0, 66)",
+            766
+          ],
+          [
+            "rgb(41, 218, 255)",
+            440
+          ],
+          [
+            "rgb(255, 255, 255)",
+            312
+          ],
+          [
+            "rgb(98, 247, 64)",
+            258
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(18, 0, 66)",
+            313
+          ],
+          [
+            "rgb(255, 255, 255)",
+            222
+          ],
+          [
+            "rgb(0, 0, 238)",
+            66
+          ],
+          [
+            "rgb(112, 247, 74)",
+            12
+          ],
+          [
+            "rgb(102, 48, 255)",
+            11
+          ]
+        ],
+        "meanSaturation": 0.73,
+        "rootVars": {
+          "--lgh1": "#fff",
+          "--drk1": "#120042",
+          "--gry1": "#cecece",
+          "--gry2": "#aca6bd",
+          "--gry3": "#5f5f5f",
+          "--prm1": "#6630ff",
+          "--scd1": "#01daf6",
+          "--scd2": "#ff61f8",
+          "--scd3": "#62f740",
+          "--trt1": "#29daff",
+          "--trt3": "#70f74a",
+          "--err1": "#d00000",
+          "--upwwwards-screen-crushed-height": "435px",
+          "--upwwwards-screen-mobile-width": "768px",
+          "--upwwwards-screen-tablet-width": "1440px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 1,
+        "fixed": 4,
+        "grid": 21,
+        "flex": 192,
+        "absolute": 80,
+        "asymmetricGrids": 8,
+        "splitScreen": false,
+        "scrollHeight": 14468,
+        "pages": 17.1,
+        "spacing": [
+          [
+            6,
+            79
+          ],
+          [
+            3,
+            41
+          ],
+          [
+            22,
+            27
+          ],
+          [
+            11,
+            20
+          ],
+          [
+            14,
+            12
+          ],
+          [
+            39,
+            8
+          ],
+          [
+            17,
+            7
+          ],
+          [
+            140,
+            5
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 4,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 3,
+        "animationDurations": [
+          3500,
+          3500,
+          3500,
+          200
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            250,
+            61
+          ],
+          [
+            270,
+            48
+          ],
+          [
+            1500,
+            37
+          ],
+          [
+            200,
+            6
+          ],
+          [
+            370,
+            2
+          ]
+        ],
+        "keyframes": [
+          "_aSkeleton_1cdzq_1",
+          "_aIntro_yiy3g_1",
+          "_aOutro_yiy3g_1",
+          "_aSuccess_i534k_1",
+          "_aError_i534k_1",
+          "_aTY_i534k_1",
+          "_aO0_i534k_1",
+          "_aRotate_i0x4i_1",
+          "_aLoad_hrv9k_1",
+          "_aBeforeLoad_hrv9k_1",
+          "_aAfterLoad_hrv9k_1",
+          "_aIconIntro_qo8d5_1",
+          "_aIconOutro_qo8d5_1"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 33,
+      "media": {
+        "canvases": [
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://laboiteaslides.fr/sk/uploads/home_video_SD_79c96be094.mp4"
+          }
+        ],
+        "svg": 60,
+        "images": 36,
+        "iframes": 39,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1
+        },
+        "raf": 803,
+        "io": 2,
+        "ro": 5,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "La boite à slides® : l'Agence PowerPoint Certifiée ISO 9001",
+      "lang": "fr-FR",
+      "description": "La boite à slides® : transformez Powerpoint en puissant levier d'impact business avec la seule agence au monde certifiée ISO 9001"
+    },
+    "featuresBeforeScroll": {
+      "elements": 1055,
+      "canvases": 1,
+      "animations": 5,
+      "hidden": 34
+    },
+    "scrollReveal": 1,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 33806404,
+        "layoutCount": 161,
+        "recalcStyleCount": 339,
+        "scriptDuration": 0.120809,
+        "taskDuration": 2.031755,
+        "nodes": 3238
+      },
+      "timing": {
+        "domContentLoaded": 1309,
+        "load": 1460,
+        "first-paint": 1016,
+        "first-contentful-paint": 1016
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "_aIconOutro_qo8d5_1",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_aAfterLoad_hrv9k_1",
+        "duration": 3500,
+        "delay": -1400,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_aLoad_hrv9k_1",
+        "duration": 3500,
+        "delay": -1400,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "_aBeforeLoad_hrv9k_1",
+        "duration": 3500,
+        "delay": -1400,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 370,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 370,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 700,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 370,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 370,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0E313C4010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://laboiteaslides.fr/sk/uploads/home_video_SD_79c96be094.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 40,
+      "workers": 0
+    }
+  }
+}

@@ -1,0 +1,2425 @@
+{
+  "url": "https://preymaker.com/",
+  "at": "2026-11-23T14:51:31.115Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 17065,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1676,
+      "typography": {
+        "families": [
+          [
+            "NewGrotesk",
+            110
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            65
+          ],
+          [
+            "700",
+            28
+          ],
+          [
+            "600",
+            12
+          ],
+          [
+            "500",
+            5
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            36
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 12,
+        "sizeMax": 40,
+        "sizeMaxVw": 2.8,
+        "scaleRatio": 3.3,
+        "letterSpacingMean": -0.02,
+        "loadedFonts": [
+          {
+            "family": "NewGrotesk",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "NewGrotesk",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "NewGrotesk",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "NewGrotesk",
+            "weight": "700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 110
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            3888
+          ],
+          [
+            "rgb(241, 243, 245)",
+            1296
+          ],
+          [
+            "rgb(255, 255, 255)",
+            14
+          ],
+          [
+            "rgb(185, 193, 200)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(241, 243, 245)",
+            388
+          ],
+          [
+            "rgb(0, 0, 0)",
+            43
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            24
+          ],
+          [
+            "rgb(133, 144, 153)",
+            5
+          ]
+        ],
+        "meanSaturation": 0.02,
+        "rootVars": {
+          "--breakpoints-desktop": "1920",
+          "--breakpoints-tablet": "1920",
+          "--breakpoints-mobile": "768",
+          "--sizes-desktop": "1920",
+          "--sizes-tablet": "1440",
+          "--sizes-mobile": "390",
+          "--spacings-xl": "2rem",
+          "--spacings-l": "1.2rem",
+          "--spacings-m": "0.8rem",
+          "--spacings-s": "0.4rem",
+          "--spacings-xs": "0.2rem",
+          "--paddings-xxl": "24rem",
+          "--paddings-xl": "16rem",
+          "--paddings-l": "10rem",
+          "--paddings-m": "8rem",
+          "--paddings-s": "4rem",
+          "--grid-count": "12",
+          "--grid-gutter": "0.4rem",
+          "--grid-margin": "1.2rem",
+          "--black": "#000000",
+          "--mid-grey-shade": "#859099",
+          "--mid-grey": "#b9c1c8",
+          "--grey-shade": "#c0c6ca",
+          "--grey": "#dde1e4",
+          "--white": "#f1f3f5",
+          "--pure-white": "#ffffff",
+          "--transparent": "#859099"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 13,
+        "fixed": 11,
+        "grid": 13,
+        "flex": 149,
+        "absolute": 185,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            4,
+            79
+          ],
+          [
+            12,
+            40
+          ],
+          [
+            8,
+            12
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            20,
+            5
+          ],
+          [
+            40,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 20,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "easings": [
+          "cubic-bezier(0.39, 0.575, 0.565, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            700,
+            68
+          ],
+          [
+            1500,
+            25
+          ],
+          [
+            600,
+            10
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 65,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/wings-v8_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/lincoln-navigator2026-101047/lincoln-waterfalls-preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/mercedes-holiday---101215/mercedes-holiday-global-version-preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/showreel/preymaker_anthem_2_website_preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/ford---proving-ground-101032/ford_f1_proving_ground_30_preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/kinder-yes-bueno/kinder-yes-bueno-preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/toyota-into-the-wild/toyota-4runner-60-preview_1_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/xfinity-aviators/xfinity-aviators-preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/lowes-walk-of-greatness/lowes_website_preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/xfinity-greek-god-chat-101156/xfinity_greek_god_group_chat_preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/preymaker-denmark/denmark_full_preview_1_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/abbott-beast-of-bias/abbott-beast-of-bias-preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/coca-cola-it-s-halftime/coca-cola-half-time-preview-v4_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/coca-cola-it-s-halftime/coca-cola-half-time-preview-v4_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/navy-spotlight/navy-spotlight-preview-v3_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/ramp-just-fine/ramp-just-fine-preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/ford-ready/ford-ready-preview.-mp4_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/lincoln-mic-drop/lincoln-mic-drop-preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/wings-v7_1080p.mp4"
+          }
+        ],
+        "svg": 6,
+        "images": 45,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 326,
+        "io": 21,
+        "ro": 309,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Preymaker",
+      "lang": "en",
+      "description": "Preymaker"
+    },
+    "featuresBeforeScroll": {
+      "elements": 1676,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 75
+    },
+    "scrollReveal": 10,
+    "hover": {
+      "probed": 6,
+      "changed": 1
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 20514652,
+        "layoutCount": 796,
+        "recalcStyleCount": 1965,
+        "scriptDuration": 0.278408,
+        "taskDuration": 1.169679,
+        "nodes": 6108
+      },
+      "timing": {
+        "domContentLoaded": 2458,
+        "load": 2829,
+        "first-paint": 2352,
+        "first-contentful-paint": 2744
+      }
+    },
+    "network": [
+      {
+        "url": "https://preymaker.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 536893
+      },
+      {
+        "url": "https://preymaker.com/_next/static/media/6abe35ee3c3dfbdb-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 41494
+      },
+      {
+        "url": "https://preymaker.com/_next/static/media/9662f4a6bb719653-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 41417
+      },
+      {
+        "url": "https://preymaker.com/_next/static/media/d97da606940d7048-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 38390
+      },
+      {
+        "url": "https://preymaker.com/_next/static/media/e7ca783a6a062f4f-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 40973
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/f0c8ebfc1aedb7a998db9660b422e814e58ae1a8-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 24436
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/92424c340888edb84e1a866a48d2a6f9a0277ed0-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 32923
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/33bc38f664352ab9d5ad5dca6b5e8bd350335497-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 35761
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/9106ee747b1c121abec528dae0bd3b8e997b8d8a-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 62438
+      },
+      {
+        "url": "https://preymaker.com/_next/static/css/afade79bd7afe4ba.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 5326
+      },
+      {
+        "url": "https://preymaker.com/_next/static/css/f58c8dd3f26b04a5.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3209
+      },
+      {
+        "url": "https://preymaker.com/_next/static/css/d7921f59479d00d1.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2830
+      },
+      {
+        "url": "https://preymaker.com/_next/static/css/cb502bc9667dcd29.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 7756
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/aecae019b9172d3b647d798d28fcbf7f8b0f8455-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 24872
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/d2ed2c41a495322ff01622c1c5438d3c41e9e841-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 66488
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/94387763ebca6d854c48dda1a76ba924b144faf0-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 207810
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/577cb103f4f05fe570f1f09d872e4a6ad8ad0944-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 48142
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/5e68ba55432e7594a5aa0e77151d28ccd53bf7ab-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 13536
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/482f35c942199ee2e30dd1cc3c271bb2a7e7c29e-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 28201
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/c2e5274dfddbf9e23e51bc26f37fa8c2b2669cd8-1890x1417.png?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2800
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/db6e1f2de0e4cd79cd8d8da68e42f6e45938304d-1890x1417.png?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4831
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/226d9d1cc4ea35a4889063314e42ea529b7413f5-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 46712
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/5062ca4de003c4bbe95293626d1bfe50ab3ca5fa-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 93435
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/webpack-82604d09b981f32d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2833
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/de6a0083-4ac934bbfbaacc64.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 51088
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/4895-7d26dfa1efa50b3b.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 43146
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/main-app-2922511082be44bf.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 860
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/0b0944fb-2d063671474a1781.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 19927
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/8849-97faf9d8d00fc937.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 36636
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/3395-fb4d7c146b12fbfe.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 19689
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/9491-9ae7d3990f078f1e.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 39152
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/1745-936c06e88ae8f815.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 7616
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/1664-ce7d0c52a48a4753.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 8682
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/1778-530314b57b7ecf0c.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 30560
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/3379-c64eb70714bc9156.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 8546
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/5866-86249aebd12d5722.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 5751
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/app/layout-337bf8275548c1e6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 13866
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/7703-a6df8dbbe7a91aab.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3580
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/3080-9089f801b02d2504.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 7891
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/app/(pages)/home/page-aea8fc343c983e1a.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2223
+      },
+      {
+        "url": "https://preymaker.com/_next/static/chunks/app/not-found-22be16d1c9422508.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2556
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-HDWLF8LQVY",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 183268
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/b0765ae086c894ba109ed214e385da83a33e335a-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 44479
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/db762ed9a76ece5f64777aca5e7a94484a902408-1890x1417.png?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3055
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/b0d61b29cc77a0ab75a1f79212254f76ed4ef9ac-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 24859
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/b78a07b18515f2286d9feb086b6bdb654bf26a53-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 21987
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/33400157f51f77c769a35ca70d522fb50fecc6ed-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 103952
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/451e69310c1083489bbf3767fa5a81d78eae0191-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 33907
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/3c79e71d021fe3234550b4a1ecece3db447cdd18-1080x1080.svg?w=600&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 28659
+      },
+      {
+        "url": "https://preymaker.com/icons/small-preymaker-logo.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 636
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAUGB//EACIQAAEDBAICAwAAAAAAAAAAAAEAAgMEBRESBiETMiIxYf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABoRAAIDAQEAAAAAAAAAAAAAAAABAhIhBBP/2gAMAwEAAhEDEQA/AF4vdU6LSTPpuMpjS8hNNxx1P5AHPOcZURdZpBcLph5GoOPxSFnqp5Z3mSV7jofsoULrSbq8NJo+eupo3RH5auPZKFlpJ3f2fYoWXzxH1Z//2Q=='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAYHAwT/xAAlEAABAwMDAwUAAAAAAAAAAAABAgMEAAUREhMhBiIyFCRBYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAAEAAL/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREC/9oADAMBAAIRAxEAPwBUtMuXIlpajuOuSE8uJJGQB9072ue4uO+qKpLrjfmc+P7UjiSXovWnt1lvJ50/NUmXKeitNGOvb3QnXpA7s0jTdgXEhvGF8uTfqWpWlCiQAo4orvc7CEo4SAMAUVVmz//Z'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIHBgj/xAAiEAACAQMEAgMAAAAAAAAAAAABAgMABBEFEiExE2EiQVH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAYEQADAQEAAAAAAAAAAAAAAAAAARECIf/aAAwDAQACEQMRAD8A56mmtSsqvGoG7cGXsMPz1T6MsOoXkst23zGPGM4rPF2BXB6pnkcQLhsc/XFOuqIMvtKRcWthEY1leISbASGYZoqXtI7HLMxPs0VmsRQt6rp//9k='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUDBAYH/8QAIxAAAgIBAwMFAAAAAAAAAAAAAQIDBAAFERIxQVEGFCFhYv/EABcBAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAaEQACAgMAAAAAAAAAAAAAAAAAAQMiAhES/9oADAMBAAIRAxEAPwDkFWvf9lFYthoa5J4qw3Ln8rlWadbqyR0EsFokLTqQNgMVNrGoPOzvakZgCoJ7D68Y00Zmj9N3pUJWR5AjMOpHjKKTPmxlcMadUZSYcZWBRlIPQ9sMluEmw5JJJ+ScMO0Mf//Z'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQADB//EACAQAAICAQQDAQAAAAAAAAAAAAEDAAIEBRESIQYxQZH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAaEQACAgMAAAAAAAAAAAAAAAAAAQISESFB/9oADAMBAAIRAxEAPwDj6NH0zJbSmOwixO3XozJvjFC9tV2PFf09n8hOG1hyKjkQN/nUSa9qbWspl6kn2DIm87ZmUVwKytNat1q0oOIlEmuYbbm5JI3MosKH/9k='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAwj/xAAhEAACAQMEAwEAAAAAAAAAAAABAgADBBEFEiExEyJBNf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//EABgRAAMBAQAAAAAAAAAAAAAAAAABAjFB/9oADAMBAAIRAxEAPwDnjTnKVKTtSyytxiUNrfLT0+qmz3FUsCT1mT7foKPmYzvEUWTEDknuZNEilVKX0y1Gstxc+QPjKjqEXbiAoB+QiA9P/9k='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAcEBQb/xAAjEAABAwQBBAMAAAAAAAAAAAABAgMEAAURIQYHEzFxIlGR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAZEQEBAAMBAAAAAAAAAAAAAAABAAIREiH/2gAMAwEAAhEDEQA/AJfLeZMTZTUSHIQ6htHfewfo6TS9PUG6S78RKSx2VLGQPKUjVZ2wuLTa5hB2cAnG/wBqlyUSCU6ODVgd7igeTam3SA5IWUyG8e6KVF3fcEsYWR8E+PVFPtp8Y3//2Q=='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAYDBQcI/8QAIxAAAgICAQIHAAAAAAAAAAAAAQIAAwQRBQdhBhITMTNBcf/EABUBAQEAAAAAAAAAAAAAAAAAAAME/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERAwL/2gAMAwEAAhEDEQA/AOf+n6Y452mzJt9IqR5W17GP/U+yjkeDUnLFrVHSqF0T3mdeG60sW8uoJVCR2lpQ7ZeJlPksbGSsBSfqD3ndEyjjSZNQSipB0RCS3/K37CPCan//2Q=='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAJABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYEBQf/xAAmEAABAwMCBQUAAAAAAAAAAAABAAIDBAYRByEFIjI0NXJzg7HB/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/EABsRAAIBBQAAAAAAAAAAAAAAAAABAgMREhMh/9oADAMBAAIRAxEAPwC5snUC25XtE5dHgbZalXXK56Hi1NBS0U5bE3LyQPtZHbnVH6gpFzdzW+2h6VCfGOVTOF2hVPO5xjBc3OxAQmi0PEfI78QmAT//2Q=='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMEBQYI/8QAIxAAAQQBAwQDAAAAAAAAAAAAAQACAxEEBRIhBhMjMUFRUv/EABYBAQEBAAAAAAAAAAAAAAAAAAECA//EABsRAAICAwEAAAAAAAAAAAAAAAABETECAxIh/9oADAMBAAIRAxEAPwDm9vjaHgmwL9LQaRJs0bJlOZJ3HcGLdQI+ioXUmPFAYxCwNG5w4VfEbgZf7pVMDzNOvRseY5rSCPlCdnRsGQQGgCghLwZktiP/2Q=='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAcCBQb/xAAjEAACAgICAQQDAAAAAAAAAAABAgMEAAUREgYHFSGRMkFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwIF/8QAHhEAAgEDBQAAAAAAAAAAAAAAAQIAAxEUEiExQVH/2gAMAwEAAhEDEQA/AJ+8UtLYjqRmvX7HhAiD7yr2/q1Z1exWNYZZo4QQHkfgHn9gfzF5Xlews7zu0jrFwCx5IzPSxLKvMvZyPgdmJ+MVrLwJl0l1jcm8d9fzTyfcRLco1Fkgf8WWIkfeGLHQ77ba7WpWo7CzBAhPVEkIAwyMk+RsBe2M/9k='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQHAwX/xAAkEAACAQMDAwUAAAAAAAAAAAABAgMABBEFEiIGEyExUWFysf/EABYBAQEBAAAAAAAAAAAAAAAAAAEDBP/EABYRAQEBAAAAAAAAAAAAAAAAAAAREv/aAAwDAQACEQMRAD8Aky6g07PvYsNu3DflJ9RtBY2dvJb85WTBLHIA9qwtyRn7mupc28UumMZI1Y/NZhYm0zmSVnz6minXgi7snAeGIoq+i//Z'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUCAwYH/8QAIRAAAQQBBAMBAAAAAAAAAAAAAQIDBBEABRITIRQxUYH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBf/EABsRAQACAwEBAAAAAAAAAAAAAAEAAgMEETGh/9oADAMBAAIRAxEAPwDhrbb62VNkENg7rJ6rNno2ptOQVQmVnioApr1+4vjNIXFO5INHrGUKMynxiltIKlGz9yUZBJSti8CXwoencR531btxqlAdYZNiBFUF2yk0ojvDDdpHnWNXRrY7w+z/2Q=='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAYHBf/EACMQAAEDBAEEAwAAAAAAAAAAAAECAwQABRESEwYUIUEjcYH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAcEQABAwUAAAAAAAAAAAAAAAAAAQIhBBITUWH/2gAMAwEAAhEDEQA/AIpan2n2VRVRvkWoDcjOPNPsCci2THI0pammdBoGlYKvusyyx2UxmyG05JJJpMvM6TKv0nneUsIB19YoWJMNbfBW4l06S4j3Sn23djkbZ/aKjK0hQQVZJ1HuinImiWk6f//Z'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQHBQb/xAAhEAACAgIBBQEBAAAAAAAAAAABAwIEAAURBhITITEUUf/EABYBAQEBAAAAAAAAAAAAAAAAAAQAAv/EABoRAQADAAMAAAAAAAAAAAAAAAEAESECEhP/2gAMAwEAAhEDEQA/AIpT6cmtfmYseMfST6GPVlq0t9TqLY/sWe6JieRzjGrnJlbsnIyiR7Bzb6f1VF95cW1oSiT894igg3muM47d6zbbPZOu20SY5x7zIfDzhlk2FRCLHjUqMYRiAB/MMut7M+6ZP//Z'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABwAGCP/EACIQAAIBBAIBBQAAAAAAAAAAAAECAwAEBRESITEGFTJh0f/EABYBAQEBAAAAAAAAAAAAAAAAAAMCBP/EABoRAAIDAQEAAAAAAAAAAAAAAAABAhEhMVH/2gAMAwEAAhEDEQA/ADqL2uwyVpZSgPGzBpC/kbpJLWGSxB4ukcER0oV+JOj11XP19NI+a5O5Lcx2aSsfEjYuBiO+Wt7+6KULa0q8FXGesIEs4454FBjHAcNkaHiqs/Bj7VYlCxa638j+1UygvWZG94j/2Q=='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAcDBAUG/8QAIBAAAQMEAgMAAAAAAAAAAAAAAQACAwQFBhESUQcxMv/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgT/xAAZEQEBAAMBAAAAAAAAAAAAAAABABESISL/2gAMAwEAAhEDEQA/AFngOaVOOOeYdlrvY7XY5b5RkutuZDCwQHjtx7SNgmkDAOZ1tW6skvbsn5VnbCqeRp6+4ulqXODiQULOKEZlqX//2Q=='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUEBwj/xAAjEAABAwMEAgMAAAAAAAAAAAABAgMEAAURBhITIQcxUWFx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgED/8QAGhEBAQACAwAAAAAAAAAAAAAAAQACEgMRMf/aAAwDAQACEQMRAD8Ae2TytaZlxVCKXWG8Aha/upGptTsQo81yQyFhGCxs75QR7/KzBYX3RNQsLO71mrFu0+ULFAc5lbyCCT318VN0yAi8ZqrIbvqW+XKe5IjJUy0rpKEJ6FFI37rObfWESVpGc4GBRWqxA68v/9k='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAcCBQj/xAAkEAACAQQBAgcAAAAAAAAAAAABAgQAAwUGIRExCBITFiJRgf/EABYBAQEBAAAAAAAAAAAAAAAAAAQDBf/EABkRAAIDAQAAAAAAAAAAAAAAAAABAgMRIf/aAAwDAQACEQMRAD8AQenY6RkpXpxkLsDyBTYzusyPbzeSPetLbTqyt2PHeoeHmHHOWlObSlgo6GnbsVpG1/Iqyggq/H5Sq1kSF72xsw9I+N5x9GirLJWLazrwVAAGNFFZpKXD/9k='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYEBQj/xAAkEAACAgIBAgcBAAAAAAAAAAABAgMRAAQFEiEGFSMxM0Jhcf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAGREAAwEBAQAAAAAAAAAAAAAAAAECEiER/9oADAMBAAIRAxEAPwDOelro0/ruqRAWWYXf8xm5DxPA51dOPR1ZYIVCio6ZrHe8UXYhyL7A5Ij+dZPuBd/uUUar0NXiMoY+Q8m15URuMlL9ALdMlC8MoOTdjOhLG2QEm/c4Y3MTwgnddZ//2Q=='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAACuElEQVR4nCWI22/TVgCH3cT2ic/F5/j4UtvH19ix41wcU6VNmzYto2sDVO24TVBRBhOUSmzTJgYPTHtB4oEHxEWI/3cq+/STPv0+CSttKLdge4WBlqBy5rOqTPNUCI48onpEcbHsorZHZJ8oNpSZ2sJKiwCZQiDpHYV2FB3IFlIiruYeHZTJsEwKYRWrbOiyyqWZBcvVy/kUmFA2NIVBYBAoWQQ5hu5y6nFdcBTZei/1x1V3PspurZUXu82vi8lO4Q8E7ft6bCGfaT7HwjFC35bEqp1EopfHRRrmgVNETl1l8/X6zv7Wy6PF59Plx0c3H8xHdWpXsVWEZtdleWhNxsVsZyolcVCWedMMtzfHB/PB7eX68/OHF789u3j888vjqx/uXfv25PjicGM+iraadLPpDjO33/UPT5bn//wtpUlQVb3ptL5xMHt8d/PVi5OPX9+9/fz+z7/Ofz/ae3tz+9PZjafXZ3vr+dH+5PhwbaNORr347qPTN9++SEks+mXWNIPF1mS5O7x/Z+fFq/OzP57dO/3p7Mf564ONf2/v3doZzybx0Q/jk4NmWolB4i6v799//lSKIz+NRTcNB2U67odrTbaxOx2s18O6unalerJd/7JoZv2kSt3FWnZ1mleBERuoTsWkn0mBbzsmMxgJPatKnCJ1wkS4gRDCryJ/Ow+vdIPAsT3HLFK/KUTPpS5UQ12LOJEsg+iogyFIXDbN7VFseo5pmpbJucO5Z3GbG9wwTNN0bCsWTuxQrqkUKAbqSFhTUEdmSK1Ctujbw4A6nFKdEox1QijVGWMG59w0v8uwGIFAVlorSrslaWoLA5kjkNpo6OOIaybTKaUIIQghRkjXLy+lFGP9e9QUWZb+B8grWG0bHcVBiovaFlIMnVBKIYQAdADoIIgwIRhjTYMqAIoKWu22tHLJf3IRaRBmhZjoAAAAAElFTkSuQmCC'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQAGB//EACEQAAEEAgICAwAAAAAAAAAAAAIAAQMEBREGIQcSMUFh/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABkRAQEBAAMAAAAAAAAAAAAAAAEAEQISQf/aAAwDAQACEQMRAD8A5hxvjtXN5Iop7QwhC3b/AG7/AInOSeNcDQxslw8jJAINv3N9s6yV4ijrxTxu4yu23IenQ2cy1+7UCC1allhF9sJP0gBceLMvjH2HgjmIK9sjjb4L11tSOdSbIu1//9k='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAFaklEQVQ4jV2T+VNTZxSGQ/Z9IwGMQAqENSwSAVlEEEFQUXBfGKsUN7RuFbCxWsoqBBVENGIUEBCMiizuVov6a9vR/+jp3Bvt0P7wztyZ+33P957zniMxGE0YzRbM4XbCIx1ERTuJjU/ElZZOxso8cotKKVhbybpN29j5/REOnz7PuYtd/OYb4sqtUW6OTHNn8gkj03OMBReQCECTxYrZZscWtQSYmo47O5eVBWtYtaac0qoaavfWs//oaY6fu0jLb720+YboHQxw1T9G//B9BobHkegNxpBDm+BwGZHLY4n+LoG45DRSMj1k5RaSU1RKcUU1VbV72VbXwP4jpzh61ssZbzstrb14269woeMKF9r7kOiNIaDJGo7FHondEY0jNo5YVzKJ7kzcnjxW5K+hoGwjpVW1VNbupnbPQfbUN3Lg2BkaTjZz+FQLh0+20HCiCYnOYMRgMmO0hGO2RfxbdnR8InEpaSRlZOPOKWRlcQX5pZWi0/LqHWzaXkfNnoOi4+11DWzdW0/N7gNINDodOqMJg8WKyWbHGukgwhGDwxlPXIob98p8ckrWU1y1ldUV1WJAhWVVlKzfQtnGrWJYgtZuqKGkcvNXoMGI3mTBaLVhiViGw5lAek4+5bW72HfsLMe9HZxp9XGsuZVd9Y2Ub9lB4boNrCqpEANbtWYducVryVldgkSr038FmjFYwlnmTKC4qoZGbwddw1MMBV9yb+4P7s2/587MW/ruBWnqvMbO+kYKyqrIyiskIzef9Jw83J6cEFCrN6IzmomIdlJUWcPpjgEGg28Ynv+E/+kit5++JzD/gcD8R4ZnFwnMLdLln2BHfSNZ+atJysjClZ5JQlq6ADSg0RswhdvwrC7j+CUf3aPzXB5boHtkDt/4M3zjC/RPvaJv4jnXHrzk1pP3DE6/oql7kNLqbbjSMnAmJhPrSkKi1RtQ63RExTipPXCUtuFHdI89pz0wQ8edJ/SMznF5dJae+wt03ZulK/CY9lsP6LgdpHM4yL7jTaSuyBFDXO6MD4UiKD41g0MtbXSNLtA+8gzf5GsGHv7OtanX9E2+oHt0jks3JmnqvU1zj582/zRXJ1/wU+cAnqJScSGiHDFIVBotaq2OpEwPJ37to+/BG/ofLTL6+k/G3v7N4MxHLo894+f++zS2DnDoQi8n2wdp8z9k6PE7LvYHyC1ZJ85veGQUEqVajVKtIcaVTN2J83TenWVoZpFHHz4ztfiFa8F3tAee8qs/yC83HuC9Po53YJyOwAxXJhY40txKcqZHXF2zzYZErlQhSBiZrIISth8+yw/NbZzrGqBzeIqOu0/ENtyc/cTEu8/cf/sn/tmPXA++pcXnp2h9NbZlDnExDBYLEplCjkypQKFSh+YwLonYlAySVuRSsmk7u46e48ilq3SOzDG9+IWH7/9i6OErLvbfZXNdA8vjE9GZzOIcC5LI5DJEqEKBXKUSy1dqdKj1Biz2KJypmazasJN6r4++iQXaBkfZ9cMJ8suqxDbpzVaESRFmWZBEJpcilcuQygWnSrF8wa0gpUaL3monIbuQyv0/csjbw46Gk7jcmSJIYzCi1uoJBRsKVyKVhRGSAP7qVAQrUag16Cw2YlKz8ZRvJa+ilhRPPmZ7JEq1VnxQKYaqRqURpEEilUqRSsNCkn1zK0Mml4st0BotRH6XjCu7iOjEdAwWmwiSq9Tif7nwuEqJQmiXSrUUuAQsfMuk4mGN3ojV4cThchPuiEWt04shCpX8R0qhMsU34FJ9g4YhVyjERlsil2OPjsNotYv9EkKUCr0XKvomMVyZAFziShpGmFRK2P+BEQ5sjlh0RosYlnBZOLNUwn2ZLIx/ANyhKm2cMHhFAAAAAElFTkSuQmCC'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/2c4e607572f312f55b90932bea200efc233971e4-1920x1080.jpg?w=1920&fm=webp&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 46961
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/9ef9bbe770adc036d700d96319934b6a9422208a-1920x1080.jpg?w=1920&fm=webp&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 155124
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/85280fd08879f2f899bf9eff96f687f11bc57459-1920x1080.jpg?w=1920&fm=webp&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 51932
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/wings-v8_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/lincoln-navigator2026-101047/lincoln-waterfalls-preview_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/mercedes-holiday---101215/mercedes-holiday-global-version-preview_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/showreel/preymaker_anthem_2_website_preview_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/ford---proving-ground-101032/ford_f1_proving_ground_30_preview_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/kinder-yes-bueno/kinder-yes-bueno-preview_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/toyota-into-the-wild/toyota-4runner-60-preview_1_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/xfinity-aviators/xfinity-aviators-preview_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/lowes-walk-of-greatness/lowes_website_preview_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/xfinity-greek-god-chat-101156/xfinity_greek_god_group_chat_preview_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/preymaker-denmark/denmark_full_preview_1_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/abbott-beast-of-bias/abbott-beast-of-bias-preview_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/coca-cola-it-s-halftime/coca-cola-half-time-preview-v4_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/coca-cola-it-s-halftime/coca-cola-half-time-preview-v4_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/navy-spotlight/navy-spotlight-preview-v3_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/ramp-just-fine/ramp-just-fine-preview_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/ford-ready/ford-ready-preview.-mp4_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/lincoln-mic-drop/lincoln-mic-drop-preview_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://preymaker.com/api/data",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 65503
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/wings-v8_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true
+      },
+      {
+        "url": "https://preymaker.com/icons/preymaker-logo.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1593
+      },
+      {
+        "url": "https://preymaker.com/icons/close.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 494
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/wings-v7_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://preymaker.com/icons/open-filter.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 486
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-HDWLF8LQVY&gtm=45je6bh1v9244656817za208zd9244656817xf1&_p=1795445473735&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&are=1&cid=2130552085.1795445474&frm=0&ngs=1&pscdl=denied&rcb=17&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616985~115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795445473&sct=1&seg=0&dl=https%3A%2F%2Fpreymaker.com%2F&dt=Preymaker&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3278",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-HDWLF8LQVY&gtm=45je6bh1v9244656817za200zd9244656817xf1&_p=1795445473735&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&_eu=AEA&ae=a&are=1&cid=2130552085.1795445474&frm=0&ngs=1&pscdl=denied&rcb=17&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115616985~115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795445473&sct=1&seg=0&dl=https%3A%2F%2Fpreymaker.com%2F&dt=Preymaker&en=scroll&epn.percent_scrolled=90&_et=3&tfd=8282",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://cdn.sanity.io/images/vzfsxtpq/production/e6d0a03707b68b1398281c017e5cb750798a2f0b-1920x1080.webp?w=1920&fm=webp&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 112489
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/lincoln-navigator2026-101047/lincoln-waterfalls-preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/wings-v8_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/ford---proving-ground-101032/ford_f1_proving_ground_30_preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/showreel/preymaker_anthem_2_website_preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/mercedes-holiday---101215/mercedes-holiday-global-version-preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/toyota-into-the-wild/toyota-4runner-60-preview_1_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/xfinity-aviators/xfinity-aviators-preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/lowes-walk-of-greatness/lowes_website_preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/xfinity-greek-god-chat-101156/xfinity_greek_god_group_chat_preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/preymaker-denmark/denmark_full_preview_1_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/navy-spotlight/navy-spotlight-preview-v3_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/ramp-just-fine/ramp-just-fine-preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/ford-ready/ford-ready-preview.-mp4_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/coca-cola-it-s-halftime/coca-cola-half-time-preview-v4_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/lincoln-mic-drop/lincoln-mic-drop-preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/abbott-beast-of-bias/abbott-beast-of-bias-preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/coca-cola-it-s-halftime/coca-cola-half-time-preview-v4_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/wings-v8_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/kinder-yes-bueno/kinder-yes-bueno-preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/wings-v7_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 3016,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1681,
+      "typography": {
+        "families": [
+          [
+            "NewGrotesk",
+            125
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            61
+          ],
+          [
+            "700",
+            28
+          ],
+          [
+            "600",
+            21
+          ],
+          [
+            "500",
+            15
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            45
+          ],
+          [
+            "capitalize",
+            10
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 12,
+        "sizeMax": 25,
+        "sizeMaxVw": 6.4,
+        "scaleRatio": 2.1,
+        "letterSpacingMean": -0.021,
+        "loadedFonts": [
+          {
+            "family": "NewGrotesk",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "NewGrotesk",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "NewGrotesk",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "NewGrotesk",
+            "weight": "700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 125
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            987
+          ],
+          [
+            "rgb(241, 243, 245)",
+            329
+          ],
+          [
+            "rgb(255, 255, 255)",
+            11
+          ],
+          [
+            "rgba(133, 144, 153, 0.2)",
+            10
+          ],
+          [
+            "rgb(185, 193, 200)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(241, 243, 245)",
+            392
+          ],
+          [
+            "rgb(0, 0, 0)",
+            42
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            22
+          ],
+          [
+            "rgb(133, 144, 153)",
+            5
+          ]
+        ],
+        "meanSaturation": 0.04,
+        "rootVars": {
+          "--breakpoints-desktop": "1920",
+          "--breakpoints-tablet": "1920",
+          "--breakpoints-mobile": "768",
+          "--sizes-desktop": "1920",
+          "--sizes-tablet": "1440",
+          "--sizes-mobile": "390",
+          "--spacings-xl": "2rem",
+          "--spacings-l": "1.2rem",
+          "--spacings-m": "0.8rem",
+          "--spacings-s": "0.4rem",
+          "--spacings-xs": "0.2rem",
+          "--paddings-xxl": "24rem",
+          "--paddings-xl": "16rem",
+          "--paddings-l": "10rem",
+          "--paddings-m": "8rem",
+          "--paddings-s": "4rem",
+          "--grid-count": "12",
+          "--grid-gutter": "0.4rem",
+          "--grid-margin": "1.2rem",
+          "--black": "#000000",
+          "--mid-grey-shade": "#859099",
+          "--mid-grey": "#b9c1c8",
+          "--grey-shade": "#c0c6ca",
+          "--grey": "#dde1e4",
+          "--white": "#f1f3f5",
+          "--pure-white": "#ffffff",
+          "--transparent": "#859099"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 10,
+        "fixed": 11,
+        "grid": 6,
+        "flex": 221,
+        "absolute": 184,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            4,
+            80
+          ],
+          [
+            12,
+            33
+          ],
+          [
+            3,
+            17
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            40,
+            9
+          ],
+          [
+            20,
+            9
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 20,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "easings": [
+          "cubic-bezier(0.39, 0.575, 0.565, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            700,
+            69
+          ],
+          [
+            1500,
+            25
+          ],
+          [
+            600,
+            10
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 30,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/wings-v8_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/lincoln-navigator2026-101047/lincoln-waterfalls-preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/mercedes-holiday---101215/mercedes-holiday-global-version-preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/showreel/preymaker_anthem_2_website_preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/ford---proving-ground-101032/ford_f1_proving_ground_30_preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/kinder-yes-bueno/kinder-yes-bueno-preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/toyota-into-the-wild/toyota-4runner-60-preview_1_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/xfinity-aviators/xfinity-aviators-preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/lowes-walk-of-greatness/lowes_website_preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/xfinity-greek-god-chat-101156/xfinity_greek_god_group_chat_preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/preymaker-denmark/denmark_full_preview_1_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/abbott-beast-of-bias/abbott-beast-of-bias-preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/coca-cola-it-s-halftime/coca-cola-half-time-preview-v4_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/coca-cola-it-s-halftime/coca-cola-half-time-preview-v4_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/navy-spotlight/navy-spotlight-preview-v3_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/ramp-just-fine/ramp-just-fine-preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/ford-ready/ford-ready-preview.-mp4_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/work/lincoln-mic-drop/lincoln-mic-drop-preview_1080p.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://d2rb54pmpxhpry.cloudfront.net/wings-v7_1080p.mp4"
+          }
+        ],
+        "svg": 6,
+        "images": 45,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 327,
+        "io": 22,
+        "ro": 309,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Preymaker",
+      "lang": "en",
+      "description": "Preymaker"
+    },
+    "featuresBeforeScroll": {
+      "elements": 1681,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 40
+    },
+    "scrollReveal": 10,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 16764380,
+        "layoutCount": 719,
+        "recalcStyleCount": 1630,
+        "scriptDuration": 0.23777,
+        "taskDuration": 0.858489,
+        "nodes": 5784
+      },
+      "timing": {
+        "domContentLoaded": 381,
+        "load": 626,
+        "first-paint": 132,
+        "first-contentful-paint": 504
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/ford---proving-ground-101032/ford_f1_proving_ground_30_preview_540p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/showreel/preymaker_anthem_2_website_preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/lincoln-navigator2026-101047/lincoln-waterfalls-preview_540p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/wings-mobile-v8_540p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/lowes-walk-of-greatness/lowes_website_preview_540p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/toyota-into-the-wild/toyota-4runner-60-preview_1_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/xfinity-aviators/xfinity-aviators-preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/xfinity-greek-god-chat-101156/xfinity_greek_god_group_chat_preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/mercedes-holiday---101215/mercedes-holiday-global-version-preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/navy-spotlight/navy-spotlight-preview-v3_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/ramp-just-fine/ramp-just-fine-preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/ford-ready/ford-ready-preview.-mp4_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/lincoln-mic-drop/lincoln-mic-drop-preview_540p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/coca-cola-it-s-halftime/coca-cola-half-time-preview-v4_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/preymaker-denmark/denmark_full_preview_1_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/abbott-beast-of-bias/abbott-beast-of-bias-preview_540p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/ford---proving-ground-101032/ford_f1_proving_ground_30_preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/lincoln-navigator2026-101047/lincoln-waterfalls-preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/lowes-walk-of-greatness/lowes_website_preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d2rb54pmpxhpry.cloudfront.net/work/lincoln-mic-drop/lincoln-mic-drop-preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

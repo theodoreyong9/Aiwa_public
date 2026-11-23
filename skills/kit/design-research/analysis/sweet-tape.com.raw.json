@@ -1,0 +1,2661 @@
+{
+  "url": "https://sweet-tape.com/",
+  "at": "2026-11-23T14:49:00.479Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 39511,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1309,
+      "typography": {
+        "families": [
+          [
+            "Inter Tight Variable",
+            21
+          ],
+          [
+            "futura-pt-condensed",
+            10
+          ]
+        ],
+        "weights": [
+          [
+            "600",
+            16
+          ],
+          [
+            "700",
+            12
+          ],
+          [
+            "800",
+            2
+          ],
+          [
+            "500",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "capitalize",
+            7
+          ]
+        ],
+        "sizeMin": 12.96,
+        "sizeMedian": 16.128,
+        "sizeMax": 155,
+        "sizeMaxVw": 10.8,
+        "scaleRatio": 9.6,
+        "letterSpacingMean": -0.025,
+        "loadedFonts": [
+          {
+            "family": "Nothing You Could Do",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter Tight Variable",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "futura-pt-condensed",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "futura-pt-condensed",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "futura-pt-condensed",
+            "weight": "800",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 31
+      },
+      "color": {
+        "background": "rgb(3, 65, 2)",
+        "backgroundLuminance": 0.03804335355751041,
+        "backgrounds": [
+          [
+            "rgb(3, 65, 2)",
+            5035
+          ],
+          [
+            "rgb(182, 254, 0)",
+            2850
+          ],
+          [
+            "rgb(250, 128, 5)",
+            1532
+          ],
+          [
+            "rgb(1, 57, 0)",
+            354
+          ],
+          [
+            "rgb(252, 216, 5)",
+            249
+          ],
+          [
+            "rgb(255, 255, 255)",
+            45
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(1, 57, 0)",
+            446
+          ],
+          [
+            "rgb(117, 68, 2)",
+            184
+          ],
+          [
+            "rgb(182, 254, 0)",
+            161
+          ],
+          [
+            "rgb(0, 0, 0)",
+            128
+          ],
+          [
+            "rgb(255, 220, 19)",
+            34
+          ]
+        ],
+        "meanSaturation": 0.82,
+        "rootVars": {
+          "--screen": "100svh",
+          "--screen-lg": "100lvh",
+          "--font-heading": "\"futura-pt-condensed\", \"Futura PT Condensed\", \"Futura PT Cond\", Futura, \"Arial Narrow\", \"Helvetica Neue\", sans-serif",
+          "--font-body": "\"Inter Tight Variable\", \"Inter Tight\", Inter, system-ui, sans-serif",
+          "--stage-bg": "#ff7e00",
+          "--sb-track": "#013900",
+          "--sb-thumb": "#b6fe00",
+          "--edge-bite": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 15' preserveAspectRatio='none'%3E%3Cpath d='M0 0A50 15 0 0 0 50 15A50 15 0 0 0 100 0L100 15L0 15Z' fill='%23000'/%3E%3C/svg%3E\")",
+          "--section-curve": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1456 150.5' preserveAspectRatio='none'%3E%3Cpath d='M1456 0C801.9 272 212.833 113.333 0 0Z' fill='%23000'/%3E%3C/svg%3E\")",
+          "--section-bite": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1456 150.5' preserveAspectRatio='none'%3E%3Cpath d='M0 0C212.833 113.333 801.9 272 1456 0L1456 150.5L0 150.5Z' fill='%23000'/%3E%3C/svg%3E\")",
+          "--curve-depth": "10.336vw",
+          "--drop-blur": ".02vw",
+          "--drop-ink": "#00000057",
+          "--orbit-r": "calc(16.366vw / 2)",
+          "--orbit-d": "calc(var(--orbit-r) * 2)",
+          "--roll-size": "7vw",
+          "--ring-w": "calc(var(--roll-size) * .12)",
+          "--path-line": "#ffffff8c",
+          "--tag-bg": "#fcd805",
+          "--tag-ink": "#16110a",
+          "--ink": "#16110a",
+          "--word-colour": "#fcd805",
+          "--nav-face": "#fff1a2",
+          "--nav-ink": "#fcd805",
+          "--h2-size": "2.778vw",
+          "--h2-line": "2.431vw",
+          "--h2-track": "-.083vw",
+          "--top-inset": "1.2vw",
+          "--top-mark-w": "9vw",
+          "--top-mark-h": "calc(var(--top-mark-w) * 118 / 191)",
+          "--masthead": "calc(var(--top-inset) + var(--top-mark-h))",
+          "--product-scale": "1",
+          "--product-roll-w": "calc(30.625vw * var(--product-scale))",
+          "--product-roll-h": "calc(28.889vw * var(--product-scale))",
+          "--pi-h": "calc(54.215vw * var(--product-scale))",
+          "--about-bg": "#034102",
+          "--about-ink": "#b6fe00",
+          "--note-fs": ".9722vw",
+          "--note-lh": "1.0417vw",
+          "--note-indent-x": "1.2vw"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 14,
+        "sticky": 0,
+        "fixed": 6,
+        "grid": 16,
+        "flex": 57,
+        "absolute": 135,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 14137,
+        "pages": 15.7,
+        "spacing": [
+          [
+            17,
+            84
+          ],
+          [
+            4,
+            39
+          ],
+          [
+            18,
+            34
+          ],
+          [
+            6,
+            30
+          ],
+          [
+            8,
+            26
+          ],
+          [
+            110,
+            22
+          ],
+          [
+            29,
+            19
+          ],
+          [
+            7,
+            12
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            400,
+            11
+          ],
+          [
+            450,
+            6
+          ],
+          [
+            220,
+            5
+          ],
+          [
+            300,
+            5
+          ],
+          [
+            750,
+            1
+          ]
+        ],
+        "keyframes": [
+          "powers-mark-fade",
+          "powers-mark-drop",
+          "footer-link-roll"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 2,
+      "media": {
+        "canvases": [
+          {
+            "w": 392,
+            "h": 2185,
+            "area": 0.66
+          },
+          {
+            "w": 432,
+            "h": 406,
+            "area": 0.15
+          },
+          {
+            "w": 1428,
+            "h": 750,
+            "area": 0.83
+          },
+          {
+            "w": 464,
+            "h": 464,
+            "area": 0.17
+          }
+        ],
+        "videos": [],
+        "svg": 23,
+        "images": 77,
+        "iframes": 0,
+        "customCursor": true
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 4,
+          "2d": 14
+        },
+        "raf": 1323,
+        "io": 18,
+        "ro": 12,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "SweetTape — Stick By You | Cloth, Masking & OPP Tapes",
+      "lang": "en",
+      "description": "Six tapes made in Malaysia, one for every job — cloth, masking, stationery, double-sided and more. Three generations of tape; meet the one who sticks."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1309,
+      "canvases": 4,
+      "animations": 0,
+      "hidden": 8
+    },
+    "scrollReveal": 6,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 13446228,
+        "layoutCount": 470,
+        "recalcStyleCount": 1300,
+        "scriptDuration": 1.327228,
+        "taskDuration": 16.630399,
+        "nodes": 4373
+      },
+      "timing": {
+        "domContentLoaded": 1839,
+        "load": 17559,
+        "first-paint": 1884,
+        "first-contentful-paint": 1884
+      }
+    },
+    "network": [
+      {
+        "url": "https://sweet-tape.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 41314
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/media/4317bd468b03db68-s.p.2iw_c-zuq9o4-.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 16304
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/1mzbr_ouhiypa.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2141
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/3d3he_58a9ppz.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 28067
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/3a1i5uvypa9rc.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1146
+      },
+      {
+        "url": "https://sweet-tape.com/assets/preloader-image.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2741
+      },
+      {
+        "url": "https://sweet-tape.com/assets/mask-image-1.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 47119
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/img-masking-tape-3.webp?v=mttikd63",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 359726
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/img-double-sided-tape-3.webp?v=mtqrgoz4",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 361886
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/img-stationery-tape-2.webp?v=mttikdgc",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 130456
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/img-opp-tape-1.webp?v=mttgr6zl",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 801584
+      },
+      {
+        "url": "https://sweet-tape.com/assets/tape-sound-ball.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 10878
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/masking-roll.webp?v=mudws2na",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 18044
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/double-roll.webp?v=mudws2mt",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 8695
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/stationery-roll.webp?v=mudws2o9",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 8487
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/1jexzsn2qdw84.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2229
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/2up_x3pib6pc_.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9018
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/2r647-psjgy9s.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 71344
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/24j6c6ho8vtzb.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 37968
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/3nc6x0_y5iwnk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9529
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/turbopack-40dmwl_meehwo.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4423
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/2yl1jv4w6po1z.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1710
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/1ntn7efqc-iiw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13193
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/337eeiph6mwz7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2962
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/149o3s1pke167.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17742
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/2s0u9hio1067v.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13146
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/27pna04oa2d5q.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2779
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/0gj78z5yxdyo1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 27391
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/09lfiv_61siim.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5844
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/215e8972oexyg.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4440
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/1bevjk_zfpi8k.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12928
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/1m41bpfyl7qvj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 84107
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/12brgdlqixjgb.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5493
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/0k9koybghp6ya.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 63522
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/449pt6kwqbcu2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2156
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-9DT4VY7JGP",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 183319
+      },
+      {
+        "url": "https://sweet-tape.com/assets/footer-stationery.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 33418
+      },
+      {
+        "url": "https://sweet-tape.com/assets/footer-cloth.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 30700
+      },
+      {
+        "url": "https://sweet-tape.com/assets/footer-double.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 40247
+      },
+      {
+        "url": "https://sweet-tape.com/assets/footer-mask.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 31313
+      },
+      {
+        "url": "https://use.typekit.net/wyl5nhy.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 984
+      },
+      {
+        "url": "https://sweet-tape.com/assets/tapes/Low-Noise-Tape.glb",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 562237
+      },
+      {
+        "url": "https://sweet-tape.com/assets/make-it-stick-2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 260752
+      },
+      {
+        "url": "https://sweet-tape.com/assets/opp-tape-x4.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 51077
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/cloth-roll.webp?v=mudws2lk",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 7791
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/opp-roll.webp?v=muqg6vzf",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 12140
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/opp-quiet-roll.webp?v=mudwy9fg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 35709
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/img-masking-tape-2.webp?v=mttikd2e",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 358706
+      },
+      {
+        "url": "https://sweet-tape.com/assets/masking-tape-x2.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 205275
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/img-masking-tape-1.webp?v=mttikcys",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 381475
+      },
+      {
+        "url": "https://sweet-tape.com/assets/middle-T.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 748
+      },
+      {
+        "url": "https://sweet-tape.com/assets/middle-H.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 463
+      },
+      {
+        "url": "https://sweet-tape.com/assets/middle-E.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1040
+      },
+      {
+        "url": "https://sweet-tape.com/assets/lemon%20painting%201.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 76985
+      },
+      {
+        "url": "https://sweet-tape.com/assets/gift%201.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 52689
+      },
+      {
+        "url": "https://sweet-tape.com/assets/index-1.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1282
+      },
+      {
+        "url": "https://sweet-tape.com/assets/create-masking-first.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 42138
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/masking-card.webp?v=mumg8usf",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98865
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/C.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1237
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/R.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1651
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/E.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1011
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/A.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1673
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/T.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 777
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/I.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 737
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/V.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1499
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/E2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1137
+      },
+      {
+        "url": "https://sweet-tape.com/assets/cardboard.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 296761
+      },
+      {
+        "url": "https://sweet-tape.com/assets/tape-on-lemon.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 9747
+      },
+      {
+        "url": "https://sweet-tape.com/assets/paper-clip-1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4609
+      },
+      {
+        "url": "https://sweet-tape.com/assets/create-double-last.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 36406
+      },
+      {
+        "url": "https://sweet-tape.com/assets/slider/double/card.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 21857
+      },
+      {
+        "url": "https://sweet-tape.com/assets/slider/masking/card.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 22694
+      },
+      {
+        "url": "https://sweet-tape.com/assets/slider/opp-quiet/card.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 11090
+      },
+      {
+        "url": "https://sweet-tape.com/assets/index-2.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1420
+      },
+      {
+        "url": "https://sweet-tape.com/assets/cloth-tapex4.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 76475
+      },
+      {
+        "url": "https://sweet-tape.com/assets/black-cloth-tape-x4.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 14469
+      },
+      {
+        "url": "https://sweet-tape.com/assets/cloth-tapex4-bottomleft.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 58872
+      },
+      {
+        "url": "https://sweet-tape.com/assets/slider/cloth/card.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 20768
+      },
+      {
+        "url": "https://sweet-tape.com/assets/index-3.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1533
+      },
+      {
+        "url": "https://sweet-tape.com/assets/protect-opp-tape-x4-square.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 83767
+      },
+      {
+        "url": "https://sweet-tape.com/assets/opp-tape-last.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 80006
+      },
+      {
+        "url": "https://sweet-tape.com/assets/sibling-opp-normal.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 83100
+      },
+      {
+        "url": "https://p.typekit.net/p.css?s=1&k=wyl5nhy&ht=tk&f=15357.15359.15361.15363&a=424623517&app=typekit&e=css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 172
+      },
+      {
+        "url": "https://sweet-tape.com/assets/paper-overlay.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 227315
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1456 150.5' preserveAspectRatio='none'%3E%3Cpath d='M1456 0C801.9 272 212.833 113.333 0 0Z' fill='%23000'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 15' preserveAspectRatio='none'%3E%3Cpath d='M0 0L0 11Q0 15 4.29 12.43L20.71 2.57Q25 0 29.29 2.57L45.71 12.43Q50 15 54.29 12.43L70.71 2.57Q75 0 79.29 2.57L95.71 12.43Q100 15 100 11L100 0Z' fill='%23000'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='1'/%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/middle-T.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/middle-H.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/middle-E.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/C.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/R.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/E.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/A.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/T.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/I.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/V.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/words/creative/E2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1456 150.5' preserveAspectRatio='none'%3E%3Cpath d='M0 0C212.833 113.333 801.9 272 1456 0L1456 150.5L0 150.5Z' fill='%23000'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://use.typekit.net/af/a04fc5/00000000000000007758da46/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 61773
+      },
+      {
+        "url": "https://use.typekit.net/af/e249d7/00000000000000007758da4c/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 40688
+      },
+      {
+        "url": "https://use.typekit.net/af/ec3396/0000000000000000775e42a2/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 17739
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/media/inter-tight-latin-wght-normal.1_fsb17gxmapx.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 45109
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9DT4VY7JGP&gtm=45je6bh1v9267093909za208zd9267093909xf1&_p=1795445284210&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1283980885.1795445284&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~119793974~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795445284&sct=1&seg=0&dl=https%3A%2F%2Fsweet-tape.com%2F&dt=SweetTape%20%E2%80%94%20Stick%20By%20You%20%7C%20Cloth%2C%20Masking%20%26%20OPP%20Tapes&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1931",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=G-9DT4VY7JGP&v=3&t=t&pid=1204948477&gtm=45je6bh1v9267093909za200zd9267093909xf1&cv=1&rv=6bh1&tc=17&tag_exp=115938465~115938469~119793974~120213116~120385423~120469145~120469153~121246026~121246034&es=1&e=gtm.init&eid=2&u=AAAAAAAAAAAAAACA&h=Ag&tr=1ogtautoevents.1ogt1pdatav2.1ccdgafirst.1setproductsettings.1ccdgaregscope.1ccdemdownload.1ccdemform.1ccdemoutboundclick.1ccdempageview.1ccdemscroll.1ccdemsitesearch.1ccdemvideo.1ccdconversionmarking.1ccdautoredact.1ccdgalast&ti=2ogtautoevents.2ogt1pdatav2.2ccdgafirst.2setproductsettings.2ccdgaregscope.2ccdemdownload.2ccdemform.2ccdemoutboundclick.2ccdempageview.2ccdemscroll.2ccdemsitesearch.2ccdemvideo.2ccdconversionmarking.2ccdautoredact.2ccdgalast&z=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 59
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=G-9DT4VY7JGP&v=3&t=t&pid=1204948477&gtm=45je6bh1v9267093909za200zd9267093909xf1&cv=1&rv=6bh1&tc=17&tag_exp=115938465~115938469~119793974~120213116~120385423~120469145~120469153~121246026~121246034&es=1&e=gtm.js&eid=3&u=AAAAAAAAAAAAAACA&h=Ag&tr=1gct&ti=2gct&z=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 49
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=G-9DT4VY7JGP&v=3&t=t&pid=1204948477&gtm=45je6bh1v9267093909za200zd9267093909xf1&cv=1&rv=6bh1&tc=17&tag_exp=115938465~115938469~119793974~120213116~120385423~120469145~120469153~121246026~121246034&es=1&e=gtag.config&eid=11&u=AAAAAAAAAAAAACCA&h=Ag&epr=1G.2G&tr=1destga&ti=2destga&z=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 40
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=G-9DT4VY7JGP&v=3&t=t&pid=1204948477&gtm=45je6bh1v9267093909za200zd9267093909xf1&cv=1&rv=6bh1&tc=17&tag_exp=115938465~115938469~119793974~120213116~120385423~120469145~120469153~121246026~121246034&es=1&e=gtm.dom&eid=12&u=AAAAAAAAAAAAACCA&h=Ag&z=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 49
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=G-9DT4VY7JGP&v=3&t=t&pid=1204948477&gtm=45je6bh1v9267093909za200zd9267093909xf1&cv=1&rv=6bh1&tc=17&tag_exp=115938465~115938469~119793974~120213116~120385423~120469145~120469153~121246026~121246034&e=gtm.init&eid=2&u=AAAAAAAAAAAAACCA&h=Ag&tr=5ogtautoevents.5ogt1pdatav2.5ccdgafirst.5setproductsettings.5ccdgaregscope.5ccdemdownload.5ccdemform.5ccdemoutboundclick.5ccdempageview.5ccdemscroll.5ccdemsitesearch.5ccdemvideo.5ccdconversionmarking.5ccdautoredact.5ccdgalast&ti=2ogtautoevents.2ogt1pdatav2.2ccdgafirst.2setproductsettings.2ccdgaregscope.2ccdemdownload.2ccdemform.2ccdemoutboundclick.2ccdempageview.2ccdemscroll.2ccdemsitesearch.2ccdemvideo.2ccdconversionmarking.2ccdautoredact.2ccdgalast&z=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 49
+      },
+      {
+        "url": "https://sweet-tape.com/assets/new-cursor.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6292
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/3e0ez01ddqlh7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6283
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/0qw6zdg5wyeuw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13381
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/3gaupu_gw9zjj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2637
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/1118ekqveyvwt.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5398
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/0_x5nrklz202h.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 26144
+      },
+      {
+        "url": "https://sweet-tape.com/assets/cursor-pointer.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 20902
+      },
+      {
+        "url": "https://sweet-tape.com/assets/cursor-type.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 13475
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/double-card.webp?v=mumk9ny2",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97349
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/img-double-sided-tape-2.webp?v=mttikd9j",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 172134
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/img-double-sided-tape-4.webp?v=mttikdd3",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 653105
+      },
+      {
+        "url": "https://sweet-tape.com/assets/double-side-x4.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 498689
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/stationery-card.svg?v=mumk9ny2",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 78528
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/img-stationery-tape-3.webp?v=mtqruzwr",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 815792
+      },
+      {
+        "url": "https://sweet-tape.com/assets/low-noise-x4-clear.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 59802
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/cloth-card.webp?v=mumk9ny2",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 83051
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/img-cloth-tape-3.webp?v=mttikdmg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 206075
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/img-cloth-tape-5.webp?v=mttikdjd",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 287112
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/opp-tape-shot-1.webp?v=muov8cmb",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 76359
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/opp-shot-2.webp?v=mtbq3364",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 8713
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/opp-quiet-card.webp?v=mudwy9gr",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 79312
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/img-opp-no-noise-tape-2.webp?v=mtquwmc6",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 602361
+      },
+      {
+        "url": "https://sweet-tape.com/api/media/file/opp-quiet-shot-2.webp?v=mtbq32q3",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 10686
+      },
+      {
+        "url": "https://sweet-tape.com/?_rsc=dHFYKFHc_adaLHHL",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=G-9DT4VY7JGP&v=3&t=t&pid=1204948477&gtm=45je6bh1v9267093909za200zd9267093909xf1&cv=1&rv=6bh1&tc=17&tag_exp=115938465~115938469~119793974~120213116~120385423~120469145~120469153~121246026~121246034&es=1&e=gtm.historyChange-v2&eid=13&u=AgAAAAAAAAAAACCA&h=Ag&z=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 11
+      },
+      {
+        "url": "blob:https://sweet-tape.com/b57c0513-e021-4926-9611-8b5f00604776",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/a361750c-3c5a-49ec-811e-ca726498e09d",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/4b8ac8c3-8213-4056-b864-d987137879cd",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/ac5a51a8-750b-4b36-919c-c624ccf108e0",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/sticky-note.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 404,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 20205
+      },
+      {
+        "url": "https://sweet-tape.com/_next/static/chunks/3o0gscjkt-z9d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1234
+      },
+      {
+        "url": "https://sweet-tape.com/assets/tapes/Masking-Tape.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 642633
+      },
+      {
+        "url": "blob:https://sweet-tape.com/fa5d1e98-b679-44fb-96f8-cd69a4b9a79e",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/1b3046f3-dde8-4fd9-895a-8a970b29cfb3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/953db00e-0529-4c65-94ef-e9046df055f8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/378be876-5c8d-4985-add3-7bcb657aeb98",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/4cedbfc8-b08d-45e6-869c-396854584a38",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/tapes/Double-Tape.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 590478
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=G-9DT4VY7JGP&v=3&t=t&pid=1204948477&gtm=45je6bh1v9267093909za200zd9267093909xf1&cv=1&rv=6bh1&tc=17&tag_exp=115938465~115938469~119793974~120213116~120385423~120469145~120469153~121246026~121246034&es=1&e=gtm.load&eid=14&u=AgAAAAAAAAAAACCA&h=Ag&z=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 11
+      },
+      {
+        "url": "blob:https://sweet-tape.com/b7d28a65-18ed-47f7-88ea-a1a8c6ace0b6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/1e8e88d2-2ea6-49d7-98a7-f08f0f75c51b",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/b1809b53-52b1-451d-9fd2-a06f288251b4",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/d01ace89-e7e4-40f0-8502-29b632141ea6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/tapes/Cello-Tape.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 646321
+      },
+      {
+        "url": "blob:https://sweet-tape.com/316531a4-b15f-4e5d-b717-e8974341dae4",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/efa258fd-0391-456f-ba53-0b1cee285dd3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/cf2985ed-a0c4-47db-8871-ba1b3703a622",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/6084ccd8-1c48-4c48-92d9-f0d325613dfd",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/cefe7e2a-63b8-404b-bb05-6346db5b91ca",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/products/masking?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 435
+      },
+      {
+        "url": "https://sweet-tape.com/assets/tapes/Cloth-Tape.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 758595
+      },
+      {
+        "url": "https://sweet-tape.com/products/masking?_rsc=tXyZJ52UQVBCVsD3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1400
+      },
+      {
+        "url": "blob:https://sweet-tape.com/2388afac-3d2b-4795-8da0-fe2ab89430fb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/5f287faf-c105-4932-8c58-bffb515a36fe",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/94fa3117-a2e2-4473-8ba1-92cd27b6ab29",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/cf12ddd4-b29a-4ac6-9378-a743fbe4e959",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/cb07111e-7441-4b14-8c85-5e09ae157672",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/tapes/header-brown.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 524364
+      },
+      {
+        "url": "blob:https://sweet-tape.com/130397a1-9e38-4659-92b3-9ef0ac28e5d5",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/0a83dbe3-1ca7-4133-a1b3-ae75fe81c37a",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/99a96fa6-0d0a-496f-8b65-b8d4d1bc4978",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/091db437-cbb7-4974-bd2a-6cf0b067de8c",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sweet-tape.com/assets/tapes/Low-Noise-Tape.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/ad3c9f8c-d6b8-4869-a375-da90a9dd7c90",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/74522f3f-83dc-4207-a787-e9a8d7911eee",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/3616b4d2-6e86-49f9-bc4b-ae17be4d2818",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://sweet-tape.com/bf697b05-d0e0-48ac-9951-718ea0ea0dc4",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 750,
+        "delay": 700,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A0200034250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xfd40013e800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xfd40013e800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0450434250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A080300E34250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xfd40671d200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xfd40671d200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A0450434250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9DT4VY7JGP&gtm=45je6bh1v9267093909za208zd9267093909xf1&_p=1795445284210&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1283980885.1795445284&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~119793974~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795445284&sct=1&seg=0&dl=https%3A%2F%2Fsweet-tape.com%2F&dt=SweetTape%20%E2%80%94%20Stick%20By%20You%20%7C%20Cloth%2C%20Masking%20%26%20OPP%20Tapes&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1931",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sweet-tape.com/?_rsc=dHFYKFHc_adaLHHL",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 18497,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1306,
+      "typography": {
+        "families": [
+          [
+            "Inter Tight Variable",
+            21
+          ],
+          [
+            "futura-pt-condensed",
+            9
+          ]
+        ],
+        "weights": [
+          [
+            "600",
+            16
+          ],
+          [
+            "700",
+            11
+          ],
+          [
+            "800",
+            2
+          ],
+          [
+            "500",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "capitalize",
+            6
+          ]
+        ],
+        "sizeMin": 10.14,
+        "sizeMedian": 14.43,
+        "sizeMax": 155,
+        "sizeMaxVw": 39.7,
+        "scaleRatio": 10.7,
+        "letterSpacingMean": -0.025,
+        "loadedFonts": [
+          {
+            "family": "Nothing You Could Do",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter Tight Variable",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "futura-pt-condensed",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "futura-pt-condensed",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "futura-pt-condensed",
+            "weight": "800",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 30
+      },
+      "color": {
+        "background": "rgb(3, 65, 2)",
+        "backgroundLuminance": 0.03804335355751041,
+        "backgrounds": [
+          [
+            "rgb(3, 65, 2)",
+            802
+          ],
+          [
+            "rgb(182, 254, 0)",
+            588
+          ],
+          [
+            "rgb(250, 128, 5)",
+            322
+          ],
+          [
+            "rgb(1, 57, 0)",
+            121
+          ],
+          [
+            "rgb(252, 216, 5)",
+            77
+          ],
+          [
+            "rgb(255, 255, 255)",
+            15
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(1, 57, 0)",
+            441
+          ],
+          [
+            "rgb(182, 254, 0)",
+            161
+          ],
+          [
+            "rgb(0, 0, 0)",
+            118
+          ],
+          [
+            "rgb(255, 220, 19)",
+            33
+          ],
+          [
+            "rgb(0, 0, 238)",
+            5
+          ]
+        ],
+        "meanSaturation": 0.82,
+        "rootVars": {
+          "--screen": "100svh",
+          "--screen-lg": "100lvh",
+          "--font-heading": "\"futura-pt-condensed\", \"Futura PT Condensed\", \"Futura PT Cond\", Futura, \"Arial Narrow\", \"Helvetica Neue\", sans-serif",
+          "--font-body": "\"Inter Tight Variable\", \"Inter Tight\", Inter, system-ui, sans-serif",
+          "--stage-bg": "#ff7e00",
+          "--sb-track": "#013900",
+          "--sb-thumb": "#b6fe00",
+          "--edge-bite": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 15' preserveAspectRatio='none'%3E%3Cpath d='M0 0A50 15 0 0 0 50 15A50 15 0 0 0 100 0L100 15L0 15Z' fill='%23000'/%3E%3C/svg%3E\")",
+          "--section-curve": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1456 150.5' preserveAspectRatio='none'%3E%3Cpath d='M1456 0C801.9 272 212.833 113.333 0 0Z' fill='%23000'/%3E%3C/svg%3E\")",
+          "--section-bite": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1456 150.5' preserveAspectRatio='none'%3E%3Cpath d='M0 0C212.833 113.333 801.9 272 1456 0L1456 150.5L0 150.5Z' fill='%23000'/%3E%3C/svg%3E\")",
+          "--curve-depth": "10.336vw",
+          "--drop-blur": ".02vw",
+          "--drop-ink": "#00000057",
+          "--orbit-r": "calc(16.366vw / 2)",
+          "--orbit-d": "calc(var(--orbit-r) * 2)",
+          "--roll-size": "7vw",
+          "--ring-w": "calc(var(--roll-size) * .12)",
+          "--path-line": "#ffffff8c",
+          "--tag-bg": "#fcd805",
+          "--tag-ink": "#16110a",
+          "--ink": "#16110a",
+          "--word-colour": "#fcd805",
+          "--nav-face": "#fff1a2",
+          "--nav-ink": "#fcd805",
+          "--h2-size": "2.778vw",
+          "--h2-line": "2.431vw",
+          "--h2-track": "-.083vw",
+          "--top-inset": "1.2vw",
+          "--top-mark-w": "9vw",
+          "--top-mark-h": "calc(var(--top-mark-w) * 118 / 191)",
+          "--masthead": "calc(var(--top-inset) + var(--top-mark-h))",
+          "--product-scale": "1",
+          "--product-roll-w": "calc(30.625vw * var(--product-scale))",
+          "--product-roll-h": "calc(28.889vw * var(--product-scale))",
+          "--pi-h": "calc(54.215vw * var(--product-scale))",
+          "--about-bg": "#034102",
+          "--about-ink": "#b6fe00",
+          "--note-fs": ".9722vw",
+          "--note-lh": "1.0417vw",
+          "--note-indent-x": "1.2vw"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 13,
+        "sticky": 0,
+        "fixed": 5,
+        "grid": 19,
+        "flex": 58,
+        "absolute": 137,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 9625,
+        "pages": 11.4,
+        "spacing": [
+          [
+            5,
+            123
+          ],
+          [
+            3,
+            39
+          ],
+          [
+            11,
+            34
+          ],
+          [
+            4,
+            30
+          ],
+          [
+            72,
+            22
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            20,
+            12
+          ],
+          [
+            25,
+            11
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            400,
+            11
+          ],
+          [
+            450,
+            6
+          ],
+          [
+            220,
+            5
+          ],
+          [
+            300,
+            5
+          ],
+          [
+            120,
+            2
+          ]
+        ],
+        "keyframes": [
+          "powers-mark-fade",
+          "powers-mark-drop",
+          "footer-link-roll"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 2,
+      "media": {
+        "canvases": [
+          {
+            "w": 452,
+            "h": 2020,
+            "area": 0.69
+          },
+          {
+            "w": 430,
+            "h": 404,
+            "area": 0.15
+          },
+          {
+            "w": 780,
+            "h": 1210,
+            "area": 0.72
+          },
+          {
+            "w": 548,
+            "h": 548,
+            "area": 0.23
+          }
+        ],
+        "videos": [],
+        "svg": 23,
+        "images": 77,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 4,
+          "2d": 14
+        },
+        "raf": 800,
+        "io": 17,
+        "ro": 12,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "SweetTape — Stick By You | Cloth, Masking & OPP Tapes",
+      "lang": "en",
+      "description": "Six tapes made in Malaysia, one for every job — cloth, masking, stationery, double-sided and more. Three generations of tape; meet the one who sticks."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1562,
+      "canvases": 3,
+      "animations": 0,
+      "hidden": 5
+    },
+    "scrollReveal": 3,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 15314500,
+        "layoutCount": 762,
+        "recalcStyleCount": 1588,
+        "scriptDuration": 1.076894,
+        "taskDuration": 12.866332,
+        "nodes": 3820
+      },
+      "timing": {
+        "domContentLoaded": 1517,
+        "load": 8124,
+        "first-paint": 1528,
+        "first-contentful-paint": 1528
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 750,
+        "delay": 700,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A070200034250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A080380434250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0B0300E34250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A080300E34250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9DT4VY7JGP&gtm=45je6bh1v9267093909za208zd9267093909xf1&_p=1795445323454&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=585823566.1795445325&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795445324&sct=1&seg=0&dl=https%3A%2F%2Fsweet-tape.com%2F&dt=SweetTape%20%E2%80%94%20Stick%20By%20You%20%7C%20Cloth%2C%20Masking%20%26%20OPP%20Tapes&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2870",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sweet-tape.com/?_rsc=dHFYKFHc_adaLHHL",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}
