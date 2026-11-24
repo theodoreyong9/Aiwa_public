@@ -29,10 +29,7 @@ jobs:
         run: |
           # Without the secret nothing can be read: the run says so and ends quietly (it would otherwise fail every hour).
           if [ -z "$SOURCE_TOKEN" ]; then echo "::warning::The secret AIWA_SOURCE_TOKEN is missing (Settings, Secrets and variables, Actions): nothing was built."; echo "new=false" >> "$GITHUB_OUTPUT"; exit 0; fi
-          # The build follows the working branch (the private repository's own checks may be unavailable; this build compiles and tests everything anyway), and falls back to main.
-          REMOTE="https://x-access-token:${SOURCE_TOKEN}@github.com/theodoreyong9/Aiwa.git"
-          SHA=$(git ls-remote "$REMOTE" refs/heads/claude/github-repos-audit-scc738 | cut -f1)
-          [ -n "$SHA" ] || SHA=$(git ls-remote "$REMOTE" refs/heads/main | cut -f1)
+          SHA=$(git ls-remote "https://x-access-token:${SOURCE_TOKEN}@github.com/theodoreyong9/Aiwa.git" refs/heads/main | cut -f1)
           if [ -z "$SHA" ]; then echo "::error::The source could not be read with AIWA_SOURCE_TOKEN."; exit 1; fi
           PUBLISHED=$(gh release view android-latest --repo "$GITHUB_REPOSITORY" --json body -q .body 2>/dev/null | grep -o 'Source: [0-9a-f]*' | cut -d' ' -f2 || true)
           echo "sha=$SHA" >> "$GITHUB_OUTPUT"
