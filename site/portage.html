@@ -86,7 +86,7 @@ footer a{color:var(--text)}
         <button class="main" type="submit" id="send" aria-label="Send">Send</button>
       </form>
       <div class="bar" id="extras"></div>
-      <div class="bar" id="shots"><button type="button" id="cam">Camera</button><button type="button" id="scr">Screen</button><span class="mono" id="state"></span><span class="mono" id="left"></span></div>
+      <div class="bar" id="shots"><button type="button" id="cam">Camera</button><button type="button" id="scr">Screen</button><button type="button" id="clip">Video</button><input type="file" id="clipfile" accept="video/*" hidden><span class="mono" id="state"></span><span class="mono" id="left"></span></div>
     <div id="preview" hidden style="width:100%;display:flex;flex-direction:column;gap:10px;align-items:center">
       <video id="vid" playsinline muted style="width:min(100%,260px);border-radius:14px;border:1px solid var(--line);background:#000"></video>
       <div class="bar"><button class="main" type="button" id="snap">Send a picture</button><button type="button" id="stopcap">Stop</button></div>
@@ -236,6 +236,31 @@ $('snap').addEventListener('click',function(){
   var jpeg=c.toDataURL('image/jpeg',.55).split(',')[1]; lastShot=Date.now();
   var cap=$('msg').value.trim(); $('msg').value=''; set('you',cap||'(a picture of your '+kind+')'); speechSynthesis&&speechSynthesis.cancel();
   ask('image',cap,{i:jpeg,k:kind});
+});
+/* a video of the guest's own: kept on their device, never uploaded. Nine images of it, taken at even steps, are laid out in one grid; only that small picture leaves, and it counts in the share of conversation like any picture. Limits: 60 MB, 10 minutes, one video every 3 minutes. */
+var lastClip=0;
+$('clip').addEventListener('click',function(){ if(ready) $('clipfile').click(); });
+$('clipfile').addEventListener('change',async function(){
+  var f=this.files&&this.files[0]; this.value=''; if(!f||!ready) return;
+  if(!/^video\//.test(f.type)){ set('you','This is not a video.'); return; }
+  if(f.size>60*1024*1024){ set('you','This video is too big (60 MB at most).'); return; }
+  var wait=180000-(Date.now()-lastClip); if(wait>0){ set('you','One video every 3 minutes: wait '+Math.ceil(wait/1000)+' s.'); return; }
+  var url=URL.createObjectURL(f), v=document.createElement('video'); v.muted=true; v.preload='auto'; v.playsInline=true; v.src=url;
+  try{
+    await new Promise(function(ok,no){ v.onloadedmetadata=ok; v.onerror=function(){ no(new Error('read')); }; });
+    if(!v.videoWidth||!isFinite(v.duration)||v.duration>600){ set('you',v.duration>600?'This video is too long (10 minutes at most).':'I cannot read this video.'); return; }
+    var cols=3,rows=3,tw=320,th=Math.max(90,Math.min(240,Math.round(v.videoHeight*tw/v.videoWidth)));
+    var c=document.createElement('canvas'); c.width=cols*tw; c.height=rows*th; var g=c.getContext('2d'); g.fillStyle='#000'; g.fillRect(0,0,c.width,c.height);
+    for(var i=0;i<cols*rows;i++){
+      v.currentTime=Math.min(v.duration-0.05,Math.max(0,v.duration*(i+0.5)/(cols*rows)));
+      await new Promise(function(ok){ v.onseeked=ok; });
+      g.drawImage(v,(i%cols)*tw,Math.floor(i/cols)*th,tw,th);
+    }
+    var jpeg=c.toDataURL('image/jpeg',.55).split(',')[1]; lastClip=Date.now();
+    var cap=$('msg').value.trim(); $('msg').value=''; set('you',cap||'(a video of yours)'); speechSynthesis&&speechSynthesis.cancel();
+    ask('image',cap,{i:jpeg,k:'video'});
+  }catch(e){ set('you','I cannot read this video.'); }
+  finally{ URL.revokeObjectURL(url); }
 });
 window.addEventListener('pagehide',stopCap);
 var rec=null;
