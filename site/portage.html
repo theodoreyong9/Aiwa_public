@@ -40,6 +40,7 @@ button{height:52px;min-width:52px;border-radius:14px;border:1px solid var(--line
 button.main{background:var(--pink);border-color:var(--pink);color:#1a0b16}
 button:disabled{opacity:.45;cursor:default}
 button.on{border-color:var(--pink);color:var(--pink)}
+#extras a,#extras button{padding:9px 16px;border-radius:99px;border:1px solid rgba(244,239,230,.25);background:rgba(17,15,31,.6);color:#F4EFE6;font:inherit;font-size:14px;text-decoration:none;cursor:pointer}
 .bar{display:flex;gap:10px;width:100%;align-items:center;flex-wrap:wrap}
 #left{margin-left:auto}
 footer{padding:14px 0 18px;text-align:center;color:var(--dim);font-size:12px;line-height:1.55;max-width:56ch;margin:0 auto}
@@ -84,6 +85,7 @@ footer a{color:var(--text)}
         <input id="msg" placeholder="Write here" aria-label="Your message" enterkeyhint="send">
         <button class="main" type="submit" id="send" aria-label="Send">Send</button>
       </form>
+      <div class="bar" id="extras"></div>
       <div class="bar" id="shots"><button type="button" id="cam">Camera</button><button type="button" id="scr">Screen</button><span class="mono" id="state"></span><span class="mono" id="left"></span></div>
     <div id="preview" hidden style="width:100%;display:flex;flex-direction:column;gap:10px;align-items:center">
       <video id="vid" playsinline muted style="width:min(100%,260px);border-radius:14px;border:1px solid var(--line);background:#000"></video>
@@ -146,7 +148,7 @@ async function send(obj){
 }
 
 /* what the phone answers */
-var messages={'not-invited':'This link is not valid. Ask the person who sent it for a new one.',taken:'This link is already in use by another browser. Ask the person who sent it to release it.',expired:'This invitation has expired.',time:'The time of this invitation is used up. Thank you for talking with me.',busy:'I could not answer just now. Please say it again.'};
+var messages={'not-invited':'This link is not valid. Ask the person who sent it for a new one.',taken:'This link is already in use by another browser. Ask the person who sent it to release it.',expired:'This invitation has expired.',time:'The time of this invitation is used up. Thank you for talking with me.',tokens:'The share of conversation of this invitation is used up. Thank you for talking with me.',busy:'I could not answer just now. Please say it again.'};
 async function onFrame(text){
   var f; try{ f=JSON.parse(text); }catch(e){ return; }
   if(f.n!==nonce) return;
@@ -157,6 +159,19 @@ async function onFrame(text){
   if(r.e){ set('say',messages[r.e]||'Something went wrong.'); setOrb(''); if(r.e!=='busy'){ $('msg').disabled=true; $('send').disabled=true; } return; }
   if(typeof r.left==='number'){ remaining=r.left; clock(); }
   show(r.say||'');
+  extras(r);
+}
+/* what the agent hands over: the owner's profile (a link the phone made, never one the model wrote) and a document to keep */
+function extras(r){
+  var box=$('extras'); if(!box) return;
+  if(r.link && /^https:\/\/github\.com\/[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(r.link)){
+    var a=document.createElement('a'); a.href=r.link; a.target='_blank'; a.rel='noopener noreferrer'; a.textContent='Profile · '+(r.linkName||''); box.appendChild(a);
+  }
+  if(r.doc && r.doc.text){
+    var b=document.createElement('button'); b.type='button'; b.textContent='Download · '+String(r.doc.title||'Document').slice(0,40);
+    b.onclick=function(){ var u=URL.createObjectURL(new Blob([String(r.doc.title||'')+'\n\n'+String(r.doc.text)],{type:'text/plain;charset=utf-8'})); var l=document.createElement('a'); l.href=u; l.download=(String(r.doc.title||'document').replace(/[^A-Za-z0-9 ._-]/g,'').trim()||'document')+'.txt'; document.body.appendChild(l); l.click(); l.remove(); setTimeout(function(){ URL.revokeObjectURL(u); },4000); };
+    box.appendChild(b);
+  }
 }
 function setOrb(c){ $('orb').className='orb'+(head?' head':'')+(c?' '+c:''); }
 function setState(t){ set('state',t); setOrb(t==='thinking'?'think':''); if(head) head.state({thinks:t==='thinking'?1:0}); }
