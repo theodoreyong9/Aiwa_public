@@ -6,6 +6,8 @@
 var S={JAW_OPEN:0,AA:1,OH:2,OU:3,EE:4,PP:5,BLINK_L:6,BLINK_R:7,SMILE_L:8,SMILE_R:9,BROWS_UP_C:10,BROWS_UP_L:11,BROWS_UP_R:12,BROWS_DOWN_L:13,BROWS_DOWN_R:14,EYES_LEFT:15,EYES_RIGHT:16,EYES_UP:17,EYES_DOWN:18,FUNNEL:19,
   FF:20,SS:21,CHEEK_SQUINT_L:22,CHEEK_SQUINT_R:23,EYE_SQUINT_L:24,EYE_SQUINT_R:25,MOUTH_LEFT:26,MOUTH_RIGHT:27,PUCKER:28,SNEER:29,FROWN_L:30,FROWN_R:31,JAW_LEFT:32,JAW_RIGHT:33};
 var NSHAPES=34,NMARKS=13;
+/* the scanned head is tilted by about 3 degrees (the line of its eyes rises to the right): this turns it level */
+var LEVEL_ROLL=-0.05;
 
 function parse(buf){
   var dv=new DataView(buf),o=0;
@@ -31,7 +33,7 @@ function Rig(m){
 function ss(a,b,x){ var t=Math.min(1,Math.max(0,(x-a)/(b-a))); return t*t*(3-2*t); }
 Rig.prototype.update=function(pose,cx,cy,size){
   var m=this.m,scale=size*0.36,pos=this.pos,n=m.nor,xy=this.xy,rgba=this.rgba,depth=this.depth;
-  var cyaw=Math.cos(pose.yaw),syaw=Math.sin(pose.yaw),cpit=Math.cos(pose.pitch),spit=Math.sin(pose.pitch),crol=Math.cos(pose.roll),srol=Math.sin(pose.roll);
+  var roll=pose.roll+LEVEL_ROLL,cyaw=Math.cos(pose.yaw),syaw=Math.sin(pose.yaw),cpit=Math.cos(pose.pitch),spit=Math.sin(pose.pitch),crol=Math.cos(roll),srol=Math.sin(roll);
   pos.set(m.pos);
   for(var k=0;k<NSHAPES;k++){
     var w=pose.w[k]; if(w<0.004||k>=m.si.length) continue;
