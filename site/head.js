@@ -7,7 +7,7 @@ var S={JAW_OPEN:0,AA:1,OH:2,OU:3,EE:4,PP:5,BLINK_L:6,BLINK_R:7,SMILE_L:8,SMILE_R
   FF:20,SS:21,CHEEK_SQUINT_L:22,CHEEK_SQUINT_R:23,EYE_SQUINT_L:24,EYE_SQUINT_R:25,MOUTH_LEFT:26,MOUTH_RIGHT:27,PUCKER:28,SNEER:29,FROWN_L:30,FROWN_R:31,JAW_LEFT:32,JAW_RIGHT:33};
 var NSHAPES=34,NMARKS=13;
 /* the scanned head is tilted by about 3 degrees (the line of its eyes rises to the right): this turns it level */
-var LEVEL_ROLL=-0.05;
+var LEVEL_ROLL=-0.025;
 
 function parse(buf){
   var dv=new DataView(buf),o=0;
