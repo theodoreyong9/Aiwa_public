@@ -34,7 +34,9 @@ In the SAME release as the file, an asset named `<file>.targets.json`:
 
 `{"v":1,"targets":[{"kind":"mail","value":"contact@example.org","label":"Hiring, Example Ltd","source":"https://…the page where you found it","message":"Dear …,\n\n…"}]}`
 
-`kind` is `mail`, `url` (an https address: a form, a page), `social` or `telegram`. At most fifty.
+`kind` is `mail`, `url` (an https address: a page), `form` (the address of a form: put the lines to copy into it in `fields`, `[{"label":"Name","value":"…"}]`), `phone` (a number in international form, only one the target publishes), `sms`, `whatsapp`, `signal` (a number, same rule), `linkedin`, `instagram`, `discord` (an address or a handle the target publishes), `social` (any other network, as an address) or `telegram`. At most fifty.
+
+A target has as many entries as it has ways to be reached: look for ALL of them on its own pages (footer, contact page, social links) and fill the card as far as what you read allows, one entry per way, each with the message written for that way (an SMS is short, a mail is longer, a form has its fields). Her phone shows one block per way, with its own message, its own attachment and its own key.
 
 `telegram`: the value is an identifier she can write to on Telegram: a public name (`@name`), a `t.me/…` address (a public channel or group, or an invitation
 link a page offers), or a telephone number in international form (`+33612345678`) ONLY when the person or the company publishes it themselves for contact. Look for the
